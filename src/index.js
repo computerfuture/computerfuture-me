@@ -1,6 +1,17 @@
 // computerfuture.me
 // Brand hub for Computer Future. Anonymous — no attribution.
-// Routes: / (manifesto slides), /inspiration, * (404)
+// Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
+
+import post_setup          from './posts/2026-03-05-setup.js';
+import post_context_windows from './posts/2026-03-05-context-windows.js';
+import post_resource_alloc  from './posts/2026-03-05-resource-allocator.js';
+
+const ALL_POSTS = [
+  post_setup,
+  post_context_windows,
+  post_resource_alloc,
+  // add new posts here, newest first
+];
 
 const CSS = `
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -254,6 +265,105 @@ const CSS = `
     .nav-dots { right: 1rem; }
     .link-row { flex-direction: column; gap: 0.2rem; }
   }
+
+  /* ── Posts ── */
+
+  .posts-wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 6rem 1.5rem 8rem;
+  }
+
+  .posts-wrap h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.4rem;
+  }
+
+  .posts-subtitle { color: var(--gray); font-size: 0.9rem; margin-bottom: 3.5rem; }
+
+  .post-item {
+    padding: 1.4rem 0;
+    border-bottom: 1px solid #111;
+  }
+
+  .post-item:first-of-type { border-top: 1px solid #111; }
+
+  .post-date {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--dim);
+    margin-bottom: 0.4rem;
+  }
+
+  .post-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+
+  .post-title a { color: var(--white); text-decoration: none; border: none; }
+  .post-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .post-excerpt { font-size: 0.9rem; color: var(--gray); line-height: 1.6; }
+
+  /* ── Single post ── */
+
+  .post-wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 8rem;
+  }
+
+  .post-wrap .post-date { margin-bottom: 1rem; }
+
+  .post-wrap h1 {
+    font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 2.5rem;
+  }
+
+  .post-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #ccc;
+  }
+
+  .post-body h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin: 2.5rem 0 0.75rem;
+    letter-spacing: -0.01em;
+  }
+
+  .post-body p { margin-bottom: 1.2rem; }
+  .post-body ul, .post-body ol { padding-left: 1.4rem; margin-bottom: 1.2rem; }
+  .post-body li { margin-bottom: 0.4rem; }
+  .post-body strong { color: var(--white); font-weight: 600; }
+  .post-body a { color: var(--white); }
+
+  .post-crosslinks {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #111;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .post-crosslinks a {
+    color: var(--gray);
+    text-decoration: none;
+    border-bottom: 1px solid var(--dim);
+    padding-bottom: 1px;
+  }
+
+  .post-crosslinks a:hover { color: var(--white); border-color: var(--gray); }
 `;
 
 // ── Slide content ──────────────────────────────────────────────────────────
@@ -335,6 +445,10 @@ function homePage() {
       <div class="link-row">
         <span class="link-label">game</span>
         <span class="link-url"><a href="https://computerfuture.xyz" target="_blank">computerfuture.xyz</a></span>
+      </div>
+      <div class="link-row">
+        <span class="link-label">posts</span>
+        <span class="link-url"><a href="/posts">computerfuture.me/posts</a></span>
       </div>
       <div class="link-row">
         <span class="link-label">inspiration</span>
@@ -565,6 +679,56 @@ function inspirationPage() {
 </html>`;
 }
 
+// ── Posts pages ────────────────────────────────────────────────────────────
+
+function pageShell(title, body) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${title} — computer future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>${CSS}</style>
+</head>
+<body>${body}</body>
+</html>`;
+}
+
+function postsPage() {
+  const items = ALL_POSTS.map(p => `
+    <div class="post-item">
+      <div class="post-date">${p.date}</div>
+      <div class="post-title"><a href="/posts/${p.slug}">${p.title}</a></div>
+      <div class="post-excerpt">${p.excerpt}</div>
+    </div>`).join('');
+
+  return pageShell('posts', `
+<div class="posts-wrap">
+  <a href="/" class="back-link">← computer future</a>
+  <h1 style="margin-top:2rem;">posts</h1>
+  <p class="posts-subtitle">thinking out loud</p>
+  ${items}
+</div>`);
+}
+
+function singlePostPage(post) {
+  const crosslinks = (post.crosslinks || []).map(l =>
+    `<a href="${l.url}" target="_blank">${l.label} →</a>`
+  ).join('');
+
+  return pageShell(post.title, `
+<div class="post-wrap">
+  <a href="/posts" class="back-link">← posts</a>
+  <div class="post-date" style="margin-top:2rem;">${post.date}</div>
+  <h1>${post.title}</h1>
+  <div class="post-body">${post.body}</div>
+  ${crosslinks ? `<div class="post-crosslinks">${crosslinks}</div>` : ''}
+</div>`);
+}
+
 // ── Router ─────────────────────────────────────────────────────────────────
 
 export default {
@@ -579,6 +743,13 @@ export default {
 
     if (path === '/') return new Response(homePage(), { headers });
     if (path === '/inspiration') return new Response(inspirationPage(), { headers });
+    if (path === '/posts') return new Response(postsPage(), { headers });
+
+    if (path.startsWith('/posts/')) {
+      const slug = path.slice('/posts/'.length);
+      const post = ALL_POSTS.find(p => p.slug === slug);
+      if (post) return new Response(singlePostPage(post), { headers });
+    }
 
     return new Response(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>404</title>
       <style>body{background:#000;color:#333;font-family:system-ui;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;}
