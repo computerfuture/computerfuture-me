@@ -342,7 +342,7 @@ function homePage() {
       </div>
       <div class="link-row">
         <span class="link-label">azmd</span>
-        <span class="link-url"><a href="https://a-z.md" target="_blank">a-z.md</a></span>
+        <span class="link-url"><a href="https://a-z.md/me/k971c66zh6xzw7n7qmy7m199bn828vna" target="_blank">a-z.md</a></span>
       </div>
       <div class="link-row">
         <span class="link-label">email</span>
