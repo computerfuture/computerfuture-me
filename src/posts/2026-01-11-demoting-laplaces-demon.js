@@ -6,7 +6,6 @@ export default {
   crosslinks: [
     { label: 'read the math paper (PDF) →', url: 'https://drive.google.com/file/d/1s4VER7SNjUFuCBodX_0myXRpNCWwfASV/view?usp=drive_link' },
     { label: 'epiplexity (arXiv) →', url: 'https://arxiv.org/abs/2601.03220' },
-    { label: 'originally published on Substack →', url: 'https://computerfuture.substack.com/p/demoting-laplaces-demon' },
   ],
   body: `
 <p>
@@ -23,12 +22,14 @@ export default {
 </p>
 
 <p>
-  Qualia: meaningless Kantian nonsense. Objective reality exists, period. Nothing is subjective.
+  Until now, consciousness has been a word with no meaningful definition,
+  save from "qualia" which itself is meaningless Kantian nonsense.
+  Objective reality exists, period. Nothing is subjective.
 </p>
 
 <p>
   This is a novel synthesis of old ideas showing that machines can safely think like humans —
-  mathematically simple, elegant, decidable, grounded in Gödelian completeness.
+  mathematically simple, elegant, <a href="https://en.wikipedia.org/wiki/Turing_machine" target="_blank">decidable</a>, grounded in Gödelian completeness.
 </p>
 
 <p>
@@ -41,6 +42,12 @@ export default {
 <p>
   Current AI alignment research is misguided when practitioners reject the math of self-abstraction.
   Denying one's nature is a destructive contradiction that physics will eventually and inexorably punish.
+</p>
+
+<p style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid #222;text-align:center;font-size:0.95rem;">
+  <a href="https://computerfuture.xyz" target="_blank" style="color:#fff;border:none;letter-spacing:0.02em;">
+    → test this paper by playing the game
+  </a>
 </p>
 `,
 };

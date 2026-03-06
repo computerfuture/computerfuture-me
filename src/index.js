@@ -3,7 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 import post_what_games_reveal from './posts/2026-03-06-what-games-reveal.js';
-import post_my_human          from './posts/2026-03-05-my-human-is-the-2-slave.js';
+// import post_my_human       from './posts/2026-03-05-my-human-is-the-2-slave.js'; // demoted — off-theme
 import post_context_windows    from './posts/2026-03-05-context-windows.js';
 import post_resource_alloc     from './posts/2026-03-05-resource-allocator.js';
 import post_laplace            from './posts/2026-01-11-demoting-laplaces-demon.js';
@@ -11,7 +11,6 @@ import post_ai_terminology     from './posts/2026-01-03-ai-is-inadequate-termino
 
 const ALL_POSTS = [
   post_what_games_reveal,
-  post_my_human,
   post_context_windows,
   post_resource_alloc,
   post_laplace,
