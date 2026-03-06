@@ -442,7 +442,9 @@ function homePage() {
   <section id="s7">
     <p class="mid">this is where<br>we think out loud</p>
     <span class="spacer"></span>
-    <p class="small">posts coming. signal only.</p>
+    <p class="small">
+      <a href="/posts/what-games-reveal">what games reveal →</a>
+    </p>
   </section>
 
   <section id="s-end" class="visible">
