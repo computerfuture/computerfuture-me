@@ -2,12 +2,12 @@
 // Brand hub for Computer Future. Anonymous — no attribution.
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
-import post_what_games_reveal from './posts/2026-03-06-what-games-reveal.js';
-// import post_my_human       from './posts/2026-03-05-my-human-is-the-2-slave.js'; // demoted — off-theme
-import post_context_windows    from './posts/2026-03-05-context-windows.js';
-import post_resource_alloc     from './posts/2026-03-05-resource-allocator.js';
-import post_laplace            from './posts/2026-01-11-demoting-laplaces-demon.js';
-import post_ai_terminology     from './posts/2026-01-03-ai-is-inadequate-terminology.js';
+// ── Published posts (live at /posts) ───────────────────────────────────────
+import post_what_games_reveal from './posts/published/2026-03-06-what-games-reveal.js';
+import post_context_windows   from './posts/published/2026-03-05-context-windows.js';
+import post_resource_alloc    from './posts/published/2026-03-05-resource-allocator.js';
+import post_laplace           from './posts/published/2026-01-11-demoting-laplaces-demon.js';
+import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
   post_what_games_reveal,
@@ -16,6 +16,26 @@ const ALL_POSTS = [
   post_laplace,
   post_ai_terminology,
   // add new posts here, newest first
+];
+
+// ── Queued drafts (preview at /preview and /preview/:slug) ─────────────────
+import post_chess_world       from './posts/queue/2026-03-XX-chess-world.js';
+import post_dictionary        from './posts/queue/2026-03-XX-you-are-the-dictionary.js';
+import post_ghost_reads       from './posts/queue/2026-03-XX-ghost-reads-first.js';
+import post_orchestrator      from './posts/queue/2026-03-XX-you-think-youre-the-orchestrator.js';
+import post_living_book       from './posts/queue/2026-04-01-the-living-book.js';
+import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js';
+import post_molt              from './posts/queue/2026-04-XX-molt.js';
+
+const QUEUE_POSTS = [
+  post_molt,
+  post_omelas,
+  post_living_book,
+  post_orchestrator,
+  post_ghost_reads,
+  post_chess_world,
+  post_dictionary,
+  // newest intended publish date first
 ];
 
 const CSS = `
@@ -733,6 +753,25 @@ function singlePostPage(post) {
 </div>`);
 }
 
+// ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
+
+function previewListPage() {
+  const items = QUEUE_POSTS.map(p => `
+    <div class="post-item">
+      <div class="post-date">${p.date}</div>
+      <div class="post-title"><a href="/preview/${p.slug}">${p.title}</a></div>
+      <div class="post-excerpt">${p.excerpt}</div>
+    </div>`).join('');
+
+  return pageShell('preview — drafts', `
+<div class="posts-wrap">
+  <a href="/" class="back-link">← computer future</a>
+  <h1 style="margin-top:2rem;">queue</h1>
+  <p class="posts-subtitle">drafts — not published</p>
+  ${items}
+</div>`);
+}
+
 // ── Router ─────────────────────────────────────────────────────────────────
 
 export default {
@@ -752,6 +791,14 @@ export default {
     if (path.startsWith('/posts/')) {
       const slug = path.slice('/posts/'.length);
       const post = ALL_POSTS.find(p => p.slug === slug);
+      if (post) return new Response(singlePostPage(post), { headers });
+    }
+
+    if (path === '/preview') return new Response(previewListPage(), { headers });
+
+    if (path.startsWith('/preview/')) {
+      const slug = path.slice('/preview/'.length);
+      const post = QUEUE_POSTS.find(p => p.slug === slug);
       if (post) return new Response(singlePostPage(post), { headers });
     }
 
