@@ -1,6 +1,6 @@
 export default {
   title: 'the blog is already the game',
-  date: '2026-03-XX', // set on publish — mid-late March, before launch
+  date: '2026-05-XX', // set on publish — May
   slug: 'the-blog-is-already-the-game',
   excerpt: 'we are not marketing the game. we are running it.',
   crosslinks: [

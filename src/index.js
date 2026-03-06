@@ -22,7 +22,7 @@ const ALL_POSTS = [
 import post_chess_world       from './posts/queue/2026-03-XX-chess-world.js';
 import post_dictionary        from './posts/queue/2026-03-XX-you-are-the-dictionary.js';
 import post_ghost_reads       from './posts/queue/2026-03-XX-ghost-reads-first.js';
-import post_blog_is_game      from './posts/queue/2026-03-XX-the-blog-is-already-the-game.js';
+import post_blog_is_game      from './posts/queue/2026-05-XX-the-blog-is-already-the-game.js';
 import post_orchestrator      from './posts/queue/2026-03-XX-you-think-youre-the-orchestrator.js';
 import post_living_book       from './posts/queue/2026-04-01-the-living-book.js';
 import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js';
