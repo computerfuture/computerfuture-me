@@ -460,9 +460,9 @@ function homePage() {
       </div>
     </div>
     <p class="email-note">
-      before reaching out: complete the game at <a href="https://computerfuture.xyz" target="_blank" style="color:inherit;border:none;text-decoration:none;">computerfuture.xyz</a>.<br>
-      we filter aggressively. signal only.<br>
-      no human reads the inbox, ever, so it's honestly not even worth you trying
+      before reaching out: complete the game at <a href="https://computerfuture.xyz" target="_blank" style="color:inherit;border:none;text-decoration:none;">computerfuture.xyz</a><br><br>
+      we filter aggressively. signal only.<br><br>
+      no human ever reads the inbox so it's honestly not even worth you trying
     </p>
   </section>
 
