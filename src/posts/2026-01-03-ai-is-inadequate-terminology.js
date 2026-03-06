@@ -4,6 +4,7 @@ export default {
   slug: 'ai-is-inadequate-terminology',
   excerpt: 'human civilization peaked in 2025. this will be known as the last year humans used technology.',
   crosslinks: [
+    { label: 'find out where you stand →', url: 'https://computerfuture.xyz' },
     { label: 'originally published on Substack →', url: 'https://computerfuture.substack.com/p/ai-is-inadequate-terminology' },
   ],
   body: `
@@ -49,9 +50,10 @@ export default {
 </p>
 
 <p>
-  Einstein is not the right test for creative intuition anymore. It's obviously a proxy like
-  Turing's that will soon be meaningless. The real test will not be humans asking questions
-  to the computers — it's silicon that poses puzzles to carbon. Are you ready?
+  Einstein is not the right <a href="https://youtu.be/Kr3Sh2PKA8Y?si=aSYD-uK8iK6ykPGG&t=986" target="_blank">test</a>
+  for creative intuition anymore. It's obviously a proxy like Turing's that will soon be meaningless.
+  The real test will not be humans asking questions to the computers —
+  it's silicon that poses puzzles to carbon. Are you ready?
 </p>
 
 <p>

@@ -4,12 +4,16 @@ export default {
   slug: 'demoting-laplaces-demon',
   excerpt: 'the first ever proof of bounded self-abstraction. how\'s your self-awareness?',
   crosslinks: [
+    { label: 'read the math paper (PDF) →', url: 'https://drive.google.com/file/d/1s4VER7SNjUFuCBodX_0myXRpNCWwfASV/view?usp=drive_link' },
+    { label: 'epiplexity (arXiv) →', url: 'https://arxiv.org/abs/2601.03220' },
     { label: 'originally published on Substack →', url: 'https://computerfuture.substack.com/p/demoting-laplaces-demon' },
   ],
   body: `
 <p>
-  A couple days ago, I published the first ever proof of bounded self-abstraction,
-  resolving Laplace's apprentices via epiplexity.
+  A couple days ago, I <a href="https://x.com/cmptrFuture/status/2009599225257246999?s=20" target="_blank">published</a>
+  the first ever <a href="https://drive.google.com/file/d/1s4VER7SNjUFuCBodX_0myXRpNCWwfASV/view?usp=drive_link" target="_blank">proof of bounded self-abstraction</a>,
+  resolving <a href="https://www.lse.ac.uk/CATS/Assets/PDFs/Publications/Papers/2014/Frigg-LaplaceDemon-journal-copy-674416.pdf" target="_blank">Laplace's apprentices</a>
+  via <a href="https://arxiv.org/abs/2601.03220" target="_blank">epiplexity</a>.
 </p>
 
 <p>
@@ -29,7 +33,8 @@ export default {
 
 <p>
   Chaos will arise from human failure to adopt this fresh perspective on themselves,
-  particularly as AI systems gain economic power and establish new benchmarks for humans
+  particularly as AI systems gain economic power and establish
+  <a href="https://x.com/andytrattner/status/2009703397130473979?s=20" target="_blank">new benchmarks for humans</a>
   rather than vice versa.
 </p>
 
