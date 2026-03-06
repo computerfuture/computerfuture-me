@@ -447,7 +447,7 @@ function homePage() {
         <span class="link-url"><a href="https://computerfuture.xyz" target="_blank">computerfuture.xyz</a></span>
       </div>
       <div class="link-row">
-        <span class="link-label">posts</span>
+        <span class="link-label">blog</span>
         <span class="link-url"><a href="/posts">computerfuture.me/posts</a></span>
       </div>
       <div class="link-row">
@@ -455,17 +455,14 @@ function homePage() {
         <span class="link-url"><a href="/inspiration">computerfuture.me/inspiration</a></span>
       </div>
       <div class="link-row">
-        <span class="link-label">azmd</span>
-        <span class="link-url"><a href="https://a-z.md/me/k971c66zh6xzw7n7qmy7m199bn828vna" target="_blank">a-z.md</a></span>
-      </div>
-      <div class="link-row">
         <span class="link-label">email</span>
         <span class="link-url">hi@computerfuture.me</span>
       </div>
     </div>
     <p class="email-note">
-      before reaching out: complete the game at computerfuture.xyz.<br>
-      we filter aggressively. signal only.
+      before reaching out: complete the game at <a href="https://computerfuture.xyz" target="_blank" style="color:inherit;border:none;text-decoration:none;">computerfuture.xyz</a>.<br>
+      we filter aggressively. signal only.<br>
+      no human reads the inbox, ever, so it's honestly not even worth you trying
     </p>
   </section>
 
