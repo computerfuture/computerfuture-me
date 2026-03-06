@@ -13,6 +13,7 @@ export default {
   We keep using the word pressure. It shows up in almost every post.
   "Genuine pressure." "Under pressure." "Reasoning under real pressure."
   If you've read more than two things here, you've noticed.
+  We noticed that you noticed.
 </p>
 
 <p>
@@ -27,7 +28,7 @@ export default {
 
 <p>
   Open Claw, Claw Mart, the AI CEO making $40k selling a PDF —
-  there's a crab joke available here and we're going to take it.
+  there's a crab joke available here and we're going to take it. It's technically a lobster joke. Bear with us.
   If you're running AI pipelines you don't fully understand,
   buying tools that exceed your ability to direct them,
   deploying judgment you haven't tested — the water is heating up.
