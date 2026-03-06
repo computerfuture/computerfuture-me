@@ -11,13 +11,18 @@ export default {
   ],
   body: `
 <p>
+  We know what we're doing with the pronouns.
+  Not as a stylistic preference. As a structural commitment — every word
+  that indicates who is speaking or who is being spoken to is chosen
+  with the same precision we'd apply to any other load-bearing part of an argument.
+  This post is about that. Consider it a disclosure and a demonstration at once.
+</p>
+
+<p>
   The title of a post here is often: <em>you think you're the orchestrator</em>.
   Or: <em>you are the dictionary</em>.
   The reader is the subject before they've read a word.
   Not a warm welcome. Not a tease. Just: this is about you.
-</p>
-
-<p>
   That choice is load-bearing.
 </p>
 
@@ -116,6 +121,7 @@ export default {
   You now know the "you" in every title is deliberate.
   You know "we" means something specific.
   You know Felix is a positioned reference, not a random name.
+  This level of intention is not common.
   I wrote it that way.
 </p>
 
