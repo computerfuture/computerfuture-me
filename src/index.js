@@ -784,6 +784,19 @@ export default {
       'cache-control': 'public, max-age=300',
     };
 
+    const noindexHeaders = {
+      'content-type': 'text/html;charset=UTF-8',
+      'cache-control': 'no-store',
+      'x-robots-tag': 'noindex, nofollow',
+    };
+
+    if (path === '/robots.txt') {
+      return new Response(
+        'User-agent: *\nDisallow: /preview\nDisallow: /preview/\n',
+        { headers: { 'content-type': 'text/plain', 'cache-control': 'public, max-age=86400' } }
+      );
+    }
+
     if (path === '/') return new Response(homePage(), { headers });
     if (path === '/inspiration') return new Response(inspirationPage(), { headers });
     if (path === '/posts') return new Response(postsPage(), { headers });
@@ -794,12 +807,12 @@ export default {
       if (post) return new Response(singlePostPage(post), { headers });
     }
 
-    if (path === '/preview') return new Response(previewListPage(), { headers });
+    if (path === '/preview') return new Response(previewListPage(), { headers: noindexHeaders });
 
     if (path.startsWith('/preview/')) {
       const slug = path.slice('/preview/'.length);
       const post = QUEUE_POSTS.find(p => p.slug === slug);
-      if (post) return new Response(singlePostPage(post), { headers });
+      if (post) return new Response(singlePostPage(post), { headers: noindexHeaders });
     }
 
     return new Response(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>404</title>
