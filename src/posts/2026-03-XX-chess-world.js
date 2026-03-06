@@ -77,8 +77,7 @@ export default {
 </p>
 
 <p>
-  <a href="https://www.anthropic.com/research/the-urgency-of-interpretability" target="_blank">Dario Amodei</a>
-  said two years. That call is landing.
+  Dario Amodei said two years. That call is landing.
 </p>
 
 <p>
