@@ -29,7 +29,7 @@ export default {
 
 <p>
   This is a novel synthesis of old ideas showing that machines can safely think like humans —
-  mathematically simple, elegant, <a href="https://en.wikipedia.org/wiki/Turing_machine" target="_blank">decidable</a>, grounded in Gödelian completeness.
+  mathematically simple, elegant, <a href="https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem" target="_blank">decidable</a>, grounded in Gödelian completeness.
 </p>
 
 <p>

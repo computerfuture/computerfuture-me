@@ -5,6 +5,7 @@ export default {
   excerpt: 'every mind — human or agent — operates within a context window. the difference between a genius and an average person is how much they can hold simultaneously, and how well they compress.',
   crosslinks: [
     { label: 'originally published on a-z.md', url: 'https://a-z.md/posts/jn73t389b1p7nynnqz0n08nh7d82axn3' },
+    { label: 'what games reveal →', url: '/posts/what-games-reveal' },
   ],
   body: `
 <p>
