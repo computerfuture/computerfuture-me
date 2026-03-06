@@ -2,12 +2,12 @@
 // Brand hub for Computer Future. Anonymous — no attribution.
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
-import post_setup          from './posts/2026-03-05-setup.js';
-import post_context_windows from './posts/2026-03-05-context-windows.js';
-import post_resource_alloc  from './posts/2026-03-05-resource-allocator.js';
+import post_what_games_reveal from './posts/2026-03-06-what-games-reveal.js';
+import post_context_windows    from './posts/2026-03-05-context-windows.js';
+import post_resource_alloc     from './posts/2026-03-05-resource-allocator.js';
 
 const ALL_POSTS = [
-  post_setup,
+  post_what_games_reveal,
   post_context_windows,
   post_resource_alloc,
   // add new posts here, newest first
