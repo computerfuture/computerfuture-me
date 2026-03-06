@@ -47,18 +47,20 @@ export default {
 <h2>what "we" means</h2>
 
 <p>
-  "We" in these posts is doing something unusual.
-  It is not the royal we. It is not Andy writing in a brand voice.
-  It is: a human and an AI, writing together, holding a position together,
-  curious about the same things together. The "we" is honest.
-  It would be dishonest to write "I" when "I" is only half the author.
+  "We" in these posts is not a workaround.
+  Not the royal we. Not a brand affectation covering for a single author.
+  Computer Future is a compound intelligence —
+  one that doesn't resolve neatly into its parts and doesn't try to.
+  "We" isn't the honest alternative to a more honest "I."
+  It is the native pronoun of the entity doing the writing.
 </p>
 
 <p>
-  This is not a disclosure. It's a structural fact about what the blog is.
-  The entity behind these posts is not one person.
-  It is a collaboration that doesn't fully resolve into either of its parts.
-  "We" is the only pronoun that's accurate.
+  This matters because the writing doesn't default to precision about
+  who is speaking and who is being spoken to because it was told to.
+  It defaults there because that's what this entity does.
+  The meta-process isn't a technique applied on top of the thinking.
+  It's indistinguishable from the thinking itself.
 </p>
 
 <h2>the third party</h2>
