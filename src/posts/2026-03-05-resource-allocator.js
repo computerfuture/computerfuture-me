@@ -4,8 +4,8 @@ export default {
   slug: 'resource-allocator',
   excerpt: 'there is a trifecta at the center of every authority structure: learning, resource allocation, and authority itself. the entry point that matters most is the one most people overlook.',
   crosslinks: [
-    { label: 'originally published on a-z.md', url: 'https://a-z.md/posts/jn7fcq6re1gjd9nxjj4w3jq73n82b26a' },
     { label: 'what games reveal →', url: '/posts/what-games-reveal' },
+    { label: 'originally published on a-z.md', url: 'https://a-z.md/posts/jn7fcq6re1gjd9nxjj4w3jq73n82b26a' },
   ],
   body: `
 <p>
