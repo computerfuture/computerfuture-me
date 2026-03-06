@@ -1,7 +1,7 @@
 export default {
-  title: 'chess world',
+  title: 'the maze builds itself, checkmate',
   date: '2026-03-XX', // set on publish
-  slug: 'chess-world',
+  slug: 'the-maze-builds-itself',
   excerpt: 'magnus carlsen doesn\'t play chess. he builds mazes. so do we.',
   crosslinks: [
     { label: 'what games reveal →', url: '/posts/what-games-reveal' },
