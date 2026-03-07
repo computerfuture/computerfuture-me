@@ -783,11 +783,11 @@ function previewListPage() {
 // ── Router ─────────────────────────────────────────────────────────────────
 
 async function notifyAndy(env, message) {
-  if (!env?.DISCORD_WEBHOOK) return;
-  await fetch(env.DISCORD_WEBHOOK, {
+  if (!env?.INTERNAL_TOKEN) return;
+  await fetch('https://cf-internal.cmptrfuture.workers.dev/notify', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ content: message }),
+    headers: { 'Authorization': `Bearer ${env.INTERNAL_TOKEN}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message }),
   });
 }
 
