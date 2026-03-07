@@ -782,8 +782,17 @@ function previewListPage() {
 
 // ── Router ─────────────────────────────────────────────────────────────────
 
+async function notifyAndy(env, message) {
+  if (!env?.DISCORD_WEBHOOK) return;
+  await fetch(env.DISCORD_WEBHOOK, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content: message }),
+  });
+}
+
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
     const path = url.pathname.replace(/\/$/, '') || '/';
 
