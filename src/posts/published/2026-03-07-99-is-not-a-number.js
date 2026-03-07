@@ -1,6 +1,6 @@
 export default {
   title: '99% is not a number',
-  date: '2026-03-XX', // set on publish — mid-late March
+  date: '2026-03-07',
   slug: '99-is-not-a-number',
   excerpt: 'the probability framing at the center of AI safety discourse has a structural problem. not a political one.',
   crosslinks: [
