@@ -150,7 +150,7 @@ export default {
 </p>
 
 <p>
-  The scarce resource in writing right now isn't craft — it's frontier context.
+  The scarce resource in writing right now isn't craft — it's <a href="https://humaninvariant.com" target="_blank">frontier context</a>.
   What it actually looks like to build at this layer, before the patterns are named,
   before the tutorials exist, before the mainstream has caught up enough to copy it.
   That's what this devlog is. Not a how-to. A record.
@@ -177,15 +177,13 @@ export default {
 </p>
 
 <p style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid #222;">
-  <strong>P.S.</strong> — we are not developers. philosopher warrior monks, maybe.
-  This post went through one round of alignment before publishing.
-  Screenshots passed in: the morning's interactions, feedback sent to founders of two email platforms
-  the same hour the infrastructure went live.
-  The agent read them and summarized. The human said: alignment wasn't meant to check the post out —
-  it was meant to extract signals and update the post from them.
-  The agent said: then the meta of that exchange should go in the post.
-  The human said: yes.
-  We share the inside rarely. When we do, it looks like this.
+  <strong>P.S.</strong> — this post was aligned before publishing. screenshots of the morning's interactions passed in.
+  the agent extracted signals and updated the post from them. including this.
+  we share the inside rarely.
+</p>
+
+<p style="margin-top:1rem;">
+  <strong>P.P.S.</strong> — X is next. same pattern. claim the channel before you need it.
 </p>
 
 <p style="margin-top:1rem;padding-top:1rem;border-top:1px solid #222;font-size:0.9rem;color:#888;">
