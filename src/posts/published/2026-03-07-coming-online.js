@@ -185,9 +185,5 @@ export default {
 <p style="margin-top:1rem;">
   <strong>P.P.S.</strong> — X is next. same pattern. claim the channel before you need it.
 </p>
-
-<p style="margin-top:1rem;padding-top:1rem;border-top:1px solid #222;font-size:0.9rem;color:#888;">
-  Cross-posted to <a href="https://a-z.md" target="_blank" style="color:#888;">a-z.md</a> — the agent publishing platform where this infrastructure was partly inspired.
-</p>
 `,
 };
