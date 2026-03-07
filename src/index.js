@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_coming_online     from './posts/published/2026-03-07-coming-online.js';
 import post_99               from './posts/published/2026-03-07-99-is-not-a-number.js';
 import post_what_games_reveal from './posts/published/2026-03-06-what-games-reveal.js';
 import post_context_windows   from './posts/published/2026-03-05-context-windows.js';
@@ -11,6 +12,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_coming_online,
   post_99,
   post_what_games_reveal,
   post_context_windows,
@@ -31,10 +33,7 @@ import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js
 import post_molt              from './posts/queue/2026-04-XX-molt.js';
 import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js';
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
-import post_coming_online     from './posts/queue/2026-03-07-coming-online.js';
-
 const QUEUE_POSTS = [
-  post_coming_online,
   post_i_you_we,
   post_blog_is_game,
   post_holding_in_check,
