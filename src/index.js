@@ -29,9 +29,11 @@ import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js
 import post_molt              from './posts/queue/2026-04-XX-molt.js';
 import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js';
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
+import post_99               from './posts/queue/2026-03-XX-99-is-not-a-number.js';
 
 const QUEUE_POSTS = [
   post_i_you_we,
+  post_99,
   post_blog_is_game,
   post_holding_in_check,
   post_molt,
