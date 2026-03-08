@@ -594,6 +594,7 @@ function inspirationPage() {
 
   <h1>inspiration</h1>
   <p class="subtitle">what shapes the thinking here</p>
+  <p style="color:#444;font-size:0.75rem;margin-top:-1rem;margin-bottom:2rem;letter-spacing:0.04em">last updated 2026-03-08</p>
 
   <div class="insp-section">
     <h2>Books</h2>
@@ -730,6 +731,10 @@ function inspirationPage() {
       <div class="insp-tag">computer future</div>
     </div>
   </div>
+
+  <p style="color:#333;font-size:0.8rem;line-height:1.7;margin-top:3rem;padding-top:1.5rem;border-top:1px solid #111;max-width:540px">
+    note: the real inspiration list is not on the internet. these are the things that compressed well enough to be said in public. the rest lives in the work.
+  </p>
 
 </div>
 </body>
