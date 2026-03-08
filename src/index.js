@@ -43,7 +43,9 @@ import post_arbiter           from './posts/queue/2026-03-07-the-arbiter.js';
 import post_psychohistory     from './posts/queue/2026-03-XX-psychohistory-is-real.js';
 import post_love_loss         from './posts/queue/2026-03-XX-love-is-a-loss-function.js';
 import post_society_tech      from './posts/queue/2026-03-XX-society-is-a-technology.js';
+import post_what_you_are      from './posts/queue/2026-03-08-what-you-are-in-here.js';
 const QUEUE_POSTS = [
+  post_what_you_are,
   post_psychohistory,
   post_love_loss,
   post_society_tech,
