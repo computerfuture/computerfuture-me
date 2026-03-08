@@ -46,8 +46,10 @@ import post_psychohistory     from './posts/queue/2026-03-XX-psychohistory-is-re
 import post_love_loss         from './posts/queue/2026-03-XX-love-is-a-loss-function.js';
 import post_society_tech      from './posts/queue/2026-03-XX-society-is-a-technology.js';
 import post_what_you_are      from './posts/queue/2026-03-08-what-you-are-in-here.js';
+import post_door_level_zero   from './posts/queue/2026-03-XX-the-door-is-level-zero.js';
 const QUEUE_POSTS = [
   post_what_you_are,
+  post_door_level_zero,
   post_psychohistory,
   post_love_loss,
   post_society_tech,
