@@ -4,6 +4,7 @@
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_autoresearch      from './posts/published/2026-03-07-autoresearch.js';
+import post_what_you_are_pub  from './posts/published/2026-03-08-what-you-are-in-here.js';
 import post_bandwidth         from './posts/published/2026-03-07-bandwidth.js';
 import post_coming_online     from './posts/published/2026-03-07-coming-online.js';
 import post_99               from './posts/published/2026-03-07-99-is-not-a-number.js';
@@ -14,6 +15,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_what_you_are_pub,
   post_autoresearch,
   post_bandwidth,
   post_coming_online,
