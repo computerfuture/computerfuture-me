@@ -37,7 +37,9 @@ import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
 import post_bandwidth_raw     from './posts/queue/2026-03-07-bandwidth-raw.js';
+import post_arbiter           from './posts/queue/2026-03-07-the-arbiter.js';
 const QUEUE_POSTS = [
+  post_arbiter,
   post_bandwidth_raw,
   post_i_you_we,
   post_close_out,
