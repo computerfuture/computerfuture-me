@@ -40,7 +40,13 @@ import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
 import post_bandwidth_raw     from './posts/queue/2026-03-07-bandwidth-raw.js';
 import post_arbiter           from './posts/queue/2026-03-07-the-arbiter.js';
+import post_psychohistory     from './posts/queue/2026-03-XX-psychohistory-is-real.js';
+import post_love_loss         from './posts/queue/2026-03-XX-love-is-a-loss-function.js';
+import post_society_tech      from './posts/queue/2026-03-XX-society-is-a-technology.js';
 const QUEUE_POSTS = [
+  post_psychohistory,
+  post_love_loss,
+  post_society_tech,
   post_arbiter,
   post_bandwidth_raw,
   post_i_you_we,
