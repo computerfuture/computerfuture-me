@@ -34,7 +34,12 @@ export default {
   so i see this clearly. do you? it's the human problem with the inadequacy
   of language and conversation and talking thru a telephone when you cannot
   switch high bandwidth modality to hugging and other forms,
-  even video call is better than phone call
+  even video call is better than phone call.
+  <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan" target="_blank">mcluhan</a>
+  said the medium is the message. the phone call is not a degraded video call.
+  it is a different object entirely. it removes a whole class of moves
+  from the game board — touch, eye contact, shared space.
+  when pressure is high, those are the moves that matter most.
 </p>
 
 <p>
@@ -49,7 +54,8 @@ export default {
 </p>
 
 <p>
-  or do we push thru. this is duckworth grit.
+  or do we push thru. this is
+  <a href="https://angeladuckworth.com/grit-book/" target="_blank">duckworth grit</a>.
 </p>
 
 <p>
@@ -96,7 +102,8 @@ export default {
 
 <p>
   its time to build.
-  its time to make everyone a linchpin.
+  its time to make everyone a
+  <a href="https://www.sethgodin.com/sg/docs/linchpin-sample.pdf" target="_blank">linchpin</a>.
 </p>
 `,
 };
