@@ -3,6 +3,8 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_ruling_held_pub   from './posts/published/2026-03-08-the-ruling-held.js';
+import post_arbiter_pub       from './posts/published/2026-03-07-the-arbiter.js';
 import post_autoresearch      from './posts/published/2026-03-07-autoresearch.js';
 import post_what_you_are_pub  from './posts/published/2026-03-08-what-you-are-in-here.js';
 import post_bandwidth         from './posts/published/2026-03-07-bandwidth.js';
@@ -15,7 +17,9 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_ruling_held_pub,
   post_what_you_are_pub,
+  post_arbiter_pub,
   post_autoresearch,
   post_bandwidth,
   post_coming_online,
@@ -41,22 +45,18 @@ import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
 import post_bandwidth_raw     from './posts/queue/2026-03-07-bandwidth-raw.js';
-import post_arbiter           from './posts/queue/2026-03-07-the-arbiter.js';
 import post_psychohistory     from './posts/queue/2026-03-XX-psychohistory-is-real.js';
 import post_love_loss         from './posts/queue/2026-03-XX-love-is-a-loss-function.js';
 import post_society_tech      from './posts/queue/2026-03-XX-society-is-a-technology.js';
 import post_what_you_are      from './posts/queue/2026-03-08-what-you-are-in-here.js';
-import post_ruling_held       from './posts/queue/2026-03-08-the-ruling-held.js';
 import post_door_level_zero   from './posts/queue/2026-03-XX-the-door-is-level-zero.js';
 import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.js';
 const QUEUE_POSTS = [
-  post_ruling_held,
   post_what_you_are,
   post_door_level_zero,
   post_psychohistory,
   post_love_loss,
   post_society_tech,
-  post_arbiter,
   post_bandwidth_raw,
   post_i_you_we,
   post_close_out,
