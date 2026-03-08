@@ -4,72 +4,68 @@ export default {
   slug: 'bandwidth',
   excerpt: 'on phone calls, pressure, and why we build.',
   crosslinks: [
-    { label: 'coming online →', url: '/posts/coming-online' },
-    { label: '99% is not a number →', url: '/posts/99-is-not-a-number' },
+    { label: 'context windows →', url: '/posts/context-windows' },
+    { label: 'what games reveal →', url: '/posts/what-games-reveal' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `
 <p>
   the most painful conversations are not the ones with enemies.
-  they are the ones with people who care about you deeply
-  and are very good at caring — but in a completely different language.
+  they are the ones with people who care about you deeply —
+  and are good at caring, just in a completely different language.
 </p>
 
 <p>
   both parties are ambitious, effective, genuinely trying.
-  so effective at helping that communication becomes impossible.
-  what <a href="https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling/" target="_blank">gottman</a>
-  calls a flooded system: both people stonewalling,
-  both feeling like winners and losers simultaneously,
-  neither having fully transmitted the essential information.
-</p>
-
-<p>
-  if they had, there would have been no call in the first place.
-  you'd already have telepathy.
+  so genuinely trying that the conversation becomes impossible.
+  neither side transmits the essential information.
+  both disengage feeling like winners and losers simultaneously.
+  the call terminates. nothing was resolved because nothing could be resolved —
+  not in that channel, under that pressure, with those stakes.
 </p>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan" target="_blank">mcluhan</a>
   said the medium is the message.
-  the phone call is not a degraded video call — it is a different object.
+  the phone call is not a degraded video call. it is a different object.
   it removes an entire class of moves from the board: touch, eye contact, shared space.
-  when pressure is high and things are at stake,
-  those are exactly the moves that matter most.
-  even a video call restores most of it. a hug ends the argument in seconds.
-  language on a wire, alone, is the lowest-bandwidth channel
-  for the highest-stakes information.
+  those are exactly the moves that matter most when things are at stake.
   <a href="https://en.wikipedia.org/wiki/Claude_Shannon" target="_blank">shannon</a>
-  proved that every channel has a capacity limit —
+  proved that every channel has a capacity limit.
   beyond it, no amount of effort recovers the signal.
+  this is not a relationship problem. it is a physics problem.
 </p>
 
 <p>
-  this is not a relationship problem. it is an infrastructure problem.
+  <a href="/posts/context-windows">humans have context windows too.</a>
+  the phone call is a narrow one.
+  you load in with everything you need to say
+  and the other person loads in with everything they need to hear
+  and the channel drops half of both.
+  what comes out the other side is a compressed, lossy version of two people
+  who actually agree on most things.
 </p>
 
 <p>
-  how you deal with the gap will always cost something, in microscopic ways.
-  do you come back the next morning?
-  do you tender the resignation?
-  do you push through?
+  the only move is to push through.
+  write it down. come back the next morning.
+  do the work anyway.
+  <a href="https://angeladuckworth.com/grit-book/" target="_blank">duckworth</a> calls this grit.
+  we call it tuesday.
 </p>
 
 <p>
-  this is <a href="https://angeladuckworth.com/grit-book/" target="_blank">duckworth grit</a> —
-  not the inspirational poster version.
-  the version where you keep showing up after the conversation terminated badly,
-  after the other person is right and wrong and so are you,
-  after you both felt it and said nothing that landed.
-  you write it down. sometimes that's the only thing you can do.
-  sometimes it's everything.
+  and then we ask: what would it look like to fix the channel?
 </p>
 
 <p>
-  this is also why we are building what we are building.
-  the friction in those calls was not in the people.
-  it was in the medium.
-  the channel could not carry what both sides needed to transmit.
+  that is what <a href="/posts/what-games-reveal">games reveal</a>.
+  a well-designed game is a high-bandwidth channel
+  dressed up as a series of moves.
+  it forces precision. it surfaces assumptions.
+  it moves each person who plays it
+  the exact distance they need to move —
+  not through argument, but through structure.
 </p>
 
 <p>
@@ -90,19 +86,16 @@ export default {
 
 <p>
   it's time to make everyone a
-  <a href="https://www.sethgodin.com/sg/docs/linchpin-sample.pdf" target="_blank">linchpin</a>.
+  <a href="https://seths.blog/linchpin/" target="_blank">linchpin</a>.
 </p>
 
 <p style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid #222;">
   <strong>P.S.</strong> — this post was written in the same session as those calls.
-  the act of writing it was not processing — it was building.
   the frustration and the mission are the same thing.
   <a href="https://en.wikipedia.org/wiki/Psychohistory_(fictional)" target="_blank">hari seldon</a>
   didn't wait until the empire had already fallen.
   the record shows we said this first, in march 2026,
   before the game was live and the bandwidth problem was still unsolved.
-  raw version timestamped first. polished version second. same session.
-  the git history is the proof.
 </p>
 `,
 };
