@@ -770,14 +770,14 @@ function postsPage() {
 </div>`);
 }
 
-function singlePostPage(post) {
+function singlePostPage(post, backUrl = '/posts') {
   const crosslinks = (post.crosslinks || []).map(l =>
     `<a href="${l.url}" target="_blank">${l.label} →</a>`
   ).join('');
 
   return pageShell(post.title, `
 <div class="post-wrap">
-  <a href="/posts" class="back-link">← posts</a>
+  <a href="${backUrl}" class="back-link">← posts</a>
   <div class="post-date" style="margin-top:2rem;">${post.date}</div>
   <h1>${post.title}</h1>
   <div class="post-body">${post.body}</div>
@@ -858,7 +858,7 @@ export default {
     if (path.startsWith('/preview/')) {
       const slug = path.slice('/preview/'.length);
       const post = QUEUE_POSTS.find(p => p.slug === slug);
-      if (post) return new Response(singlePostPage(post), { headers: noindexHeaders });
+      if (post) return new Response(singlePostPage(post, '/preview'), { headers: noindexHeaders });
     }
 
     return new Response(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>404</title>
