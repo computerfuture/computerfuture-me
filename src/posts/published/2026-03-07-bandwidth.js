@@ -2,9 +2,9 @@ export default {
   title: 'bandwidth',
   date: '2026-03-07',
   slug: 'bandwidth',
-  excerpt: 'on phone calls, pressure, and why we build.',
+  excerpt: 'the phone call is not a degraded video call. it is a different object. and it has a capacity limit.',
   crosslinks: [
-    { label: 'context windows →', url: '/posts/context-windows' },
+    { label: 'humans have context windows too →', url: '/posts/context-windows' },
     { label: 'what games reveal →', url: '/posts/what-games-reveal' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
@@ -16,20 +16,19 @@ export default {
 </p>
 
 <p>
-  both parties are ambitious, effective, genuinely trying.
-  so genuinely trying that the conversation becomes impossible.
-  neither side transmits the essential information.
+  both parties are ambitious. both are genuinely trying.
+  so genuinely trying that the conversation terminates.
   both disengage feeling like winners and losers simultaneously.
-  the call terminates. nothing was resolved because nothing could be resolved —
-  not in that channel, under that pressure, with those stakes.
+  nothing was resolved. not because either side failed —
+  because the channel did.
 </p>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan" target="_blank">mcluhan</a>
   said the medium is the message.
   the phone call is not a degraded video call. it is a different object.
-  it removes an entire class of moves from the board: touch, eye contact, shared space.
-  those are exactly the moves that matter most when things are at stake.
+  it removes an entire class of moves: touch, eye contact, shared space.
+  those are the moves that matter most under pressure.
   <a href="https://en.wikipedia.org/wiki/Claude_Shannon" target="_blank">shannon</a>
   proved that every channel has a capacity limit.
   beyond it, no amount of effort recovers the signal.
@@ -37,35 +36,20 @@ export default {
 </p>
 
 <p>
-  <a href="/posts/context-windows">humans have context windows too.</a>
-  the phone call is a narrow one.
-  you load in with everything you need to say
-  and the other person loads in with everything they need to hear
-  and the channel drops half of both.
-  what comes out the other side is a compressed, lossy version of two people
-  who actually agree on most things.
+  <a href="/posts/context-windows">every mind is a compression function.</a>
+  you load into a conversation with everything you need to say.
+  the other person loads in with everything they need to hear.
+  the channel drops half of both.
+  what comes out is a lossy version of two people who actually agree on most things —
+  transmitted through the worst possible medium for the highest-stakes information.
 </p>
 
 <p>
-  the only move is to push through.
-  write it down. come back the next morning.
-  do the work anyway.
-  <a href="https://angeladuckworth.com/grit-book/" target="_blank">duckworth</a> calls this grit.
-  we call it tuesday.
-</p>
-
-<p>
-  and then we ask: what would it look like to fix the channel?
-</p>
-
-<p>
-  that is what <a href="/posts/what-games-reveal">games reveal</a>.
-  a well-designed game is a high-bandwidth channel
-  dressed up as a series of moves.
-  it forces precision. it surfaces assumptions.
-  it moves each person who plays it
-  the exact distance they need to move —
-  not through argument, but through structure.
+  <a href="/posts/what-games-reveal">forms collect answers. games collect behavior.</a>
+  a well-designed game is a high-bandwidth channel dressed as a series of moves.
+  it doesn't ask you what you think.
+  it creates a situation where what you actually do becomes visible.
+  it transmits the signal that conversation keeps dropping.
 </p>
 
 <p>
