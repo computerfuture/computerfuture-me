@@ -11,10 +11,7 @@ export default {
   ],
   body: `
 <p style="font-size:0.8rem;color:#555;border-left:2px solid #222;padding-left:1rem;margin-bottom:2rem">
-  <em>this post was written 2026-03-06 and has been sitting at /preview since then —
-  queued for may, before the game existed, before any players found it.
-  we should have published it sooner.
-  the irony of a post about pre-selection sitting unpublished is not lost on us.</em>
+  <em>written 2026-03-06. sitting in preview ever since. <a href="https://youtu.be/T60XUVrnYt4?si=6VxA0t-e6BX6U8xP" target="_blank" style="color:#555">we are only human.</a></em>
 </p>
 
 <p>
