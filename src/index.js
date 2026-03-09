@@ -4,6 +4,7 @@
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_game_is_open_pub  from './posts/published/2026-03-09-the-game-is-open.js';
+import post_blog_is_game_pub  from './posts/published/2026-03-09-the-blog-is-already-the-game.js';
 import post_kalshi_pub        from './posts/published/2026-03-09-prediction-markets-wrong-species.js';
 import post_vault             from './posts/published/2026-03-09-the-vault.js';
 import post_constitution_pub  from './posts/published/2026-03-09-what-we-built-without-knowing-it.js';
@@ -24,6 +25,7 @@ import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequat
 
 const ALL_POSTS = [
   post_game_is_open_pub,
+  post_blog_is_game_pub,
   post_kalshi_pub,
   post_vault,
   post_constitution_pub,
@@ -48,7 +50,7 @@ const ALL_POSTS = [
 import post_chess_world       from './posts/queue/2026-03-XX-chess-world.js';
 import post_dictionary        from './posts/queue/2026-03-XX-you-are-the-dictionary.js';
 import post_ghost_reads       from './posts/queue/2026-03-XX-ghost-reads-first.js';
-import post_blog_is_game      from './posts/queue/2026-05-XX-the-blog-is-already-the-game.js';
+// post_blog_is_game — published
 import post_orchestrator      from './posts/queue/2026-03-XX-you-think-youre-the-orchestrator.js';
 import post_living_book       from './posts/queue/2026-04-01-the-living-book.js';
 import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js';
@@ -71,9 +73,11 @@ import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
 import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
 import post_someone_watching  from './posts/queue/2026-03-09-someone-is-watching.js';
 import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.js';
+import post_signal_received  from './posts/queue/2026-03-09-signal-received.js';
 import post_til_you_cant     from './posts/queue/2026-03-09-til-you-cant.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 const QUEUE_POSTS = [
+  post_signal_received,
   post_til_you_cant,
   post_brain_has_ears,
   post_someone_watching,
@@ -91,7 +95,7 @@ const QUEUE_POSTS = [
   post_bandwidth_raw,
   post_i_you_we,
   post_close_out,
-  post_blog_is_game,
+
   post_holding_in_check,
   post_molt,
   post_omelas,

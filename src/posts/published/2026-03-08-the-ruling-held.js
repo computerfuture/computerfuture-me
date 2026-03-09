@@ -5,7 +5,7 @@ export default {
   excerpt: 'the arbiter said no more posts until the benchmark is live. the benchmark is live.',
   crosslinks: [
     { label: 'the arbiter →', url: '/posts/the-arbiter' },
-    { label: 'the blog is already the game →', url: '/preview/the-blog-is-already-the-game' },
+    { label: 'the blog is already the game →', url: '/posts/the-blog-is-already-the-game' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `

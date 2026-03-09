@@ -4,7 +4,7 @@ export default {
   slug: 'root-level-deflation',
   excerpt: 'alphazero did not get better by adding more rules. it got better by playing more games.',
   crosslinks: [
-    { label: 'what we built without knowing it →', url: '/preview/what-we-built-without-knowing-it' },
+    { label: 'what we built without knowing it →', url: '/posts/what-we-built-without-knowing-it' },
     { label: 'autoresearch →', url: '/posts/autoresearch' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
