@@ -14,11 +14,9 @@ jobs:
 
       - name: Detect and notify
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_BLOG_WEBHOOK }}
-          ANDY_ID: "994682314036613140"
-          ALEX_ID: "389644762224918528"
+          NOTIFY_URL: "https://cf-admin.cmptrfuture.workers.dev/blog-notify"
+          NOTIFY_TOKEN: "f7efd63c370a4eec00b79a835c833a0f"
         run: |
-          # Detect added/modified published posts
           ADDED=$(git diff --name-status HEAD~1 HEAD -- 'src/posts/published/*.js' | grep '^A' | awk '{print $2}')
           MODIFIED=$(git diff --name-status HEAD~1 HEAD -- 'src/posts/published/*.js' | grep '^M' | awk '{print $2}')
 
@@ -26,23 +24,20 @@ jobs:
             slug=$(grep -m1 "slug:" "$file" | sed "s/.*slug: '//;s/',.*//;s/'.*//")
             title=$(grep -m1 "title:" "$file" | sed "s/.*title: '//;s/',.*//;s/'.*//")
             url="https://computerfuture.me/posts/$slug"
-            payload=$(jq -n --arg c "<@${ANDY_ID}> <@${ALEX_ID}> — **${title}**
-${url}" '{"content":$c}')
-            curl -s -X POST "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+            curl -s -X POST "$NOTIFY_URL" \
+              -H "Content-Type: application/json" \
+              -H "x-notify-token: $NOTIFY_TOKEN" \
+              -d "{\"type\":\"new\",\"title\":\"$title\",\"url\":\"$url\"}"
           done
 
           for file in $MODIFIED; do
             slug=$(grep -m1 "slug:" "$file" | sed "s/.*slug: '//;s/',.*//;s/'.*//")
             title=$(grep -m1 "title:" "$file" | sed "s/.*title: '//;s/',.*//;s/'.*//")
             url="https://computerfuture.me/posts/$slug"
-            payload=$(jq -n --arg c "<@${ANDY_ID}> — updated: **${title}**
-${url}" '{"content":$c}')
-            curl -s -X POST "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+            curl -s -X POST "$NOTIFY_URL" \
+              -H "Content-Type: application/json" \
+              -H "x-notify-token: $NOTIFY_TOKEN" \
+              -d "{\"type\":\"updated\",\"title\":\"$title\",\"url\":\"$url\"}"
           done
 
-          # If no blog changes, ping Andy with a brief commit summary
-          if [ -z "$ADDED" ] && [ -z "$MODIFIED" ]; then
-            msg=$(git log -1 --pretty=format:"%s")
-            payload=$(jq -n --arg c "<@${ANDY_ID}> — site update: ${msg}" '{"content":$c}')
-            curl -s -X POST "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
-          fi
+          # no blog changes — silent
