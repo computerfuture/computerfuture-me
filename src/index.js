@@ -75,8 +75,10 @@ import post_someone_watching  from './posts/queue/2026-03-09-someone-is-watching
 import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.js';
 import post_signal_received  from './posts/queue/2026-03-09-signal-received.js';
 import post_til_you_cant     from './posts/queue/2026-03-09-til-you-cant.js';
+import post_lines_intersecting from './posts/queue/2026-03-09-the-lines-are-intersecting.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 const QUEUE_POSTS = [
+  post_lines_intersecting,
   post_signal_received,
   post_til_you_cant,
   post_brain_has_ears,
@@ -386,6 +388,17 @@ const CSS = `
   }
 
   .post-item:first-of-type { border-top: 1px solid #111; }
+
+  .post-month {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--dim);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 2.2rem;
+    margin-bottom: 0.2rem;
+    opacity: 0.5;
+  }
 
   .post-date {
     font-family: var(--font-mono);
@@ -804,7 +817,6 @@ function pageShell(title, body, extraHead = '') {
 function postsPage() {
   const items = ALL_POSTS.map(p => `
     <div class="post-item">
-      <div class="post-date">${p.date}</div>
       <div class="post-title"><a href="/posts/${p.slug}">${p.title}</a></div>
       <div class="post-excerpt">${p.excerpt}</div>
     </div>`).join('');
