@@ -67,8 +67,10 @@ import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
 import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
+import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 const QUEUE_POSTS = [
+  post_brain_has_ears,
   post_witnessing,
   post_overnight_v2,
   post_overnight,
