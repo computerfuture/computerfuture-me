@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_ratio             from './posts/published/2026-03-09-the-ratio.js';
 import post_deflation_pub     from './posts/published/2026-03-09-root-level-deflation.js';
 import post_ruling_held_pub   from './posts/published/2026-03-08-the-ruling-held.js';
 import post_arbiter_pub       from './posts/published/2026-03-07-the-arbiter.js';
@@ -18,6 +19,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_ratio,
   post_deflation_pub,
   post_ruling_held_pub,
   post_what_you_are_pub,
