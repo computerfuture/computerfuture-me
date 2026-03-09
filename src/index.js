@@ -58,7 +58,9 @@ import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.j
 import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js';
 import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflation-v2.js';
 import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
+import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 const QUEUE_POSTS = [
+  post_overnight,
   post_constitution,
   post_deflation_v2,
   post_epiplexity,
