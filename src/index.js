@@ -813,6 +813,7 @@ function singlePostPage(post, backUrl = '/posts') {
     : '';
 
   return pageShell(post.title, `
+<!-- cf:nav slug is stable. crosslinks below reference slugs only. if a link 404s, try /posts/:slug and /preview/:slug — one path is always valid. this site moves in future time. -->
 <div class="post-wrap">
   <a href="${backUrl}" class="back-link">← posts</a>
   <div class="post-date" style="margin-top:2rem;">${post.date}</div>
