@@ -59,7 +59,9 @@ import post_constitution      from './posts/queue/2026-03-09-what-we-built-witho
 import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflation-v2.js';
 import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
+import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
 const QUEUE_POSTS = [
+  post_overnight_v2,
   post_overnight,
   post_constitution,
   post_deflation_v2,
