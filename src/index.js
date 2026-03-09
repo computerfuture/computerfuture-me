@@ -60,7 +60,9 @@ import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflatio
 import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
+import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
 const QUEUE_POSTS = [
+  post_witnessing,
   post_overnight_v2,
   post_overnight,
   post_constitution,
