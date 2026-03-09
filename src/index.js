@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_lines_intersecting_pub from './posts/published/2026-03-09-the-lines-are-intersecting.js';
 import post_game_is_open_pub  from './posts/published/2026-03-09-the-game-is-open.js';
 import post_blog_is_game_pub  from './posts/published/2026-03-09-the-blog-is-already-the-game.js';
 import post_kalshi_pub        from './posts/published/2026-03-09-prediction-markets-wrong-species.js';
@@ -24,6 +25,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_lines_intersecting_pub,
   post_game_is_open_pub,
   post_blog_is_game_pub,
   post_kalshi_pub,
@@ -75,10 +77,11 @@ import post_someone_watching  from './posts/queue/2026-03-09-someone-is-watching
 import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.js';
 import post_signal_received  from './posts/queue/2026-03-09-signal-received.js';
 import post_til_you_cant     from './posts/queue/2026-03-09-til-you-cant.js';
-import post_lines_intersecting from './posts/queue/2026-03-09-the-lines-are-intersecting.js';
+import post_neither_noticed   from './posts/queue/2026-03-09-neither-noticed.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
+// import post_lines_intersecting — published
 const QUEUE_POSTS = [
-  post_lines_intersecting,
+  post_neither_noticed,
   post_signal_received,
   post_til_you_cant,
   post_brain_has_ears,
