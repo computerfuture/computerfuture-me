@@ -3,6 +3,8 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_vault             from './posts/published/2026-03-09-the-vault.js';
+import post_constitution_pub  from './posts/published/2026-03-09-what-we-built-without-knowing-it.js';
 import post_ratio             from './posts/published/2026-03-09-the-ratio.js';
 import post_deflation_pub     from './posts/published/2026-03-09-root-level-deflation.js';
 import post_ruling_held_pub   from './posts/published/2026-03-08-the-ruling-held.js';
@@ -19,6 +21,8 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_vault,
+  post_constitution_pub,
   post_ratio,
   post_deflation_pub,
   post_ruling_held_pub,
@@ -55,7 +59,7 @@ import post_society_tech      from './posts/queue/2026-03-XX-society-is-a-techno
 import post_what_you_are      from './posts/queue/2026-03-08-what-you-are-in-here.js';
 import post_door_level_zero   from './posts/queue/2026-03-XX-the-door-is-level-zero.js';
 import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.js';
-import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js';
+// import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js'; // published
 import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflation-v2.js';
 import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
@@ -65,7 +69,7 @@ const QUEUE_POSTS = [
   post_witnessing,
   post_overnight_v2,
   post_overnight,
-  post_constitution,
+  // post_constitution, // published
   post_deflation_v2,
   post_epiplexity,
   post_what_you_are,
@@ -765,7 +769,7 @@ function inspirationPage() {
 
 // ── Posts pages ────────────────────────────────────────────────────────────
 
-function pageShell(title, body) {
+function pageShell(title, body, extraHead = '') {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -776,7 +780,7 @@ function pageShell(title, body) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-  <style>${CSS}</style>
+  <style>${CSS}</style>${extraHead}
 </head>
 <body>${body}</body>
 </html>`;
@@ -804,6 +808,10 @@ function singlePostPage(post, backUrl = '/posts') {
     `<a href="${l.url}" target="_blank">${l.label} →</a>`
   ).join('');
 
+  const tsComment = post.publishedAt
+    ? `\n  <!-- cf:published:${post.publishedAt} -->`
+    : '';
+
   return pageShell(post.title, `
 <div class="post-wrap">
   <a href="${backUrl}" class="back-link">← posts</a>
@@ -811,7 +819,7 @@ function singlePostPage(post, backUrl = '/posts') {
   <h1>${post.title}</h1>
   <div class="post-body">${post.body}</div>
   ${crosslinks ? `<div class="post-crosslinks">${crosslinks}</div>` : ''}
-</div>`);
+</div>`, tsComment);
 }
 
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
