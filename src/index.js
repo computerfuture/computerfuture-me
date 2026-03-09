@@ -51,7 +51,13 @@ import post_society_tech      from './posts/queue/2026-03-XX-society-is-a-techno
 import post_what_you_are      from './posts/queue/2026-03-08-what-you-are-in-here.js';
 import post_door_level_zero   from './posts/queue/2026-03-XX-the-door-is-level-zero.js';
 import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.js';
+import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js';
+import post_deflation         from './posts/queue/2026-03-09-root-level-deflation.js';
+import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 const QUEUE_POSTS = [
+  post_constitution,
+  post_deflation,
+  post_epiplexity,
   post_what_you_are,
   post_door_level_zero,
   post_psychohistory,
