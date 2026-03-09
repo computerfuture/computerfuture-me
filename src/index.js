@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_kalshi_pub        from './posts/published/2026-03-09-prediction-markets-wrong-species.js';
 import post_vault             from './posts/published/2026-03-09-the-vault.js';
 import post_constitution_pub  from './posts/published/2026-03-09-what-we-built-without-knowing-it.js';
 import post_ratio             from './posts/published/2026-03-09-the-ratio.js';
@@ -21,6 +22,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_kalshi_pub,
   post_vault,
   post_constitution_pub,
   post_ratio,
@@ -65,6 +67,7 @@ import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
 import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
+// import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 const QUEUE_POSTS = [
   post_witnessing,
   post_overnight_v2,
