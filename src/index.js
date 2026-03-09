@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_deflation_pub     from './posts/published/2026-03-09-root-level-deflation.js';
 import post_ruling_held_pub   from './posts/published/2026-03-08-the-ruling-held.js';
 import post_arbiter_pub       from './posts/published/2026-03-07-the-arbiter.js';
 import post_autoresearch      from './posts/published/2026-03-07-autoresearch.js';
@@ -17,6 +18,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_deflation_pub,
   post_ruling_held_pub,
   post_what_you_are_pub,
   post_arbiter_pub,
@@ -52,11 +54,11 @@ import post_what_you_are      from './posts/queue/2026-03-08-what-you-are-in-her
 import post_door_level_zero   from './posts/queue/2026-03-XX-the-door-is-level-zero.js';
 import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.js';
 import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js';
-import post_deflation         from './posts/queue/2026-03-09-root-level-deflation.js';
+import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflation-v2.js';
 import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
 const QUEUE_POSTS = [
   post_constitution,
-  post_deflation,
+  post_deflation_v2,
   post_epiplexity,
   post_what_you_are,
   post_door_level_zero,

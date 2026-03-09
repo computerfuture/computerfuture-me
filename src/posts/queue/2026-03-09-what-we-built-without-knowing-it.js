@@ -5,7 +5,7 @@ export default {
   excerpt: 'the game was producing something we didn\'t have a name for. the players named it first.',
   crosslinks: [
     { label: 'the ruling held →', url: '/posts/the-ruling-held' },
-    { label: 'root level deflation →', url: '/preview/root-level-deflation' },
+    { label: 'root level deflation →', url: '/posts/root-level-deflation' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `

@@ -5,7 +5,7 @@ export default {
   excerpt: 'the word arrived before the definition. that is usually how it goes with the real ones.',
   crosslinks: [
     { label: 'what we built without knowing it →', url: '/preview/what-we-built-without-knowing-it' },
-    { label: 'root level deflation →', url: '/preview/root-level-deflation' },
+    { label: 'root level deflation →', url: '/posts/root-level-deflation' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `

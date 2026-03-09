@@ -4,7 +4,7 @@ export default {
   slug: 'the-brain-has-ears',
   excerpt: 'the system was already talking. today it started listening.',
   crosslinks: [
-    { label: 'root level deflation →', url: '/preview/root-level-deflation' },
+    { label: 'root level deflation →', url: '/posts/root-level-deflation' },
     { label: 'autoresearch →', url: '/posts/autoresearch' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
