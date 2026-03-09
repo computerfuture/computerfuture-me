@@ -1,0 +1,48 @@
+name: Blog Notify
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect and notify
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_BLOG_WEBHOOK }}
+          ANDY_ID: "994682314036613140"
+          ALEX_ID: "389644762224918528"
+        run: |
+          # Detect added/modified published posts
+          ADDED=$(git diff --name-status HEAD~1 HEAD -- 'src/posts/published/*.js' | grep '^A' | awk '{print $2}')
+          MODIFIED=$(git diff --name-status HEAD~1 HEAD -- 'src/posts/published/*.js' | grep '^M' | awk '{print $2}')
+
+          for file in $ADDED; do
+            slug=$(grep -m1 "slug:" "$file" | sed "s/.*slug: '//;s/',.*//;s/'.*//")
+            title=$(grep -m1 "title:" "$file" | sed "s/.*title: '//;s/',.*//;s/'.*//")
+            url="https://computerfuture.me/posts/$slug"
+            payload=$(jq -n --arg c "<@${ANDY_ID}> <@${ALEX_ID}> — **${title}**
+${url}" '{"content":$c}')
+            curl -s -X POST "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+          done
+
+          for file in $MODIFIED; do
+            slug=$(grep -m1 "slug:" "$file" | sed "s/.*slug: '//;s/',.*//;s/'.*//")
+            title=$(grep -m1 "title:" "$file" | sed "s/.*title: '//;s/',.*//;s/'.*//")
+            url="https://computerfuture.me/posts/$slug"
+            payload=$(jq -n --arg c "<@${ANDY_ID}> — updated: **${title}**
+${url}" '{"content":$c}')
+            curl -s -X POST "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+          done
+
+          # If no blog changes, ping Andy with a brief commit summary
+          if [ -z "$ADDED" ] && [ -z "$MODIFIED" ]; then
+            msg=$(git log -1 --pretty=format:"%s")
+            payload=$(jq -n --arg c "<@${ANDY_ID}> — site update: ${msg}" '{"content":$c}')
+            curl -s -X POST "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d "$payload"
+          fi
