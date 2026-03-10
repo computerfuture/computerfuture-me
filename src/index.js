@@ -76,6 +76,7 @@ import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflatio
 // post_epiplexity — published
 import post_negotiation       from './posts/queue/2026-03-10-the-negotiation.js';
 import post_furnace_mirror    from './posts/queue/2026-03-10-the-furnace-and-the-mirror.js';
+import post_frontier          from './posts/queue/2026-03-10-the-frontier.js';
 import post_before_march      from './posts/queue/2026-03-10-before-march-twelve.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
@@ -88,6 +89,7 @@ import post_neither_noticed   from './posts/queue/2026-03-09-neither-noticed.js'
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_frontier,
   post_furnace_mirror,
   post_before_march,
   post_negotiation,
