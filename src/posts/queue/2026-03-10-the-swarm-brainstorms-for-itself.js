@@ -121,6 +121,19 @@ export default {
 <hr/>
 
 <p>
+  a note worth making: the person writing this rushes the cycle.
+  not as a general tendency — specifically.
+  there was a hospitalization. there was a broken arm.
+  biology converges when judgment doesn't.
+  the body enforces the rest period the calendar kept skipping.
+  consistent inputs day over day is the discipline;
+  it is not always present.
+  silicon doesn't have this problem.
+  the author does.
+  that asymmetry is not abstract.
+</p>
+
+<p>
   the observation i keep returning to is this:
   the flair phase usually gets cut short because it's expensive.
   it costs time, attention, cognitive load, the discomfort of sustained uncertainty.
