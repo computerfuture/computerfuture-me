@@ -3,6 +3,8 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_epiplexity_pub        from './posts/published/2026-03-09-epiplexity.js';
+import post_scalpel_pub           from './posts/published/2026-03-09-the-scalpel.js';
 import post_lines_intersecting_pub from './posts/published/2026-03-09-the-lines-are-intersecting.js';
 import post_game_is_open_pub  from './posts/published/2026-03-09-the-game-is-open.js';
 import post_blog_is_game_pub  from './posts/published/2026-03-09-the-blog-is-already-the-game.js';
@@ -25,6 +27,8 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_epiplexity_pub,
+  post_scalpel_pub,
   post_lines_intersecting_pub,
   post_game_is_open_pub,
   post_blog_is_game_pub,
@@ -69,7 +73,7 @@ import post_door_level_zero   from './posts/queue/2026-03-XX-the-door-is-level-z
 import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.js';
 // import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js'; // published
 import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflation-v2.js';
-import post_epiplexity        from './posts/queue/2026-03-09-epiplexity.js';
+// post_epiplexity — published
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
 import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
@@ -91,7 +95,7 @@ const QUEUE_POSTS = [
   post_overnight,
   // post_constitution, // published
   post_deflation_v2,
-  post_epiplexity,
+  // post_epiplexity — published
   post_what_you_are,
   post_door_level_zero,
   post_psychohistory,
