@@ -74,6 +74,7 @@ import post_window_closes     from './posts/queue/2026-03-XX-the-window-closes.j
 // import post_constitution      from './posts/queue/2026-03-09-what-we-built-without-knowing-it.js'; // published
 import post_deflation_v2      from './posts/queue/2026-03-09-root-level-deflation-v2.js';
 // post_epiplexity — published
+import post_negotiation       from './posts/queue/2026-03-10-the-negotiation.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
 import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
@@ -85,6 +86,7 @@ import post_neither_noticed   from './posts/queue/2026-03-09-neither-noticed.js'
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_negotiation,
   post_neither_noticed,
   post_signal_received,
   post_til_you_cant,
