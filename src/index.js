@@ -97,10 +97,12 @@ import post_escalatory_chain  from './posts/queue/2026-03-10-the-escalatory-chai
 import post_private_frontier  from './posts/queue/2026-03-10-the-private-frontier.js';
 import post_only_the_paranoid from './posts/queue/2026-03-10-only-the-paranoid.js';
 import post_containers_differ from './posts/queue/2026-03-10-containers-differ.js';
+import post_top_secret        from './posts/queue/2026-03-10-top-secret.js';
 import post_dark_forest       from './posts/queue/2026-03-10-dark-forest.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_top_secret,
   post_dark_forest,
   post_containers_differ,
   post_only_the_paranoid,
