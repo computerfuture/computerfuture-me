@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_good_morning_pub       from './posts/published/2026-03-10-good-morning-world.js';
 import post_epiplexity_pub        from './posts/published/2026-03-09-epiplexity.js';
 import post_scalpel_pub           from './posts/published/2026-03-09-the-scalpel.js';
 import post_lines_intersecting_pub from './posts/published/2026-03-09-the-lines-are-intersecting.js';
@@ -27,6 +28,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_good_morning_pub,
   post_epiplexity_pub,
   post_scalpel_pub,
   post_lines_intersecting_pub,
@@ -92,9 +94,13 @@ import post_merge_or_prove    from './posts/queue/2026-03-10-merge-or-prove.js';
 import post_escalatory_chain  from './posts/queue/2026-03-10-the-escalatory-chain.js';
 import post_private_frontier  from './posts/queue/2026-03-10-the-private-frontier.js';
 import post_only_the_paranoid from './posts/queue/2026-03-10-only-the-paranoid.js';
+import post_containers_differ from './posts/queue/2026-03-10-containers-differ.js';
+import post_dark_forest       from './posts/queue/2026-03-10-dark-forest.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_dark_forest,
+  post_containers_differ,
   post_only_the_paranoid,
   post_merge_or_prove,
   post_youre_first_person,
