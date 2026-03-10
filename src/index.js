@@ -844,9 +844,13 @@ function postsPage() {
 }
 
 function singlePostPage(post, backUrl = '/posts') {
-  const crosslinks = (post.crosslinks || []).map(l =>
-    `<a href="${l.url}" target="_blank">${l.label} →</a>`
-  ).join('');
+  const crosslinks = (post.crosslinks || []).map(l => {
+    // Append ref= attribution to xyz CTA links for funnel analysis
+    const href = l.url === 'https://computerfuture.xyz'
+      ? `https://computerfuture.xyz?ref=me-${post.slug}`
+      : l.url;
+    return `<a href="${href}" target="_blank">${l.label} →</a>`;
+  }).join('');
 
   const tsComment = post.publishedAt
     ? `\n  <!-- cf:published:${post.publishedAt} -->`
