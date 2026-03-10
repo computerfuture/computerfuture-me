@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_the_sinkhole_pub       from './posts/published/2026-03-10-the-sinkhole.js';
 import post_the_footer_pub         from './posts/published/2026-03-10-the-footer.js';
 import post_good_morning_pub       from './posts/published/2026-03-10-good-morning-world.js';
 import post_epiplexity_pub        from './posts/published/2026-03-09-epiplexity.js';
@@ -29,6 +30,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_the_sinkhole_pub,
   post_the_footer_pub,
   post_good_morning_pub,
   post_epiplexity_pub,
