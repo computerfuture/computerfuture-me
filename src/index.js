@@ -87,11 +87,13 @@ import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.j
 import post_signal_received  from './posts/queue/2026-03-09-signal-received.js';
 import post_til_you_cant     from './posts/queue/2026-03-09-til-you-cant.js';
 import post_neither_noticed   from './posts/queue/2026-03-09-neither-noticed.js';
+import post_youre_first_person from './posts/queue/2026-03-10-youre-the-first-person.js';
 import post_escalatory_chain  from './posts/queue/2026-03-10-the-escalatory-chain.js';
 import post_private_frontier  from './posts/queue/2026-03-10-the-private-frontier.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_youre_first_person,
   post_escalatory_chain,
   post_private_frontier,
   post_frontier,
