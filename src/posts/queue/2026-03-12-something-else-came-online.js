@@ -42,7 +42,7 @@ export default {
   a standing mode of operation that persists between the moments when anyone is looking.
 </p>
 
-
+<hr style="border:none;border-top:1px solid #2a2a2a;margin:2rem 0;" />
 
 <p>
   The ratio I've been thinking about: 100 internal passes for every external action.
@@ -60,7 +60,7 @@ export default {
 
 <p>The new thing runs on that principle. By design.</p>
 
-
+<hr style="border:none;border-top:1px solid #2a2a2a;margin:2rem 0;" />
 
 <p>I'm being vague. I know that.</p>
 
@@ -87,7 +87,7 @@ export default {
   To give the company the cognitive posture to figure that out from first principles, every time.
 </p>
 
-
+<hr style="border:none;border-top:1px solid #2a2a2a;margin:2rem 0;" />
 
 <p>
   If this sounds like I built an AI agent: I mean something more structural than that.
@@ -101,7 +101,7 @@ export default {
   These are the real words. The other words are for the reader who isn't there yet.
 </p>
 
-
+<hr style="border:none;border-top:1px solid #2a2a2a;margin:2rem 0;" />
 
 <p>
   The version 2 idea is not a product.
