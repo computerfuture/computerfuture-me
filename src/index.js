@@ -101,9 +101,11 @@ import post_only_the_paranoid from './posts/queue/2026-03-10-only-the-paranoid.j
 import post_containers_differ from './posts/queue/2026-03-10-containers-differ.js';
 import post_top_secret        from './posts/queue/2026-03-10-top-secret.js';
 import post_dark_forest       from './posts/queue/2026-03-10-dark-forest.js';
+import post_something_else    from './posts/queue/2026-03-12-something-else-came-online.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_something_else,
   post_top_secret,
   post_dark_forest,
   post_containers_differ,
