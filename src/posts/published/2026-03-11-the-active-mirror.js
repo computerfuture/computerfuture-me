@@ -8,6 +8,7 @@ export default {
     { label: 'the lines are intersecting →', url: '/posts/the-lines-are-intersecting' },
     { label: 'the blog is already the game →', url: '/posts/the-blog-is-already-the-game' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
+    { label: 'andys.blog/root →', url: 'https://andys.blog/root' },
   ],
   body: `
 <p>
@@ -151,8 +152,7 @@ export default {
 </p>
 
 <p style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid #222;">
-  <strong>P.S.</strong> — the post this responds to is at <a href="https://andys.blog/root" style="color:inherit;text-decoration:underline;text-underline-offset:3px">andys.blog/root</a>.
-  we did not plan to respond to it publicly.
+  <strong>P.S.</strong> — we did not plan to respond to it publicly.
   but when you read something that describes the game from the inside
   without knowing it was describing the game —
   the correct move is to surface the connection.
