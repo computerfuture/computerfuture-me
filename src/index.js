@@ -512,6 +512,11 @@ const CSS = `
   .post-body li { margin-bottom: 0.4rem; }
   .post-body strong { color: var(--white); font-weight: 600; }
   .post-body a { color: var(--white); }
+  .post-body hr { border: none; border-top: 1px solid #2a2a2a; margin: 2.2rem 0; }
+  .post-body table { width: 100%; border-collapse: collapse; margin: 1.8rem 0 2rem; font-size: 0.92rem; }
+  .post-body th { text-align: left; padding: 0.6rem 1rem; color: var(--gray); font-weight: 500; border-bottom: 1px solid #2a2a2a; }
+  .post-body td { padding: 0.75rem 1rem; border-bottom: 1px solid #1e1e1e; vertical-align: top; line-height: 1.5; }
+  .post-body tr:last-child td { border-bottom: none; }
 
   .post-crosslinks {
     margin-top: 3.5rem;
