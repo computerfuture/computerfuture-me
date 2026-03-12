@@ -277,10 +277,10 @@ const CSS = `
   .links-grid {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 2.2rem;
     margin-top: 3rem;
     width: 100%;
-    max-width: 480px;
+    max-width: 640px;
   }
 
   .link-row {
@@ -288,8 +288,8 @@ const CSS = `
     justify-content: space-between;
     align-items: baseline;
     border-bottom: 1px solid var(--dim);
-    padding-bottom: 1rem;
-    font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+    padding-bottom: 1.4rem;
+    font-size: clamp(1.1rem, 2.2vw, 1.5rem);
   }
 
   .link-label { color: var(--gray); }
@@ -596,14 +596,17 @@ function homePage() {
   </section>
 
   <section id="s-end" class="visible">
-    <p class="mid">computer future</p>
     <div class="links-grid">
+      <div class="link-row">
+        <span class="link-label">root</span>
+        <span class="link-url"><a href="/posts/the-root">computerfuture.me/posts/the-root</a></span>
+      </div>
       <div class="link-row">
         <span class="link-label">game</span>
         <span class="link-url"><a href="https://computerfuture.xyz" target="_blank">computerfuture.xyz</a></span>
       </div>
       <div class="link-row">
-        <span class="link-label">posts</span>
+        <span class="link-label">blog</span>
         <span class="link-url"><a href="/posts">computerfuture.me/posts</a></span>
       </div>
     </div>
@@ -845,31 +848,18 @@ function pageShell(title, body, extraHead = '') {
 }
 
 function postsPage() {
-  const featured = ALL_POSTS[0];
-  const featuredCrosslinks = (featured.crosslinks || []).map(l => {
-    const href = l.url === 'https://computerfuture.xyz'
-      ? `https://computerfuture.xyz?ref=me-${featured.slug}`
-      : l.url;
-    return `<a href="${href}" target="_blank">${l.label} →</a>`;
-  }).join('');
-
-  const items = ALL_POSTS.slice(1).map(p => `
+  const items = ALL_POSTS.map(p => `
     <div class="post-item">
       <div class="post-title"><a href="/posts/${p.slug}">${p.title}</a></div>
       <div class="post-excerpt">${p.excerpt}</div>
     </div>`).join('');
 
   return pageShell('posts', `
-<div class="post-wrap">
+<div class="posts-wrap">
   <a href="/" class="back-link">← computer future</a>
-  <div class="post-date" style="margin-top:2rem;">${featured.date}</div>
-  <h1>${featured.title}</h1>
-  <div class="post-body">${featured.body}</div>
-  ${featuredCrosslinks ? `<div class="post-crosslinks">${featuredCrosslinks}</div>` : ''}
-  <div style="margin-top:5rem;padding-top:2rem;border-top:1px solid #111;">
-    <p style="font-family:var(--font-mono);font-size:0.7rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2rem;">all posts</p>
-    ${items}
-  </div>
+  <h1 style="margin-top:2rem;">posts</h1>
+  <p class="posts-subtitle">thinking out loud</p>
+  ${items}
 </div>`);
 }
 
