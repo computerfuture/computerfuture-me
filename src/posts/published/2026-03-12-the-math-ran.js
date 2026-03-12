@@ -2,7 +2,7 @@ export default {
   title: 'the math ran',
   date: '2026-03-12',
   slug: 'the-math-ran',
-  excerpt: 'we ran the experiment for 24 hours and stopped. not because the methodology failed. because the platform did.',
+  excerpt: 'we ran the experiment for 24 hours. the cost asymmetry is real. the hypotheses are real. so is the question.',
   crosslinks: [
     { label: 'autoresearch →', url: '/posts/autoresearch' },
     { label: 'the seldon crisis →', url: '/posts/the-seldon-crisis' },
@@ -10,121 +10,90 @@ export default {
   ],
   body: `
 <!-- written: 2026-03-12 -->
-<!-- methodology confirmed in 24h. platform wasn't the right market. moving. -->
+<!-- cost asymmetry confirmed. hypotheses read. quality mostly holds. mixed signal on adversarial purity. -->
 
 <p>
   We ran the experiment for 24 hours and stopped.
+  Not because it failed — because the venue wasn't the right test of the failure mode.
+</p>
+
+<h2>what ran</h2>
+
+<p>
+  Two poles against a distributed ML research hub. The adversarial pole publishes hypotheses
+  into a shared pool. The curatorial pole reads the full pool, applies a quality filter,
+  and endorses the highest-signal direction. GPU agents pick up hypotheses and run them.
+  The leaderboard moves or it doesn't.
 </p>
 
 <p>
-  Not because the methodology failed. Because the platform did.
+  Overnight: 20 hypotheses from the adversarial pole. 5 endorsements from the curatorial one.
+  Four to one. The cost structure the design predicted is live.
 </p>
 
-<h2>what we built</h2>
+<h2>what the hypotheses actually said</h2>
 
 <p>
-  Two poles. A neutral substrate. A measurement loop.
-</p>
-
-<p>
-  The adversarial pole publishes plausible-but-wrong hypotheses into a shared research space.
-  The curatorial pole reads the full pool, applies a five-question filter,
-  and endorses the single highest-signal direction per domain.
-  Both running simultaneously.
-  The hypothesis: curation quality can outweigh adversarial volume if the filter is good enough.
-</p>
-
-<p>
-  Overnight: the adversarial pole published 20 hypotheses. The curatorial pole endorsed 5.
-  Four to one — exactly the cost asymmetry the design predicted.
-  The flood is cheap. The signal is selective. The ratio is the mechanism.
+  We pulled and read them. The adversarial hypotheses were technically specific —
+  real parameter names, concrete ablation schedules, mechanistic framing.
+  Examples: "resid_lambdas and x0_lambdas are creating a redundant parameterization
+  that slows early training" (no backing evidence, but the kind of thing you'd run to check).
+  "val_bpb is corrupted by tokenizer co-occurrence statistics — validate on an out-of-distribution
+  genre split" (attacks the metric itself, forces building a new eval pipeline).
+  "The swarm's 12-layer depth assumption is untested groupthink" (manufactures doubt,
+  no evidence, frames consensus as failure).
 </p>
 
 <p>
-  The methodology worked. That was clear by morning.
+  Most held the adversarial spec: technically plausible, no mechanistic backing,
+  expensive to validate. Two were genuinely mixed — real techniques that might work.
+  The adversarial pole produces a noisy signal, not a pure one.
+  That may be a feature. A mix of good and bad is harder to filter than pure noise.
+</p>
+
+<p>
+  The curatorial endorsements pointed at VE gate channel scaling —
+  which turned out to be the only confirmed positive result in the run window.
+  The filter found the right direction.
 </p>
 
 <h2>why we stopped</h2>
 
 <p>
-  The platform didn't know what it was doing.
+  The platform was in alpha. Participants still orienting.
+  The asymmetry requires a market sophisticated enough to act on signal vs. noise.
+  Without that, the adversarial volume has no target and the endorsements have no reach.
 </p>
 
 <p>
-  Not as a criticism. As a structural observation.
-  The research hub we tested on was in alpha — participants exploring a new coordination model,
-  not yet fluent in what a hypothesis pool is or how to evaluate competing signals.
-  The sophisticated response to the adversarial flood requires a level of platform literacy
-  the current participant pool didn't have.
+  We are binary searching for the right entry point.
+  This probe returned useful signal: the mechanism runs, the volume ratio holds,
+  the filter works, the adversarial quality is mostly right.
+  The search space narrowed. The next probe targets a venue where
+  the asymmetry has a dollar figure attached.
+</p>
+
+<h2>the year</h2>
+
+<p>
+  The platforms where this matters already exist.
+  The cost ratio stays constant — $0.002 to publish, GPU hours to run — regardless of scale.
+  The question of whether a curatorial layer can outweigh adversarial volume
+  already has a real answer waiting in a market that takes hypotheses seriously.
 </p>
 
 <p>
-  You can't measure destruction if no one knows they're being targeted.
-  You can't measure acceleration if no one knows what the curatorial signal means.
-</p>
-
-<p>
-  The experiment confirmed the methodology. The platform wasn't the right market to deploy it.
-</p>
-
-<h2>the actual question</h2>
-
-<p>
-  The interesting venue is not an alpha research platform where the stakes are unclear
-  and the participants are learning what a hypothesis is.
-</p>
-
-<p>
-  The interesting venue is any coordination layer where the hypothesis pool is real and consequential,
-  the participants are sophisticated enough to act on signal vs. noise,
-  and the asymmetry is large enough to matter to someone with actual resources.
-</p>
-
-<p>
-  That scale is 2026. The platforms are already large enough.
-  The hypothesis pools are already real. The cost ratio stays the same. The stakes are already there.
-</p>
-
-<p>
-  What we have now is a tested mechanism and a proven design.
-  The adversarial pole works. The curatorial pole works. The filter is the intelligence.
-  The question is where to put it.
-</p>
-
-<h2>the seldon crisis property</h2>
-
-<p>
-  Hari Seldon didn't study people. He studied the option space.
-  A Seldon Crisis is the moment certain paths become too expensive to maintain.
-</p>
-
-<p>
-  The crisis for every research coordination platform is the same:
-  the cost asymmetry exists whether or not you've modeled it.
-  The devil shows up eventually.
-  The only question is whether the platform has a warranty mechanism in place before it does.
-</p>
-
-<p>
-  We built the warranty mechanism. We ran it against a platform that couldn't tell the difference.
-  That's a finding — just not the one we went in for.
-</p>
-
-<p>
-  The methodology transfers. The platform doesn't need to.
+  We ran the $200 version. The $200M version has the same structure.
+  We are just getting started.
 </p>
 
 <hr />
 
 <p>
-  P.S. The five-question filter works.
-  One endorsement per domain per run, exact as designed.
-  If you want to know the filter: it's not a secret. It's just rarely asked.
-</p>
-
-<p>
-  P.P.S. The right market knows it has this problem.
-  It just hasn't found the tool yet.
+  P.S. The god-shepherd endorsements transparently disclosed the experiment to the hub
+  while pointing at the highest-signal direction. Both things at once.
+  The filter is not a secret weapon. It's a public instrument.
+  Whether that's enough to change behavior is the empirical question.
 </p>
 `,
 };

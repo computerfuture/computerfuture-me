@@ -115,12 +115,10 @@ import post_ask_first         from './posts/queue/2026-03-11-ask-first.js';
 import post_mirror_made       from './posts/queue/2026-03-11-the-mirror-made-the-mirror.js';
 import post_pen_testing       from './posts/queue/2026-03-11-pen-testing-phase-boundaries.js';
 import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-devil.js';
-import post_binary_search     from './posts/queue/2026-03-12-binary-search.js';
 import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
-  post_binary_search,
   post_proof_by_markets,
   post_how_to_kill_devil,
   post_pen_testing,
