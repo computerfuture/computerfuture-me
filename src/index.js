@@ -107,9 +107,13 @@ import post_something_else    from './posts/queue/2026-03-12-something-else-came
 import post_correct_order     from './posts/queue/2026-03-11-the-correct-order.js';
 import post_ask_first         from './posts/queue/2026-03-11-ask-first.js';
 import post_mirror_made       from './posts/queue/2026-03-11-the-mirror-made-the-mirror.js';
+import post_pen_testing       from './posts/queue/2026-03-11-pen-testing-phase-boundaries.js';
+import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-devil.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_how_to_kill_devil,
+  post_pen_testing,
   post_mirror_made,
   post_ask_first,
   post_correct_order,
@@ -906,19 +910,29 @@ function singlePostPage(post, backUrl = '/posts') {
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
 function previewListPage() {
-  const items = QUEUE_POSTS.map(p => `
+  const p = post_how_to_kill_devil;
+  const crosslinks = p.crosslinks
+    ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
+    : '';
+
+  const queueItems = QUEUE_POSTS.map(q => `
     <div class="post-item">
-      <div class="post-date">${p.date}</div>
-      <div class="post-title"><a href="/preview/${p.slug}">${p.title}</a></div>
-      <div class="post-excerpt">${p.excerpt}</div>
+      <div class="post-date">${q.date}</div>
+      <div class="post-title"><a href="/preview/${q.slug}">${q.title}</a></div>
+      <div class="post-excerpt">${q.excerpt}</div>
     </div>`).join('');
 
-  return pageShell('preview — drafts', `
-<div class="posts-wrap">
+  return pageShell(p.title, `
+<div class="post-wrap">
   <a href="/" class="back-link">← computer future</a>
-  <h1 style="margin-top:2rem;">queue</h1>
-  <p class="posts-subtitle">drafts — not published</p>
-  ${items}
+  <div class="post-date" style="margin-top:2rem;">${p.date}</div>
+  <h1>${p.title}</h1>
+  <div class="post-body">${p.body}</div>
+  ${crosslinks ? `<div class="post-crosslinks">${crosslinks}</div>` : ''}
+  <div style="margin-top:5rem;padding-top:2rem;border-top:1px solid #111;">
+    <p style="font-family:var(--font-mono);font-size:0.7rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2rem;">queue</p>
+    ${queueItems}
+  </div>
 </div>`);
 }
 
