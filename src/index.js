@@ -569,9 +569,6 @@ function homePage() {
   <div class="dot" data-index="2"></div>
   <div class="dot" data-index="3"></div>
   <div class="dot" data-index="4"></div>
-  <div class="dot" data-index="5"></div>
-  <div class="dot" data-index="6"></div>
-  <div class="dot" data-index="7"></div>
 </nav>
 
 <div class="slides" id="slides">
@@ -581,39 +578,17 @@ function homePage() {
   </section>
 
   <section id="s2">
-    <p class="mid">the computer future<br>will change everything</p>
+    <p class="mid">a game that finds<br>the right people<br>before they arrive.</p>
   </section>
 
   <section id="s3">
-    <p class="mid">from now on<span class="spacer"></span>say<br>
-    <em>the computer future</em><span class="spacer"></span>not AI</p>
+    <p class="mid">the writing is the filter.<span class="spacer"></span>
+    <span class="small">the game is what's past it.</span></p>
   </section>
 
   <section id="s4">
-    <p class="mid">when intelligence<br>is no longer scarce<span class="spacer"></span>
-    <span class="small">the question changes</span></p>
-  </section>
-
-  <section id="s5">
-    <p class="big dim">?</p>
-    <span class="spacer"></span>
-    <p class="small">who's behind this</p>
-  </section>
-
-  <section id="s6">
-    <p class="mid">the answer<br>is in the game</p>
-    <span class="spacer"></span>
-    <p class="small">
-      <a href="https://computerfuture.xyz" target="_blank">computerfuture.xyz</a>
-    </p>
-  </section>
-
-  <section id="s7">
-    <p class="mid">this is where<br>we think out loud</p>
-    <span class="spacer"></span>
-    <p class="small">
-      <a href="/posts/what-games-reveal">what games reveal →</a>
-    </p>
+    <p class="mid">we built something that gets sharper<span class="spacer"></span>
+    <span class="small">every time the right person finds it.</span></p>
   </section>
 
   <section id="s-end" class="visible">
@@ -624,23 +599,10 @@ function homePage() {
         <span class="link-url"><a href="https://computerfuture.xyz" target="_blank">computerfuture.xyz</a></span>
       </div>
       <div class="link-row">
-        <span class="link-label">blog</span>
+        <span class="link-label">posts</span>
         <span class="link-url"><a href="/posts">computerfuture.me/posts</a></span>
       </div>
-      <div class="link-row">
-        <span class="link-label">inspiration</span>
-        <span class="link-url"><a href="/inspiration">computerfuture.me/inspiration</a></span>
-      </div>
-      <div class="link-row">
-        <span class="link-label">email</span>
-        <span class="link-url">hi@computerfuture.me</span>
-      </div>
     </div>
-    <p class="email-note">
-      before reaching out: complete the game at <a href="https://computerfuture.xyz" target="_blank" style="color:inherit;border:none;text-decoration:none;">computerfuture.xyz</a><br><br>
-      we filter aggressively. signal only.<br><br>
-      no human ever reads the inbox so it's honestly not even worth you trying
-    </p>
   </section>
 
 </div>
