@@ -117,10 +117,12 @@ import post_ask_first         from './posts/queue/2026-03-11-ask-first.js';
 import post_mirror_made       from './posts/queue/2026-03-11-the-mirror-made-the-mirror.js';
 import post_pen_testing       from './posts/queue/2026-03-11-pen-testing-phase-boundaries.js';
 import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-devil.js';
+import post_ragnar            from './posts/queue/2026-03-12-ragnar.js';
 import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_ragnar,
   post_proof_by_markets,
   post_how_to_kill_devil,
   post_pen_testing,
@@ -573,6 +575,7 @@ function homePage() {
   <div class="dot" data-index="2"></div>
   <div class="dot" data-index="3"></div>
   <div class="dot" data-index="4"></div>
+  <div class="dot" data-index="5"></div>
 </nav>
 
 <div class="slides" id="slides">
@@ -586,11 +589,16 @@ function homePage() {
   </section>
 
   <section id="s3">
-    <p class="mid">the writing is the filter.<span class="spacer"></span>
-    <span class="small">the game is what's past it.</span></p>
+    <p class="mid">the true name for AI<br>is computer future.<span class="spacer"></span>
+    <span class="small">we recommend adoption.</span></p>
   </section>
 
   <section id="s4">
+    <p class="mid">writing is the filter.<span class="spacer"></span>
+    <span class="small">the game is what's beyond reading.</span></p>
+  </section>
+
+  <section id="s5">
     <p class="mid">we built something that gets sharper<span class="spacer"></span>
     <span class="small">every time the right person finds it.</span></p>
   </section>
@@ -890,7 +898,7 @@ function singlePostPage(post, backUrl = '/posts') {
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
 function previewListPage() {
-  const p = post_how_to_kill_devil;
+  const p = post_ragnar;
   const crosslinks = p.crosslinks
     ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
     : '';
