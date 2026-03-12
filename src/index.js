@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_seldon_crisis_pub      from './posts/published/2026-03-12-the-seldon-crisis.js';
 import post_active_mirror_pub      from './posts/published/2026-03-11-the-active-mirror.js';
 import post_the_sinkhole_pub       from './posts/published/2026-03-10-the-sinkhole.js';
 import post_the_footer_pub         from './posts/published/2026-03-10-the-footer.js';
@@ -31,6 +32,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_seldon_crisis_pub,
   post_active_mirror_pub,
   post_the_sinkhole_pub,
   post_the_footer_pub,
@@ -109,9 +111,11 @@ import post_ask_first         from './posts/queue/2026-03-11-ask-first.js';
 import post_mirror_made       from './posts/queue/2026-03-11-the-mirror-made-the-mirror.js';
 import post_pen_testing       from './posts/queue/2026-03-11-pen-testing-phase-boundaries.js';
 import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-devil.js';
+import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_proof_by_markets,
   post_how_to_kill_devil,
   post_pen_testing,
   post_mirror_made,
@@ -915,7 +919,7 @@ function previewListPage() {
     ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
     : '';
 
-  const queueItems = QUEUE_POSTS.map(q => `
+  const queueItems = QUEUE_POSTS.filter(q => q.slug !== p.slug).map(q => `
     <div class="post-item">
       <div class="post-date">${q.date}</div>
       <div class="post-title"><a href="/preview/${q.slug}">${q.title}</a></div>
