@@ -280,7 +280,7 @@ const CSS = `
     display: flex;
     flex-direction: column;
     gap: 2.2rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100%;
     max-width: 640px;
   }
