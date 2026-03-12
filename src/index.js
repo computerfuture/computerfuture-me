@@ -595,7 +595,7 @@ function homePage() {
 
   <section id="s4">
     <p class="mid">writing is the filter.<span class="spacer"></span>
-    <span class="small">the game is past it.</span></p>
+    <span class="small">the game is beyond.</span></p>
   </section>
 
   <section id="s5">
