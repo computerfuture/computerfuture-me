@@ -582,7 +582,7 @@ function homePage() {
   </section>
 
   <section id="s2">
-    <p class="mid">a game that finds<br>the right people<br>before they arrive.</p>
+    <p class="mid">a game that tells you<br>your true name.</p>
   </section>
 
   <section id="s3">
