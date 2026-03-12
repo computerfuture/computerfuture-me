@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_game_walks_pub         from './posts/published/2026-03-12-the-game-walks.js';
 import post_seldon_crisis_pub      from './posts/published/2026-03-12-the-seldon-crisis.js';
 import post_active_mirror_pub      from './posts/published/2026-03-11-the-active-mirror.js';
 import post_the_sinkhole_pub       from './posts/published/2026-03-10-the-sinkhole.js';
@@ -32,6 +33,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_game_walks_pub,
   post_seldon_crisis_pub,
   post_active_mirror_pub,
   post_the_sinkhole_pub,
