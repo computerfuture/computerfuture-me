@@ -594,11 +594,6 @@ function homePage() {
   </section>
 
   <section id="s4">
-    <p class="mid">writing is the filter.<span class="spacer"></span>
-    <span class="small">the game is beyond.</span></p>
-  </section>
-
-  <section id="s5">
     <p class="mid">we built something that gets sharper<span class="spacer"></span>
     <span class="small">every time the right person finds it.</span></p>
   </section>
