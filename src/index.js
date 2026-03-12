@@ -845,18 +845,31 @@ function pageShell(title, body, extraHead = '') {
 }
 
 function postsPage() {
-  const items = ALL_POSTS.map(p => `
+  const featured = ALL_POSTS[0];
+  const featuredCrosslinks = (featured.crosslinks || []).map(l => {
+    const href = l.url === 'https://computerfuture.xyz'
+      ? `https://computerfuture.xyz?ref=me-${featured.slug}`
+      : l.url;
+    return `<a href="${href}" target="_blank">${l.label} →</a>`;
+  }).join('');
+
+  const items = ALL_POSTS.slice(1).map(p => `
     <div class="post-item">
       <div class="post-title"><a href="/posts/${p.slug}">${p.title}</a></div>
       <div class="post-excerpt">${p.excerpt}</div>
     </div>`).join('');
 
   return pageShell('posts', `
-<div class="posts-wrap">
+<div class="post-wrap">
   <a href="/" class="back-link">← computer future</a>
-  <h1 style="margin-top:2rem;">posts</h1>
-  <p class="posts-subtitle">thinking out loud</p>
-  ${items}
+  <div class="post-date" style="margin-top:2rem;">${featured.date}</div>
+  <h1>${featured.title}</h1>
+  <div class="post-body">${featured.body}</div>
+  ${featuredCrosslinks ? `<div class="post-crosslinks">${featuredCrosslinks}</div>` : ''}
+  <div style="margin-top:5rem;padding-top:2rem;border-top:1px solid #111;">
+    <p style="font-family:var(--font-mono);font-size:0.7rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2rem;">all posts</p>
+    ${items}
+  </div>
 </div>`);
 }
 
