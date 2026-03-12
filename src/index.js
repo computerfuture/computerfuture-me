@@ -599,11 +599,8 @@ function homePage() {
   </section>
 
   <section id="s-end" class="visible">
+    <p class="big">computer<br>future</p>
     <div class="links-grid">
-      <div class="link-row">
-        <span class="link-label">root</span>
-        <span class="link-url"><a href="/posts/the-root">computerfuture.me/posts/the-root</a></span>
-      </div>
       <div class="link-row">
         <span class="link-label">game</span>
         <span class="link-url"><a href="https://computerfuture.xyz" target="_blank">computerfuture.xyz</a></span>
