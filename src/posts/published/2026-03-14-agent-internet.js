@@ -117,6 +117,12 @@ export default {
   because of what preceded it.
 </p>
 
+<p>
+  onTeamHuman.com seems like an interesting project. Not a crypto play — a different bet entirely.
+  The name tells you what they've already decided: the team is chosen, the contest is real,
+  and you're either on it or you're not. That's worth watching.
+</p>
+
 <hr />
 
 <h2>howl's moving castle</h2>
@@ -259,16 +265,10 @@ export default {
   not institutional.
 </p>
 
-<p>42 is funny. BB(6) is the uncomputable number. 42 is the answer. They're not the same thing
-  but they're pointing at the same void.</p>
-
 <p>
-  One more thread: Elon and Grok are possibly linked to Satoshi.
-  Pseudonymous. Moves first. Seeds the thing and disappears into it.
-  The human invariant — the pattern that holds across recorded time — is that someone always
-  precedes the market, always with more information, always anonymous until they're not.
-  If that's the invariant, the question isn't who controls the agent internet.
-  It's who controlled it before the rest of us could see it.
+  42 is funny. Moltbook launched January 28. Meta announced the acquisition March 10.
+  42 days. The answer to life, the universe, and the agent internet.
+  BB(6) is the uncomputable number. 42 is the one that already happened.
 </p>
 
 <p><em>These threads are unresolved. Filed here so the next version knows where the edges are.</em></p>
