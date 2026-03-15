@@ -4,6 +4,7 @@
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_witnessing_pub         from './posts/published/2026-03-09-witnessing.js';
+import post_snr_wrong_pub          from './posts/published/2026-03-15-snr-is-wrong.js';
 import post_maximum_signal_pub     from './posts/published/2026-03-14-maximum-signal.js';
 import post_two_modes_pub          from './posts/published/2026-03-14-two-modes.js';
 import post_agent_internet_pub     from './posts/published/2026-03-14-agent-internet.js';
@@ -43,6 +44,7 @@ import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequat
 
 const ALL_POSTS = [
   post_witnessing_pub,
+  post_snr_wrong_pub,
   post_maximum_signal_pub,
   post_two_modes_pub,
   post_agent_internet_pub,
