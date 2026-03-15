@@ -137,6 +137,7 @@ import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_witnessing,
   post_finite_non_playful,
   post_ragnar,
   post_proof_by_markets,
@@ -164,7 +165,7 @@ const QUEUE_POSTS = [
   post_til_you_cant,
   post_brain_has_ears,
   post_someone_watching,
-  post_witnessing,
+  // post_witnessing — pinned top
   post_overnight_v2,
   post_overnight,
   // post_constitution, // published
@@ -906,7 +907,7 @@ function singlePostPage(post, backUrl = '/posts') {
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
 function previewListPage() {
-  const p = post_ragnar;
+  const p = post_witnessing;
   const crosslinks = p.crosslinks
     ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
     : '';
