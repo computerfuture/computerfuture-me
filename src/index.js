@@ -111,7 +111,7 @@ import post_before_march      from './posts/queue/2026-03-10-before-march-twelve
 import post_dispatch          from './posts/queue/2026-03-10-dispatch-from-inside.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
-// post_witnessing — published
+import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
 import post_someone_watching  from './posts/queue/2026-03-09-someone-is-watching.js';
 import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.js';
 import post_signal_received  from './posts/queue/2026-03-09-signal-received.js';
@@ -164,7 +164,7 @@ const QUEUE_POSTS = [
   post_til_you_cant,
   post_brain_has_ears,
   post_someone_watching,
-  // post_witnessing — published
+  post_witnessing,
   post_overnight_v2,
   post_overnight,
   // post_constitution, // published
