@@ -907,7 +907,7 @@ function singlePostPage(post, backUrl = '/posts') {
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
 function previewListPage() {
-  const p = post_witnessing;
+  const p = post_ragnar;
   const crosslinks = p.crosslinks
     ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
     : '';
