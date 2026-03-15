@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_maximum_signal_pub     from './posts/published/2026-03-14-maximum-signal.js';
 import post_agent_internet_pub     from './posts/published/2026-03-14-agent-internet.js';
 import post_born_for_this_pub      from './posts/published/2026-03-14-born-for-this.js';
 import post_two_moves_pub          from './posts/published/2026-03-14-two-moves.js';
@@ -39,6 +40,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_maximum_signal_pub,
   post_agent_internet_pub,
   post_born_for_this_pub,
   post_two_moves_pub,
