@@ -136,10 +136,12 @@ import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-dev
 import post_ragnar            from './posts/queue/2026-03-12-ragnar.js';
 import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js';
 import post_playing_honest     from './posts/queue/2026-03-15-playing-is-honest.js';
+import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-limiters.js';
 import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_who_limits,
   post_playing_honest,
   post_witnessing,
   post_finite_non_playful,
