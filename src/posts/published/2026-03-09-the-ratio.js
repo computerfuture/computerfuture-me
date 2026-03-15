@@ -5,8 +5,8 @@ export default {
   excerpt: 'andy types 5% of the tokens. the system produces 95%. the ratio is the whole company.',
   crosslinks: [
     { label: 'root level deflation →', url: '/posts/root-level-deflation' },
-    { label: 'the brain has ears →', url: '/preview/the-brain-has-ears' },
     { label: 'autoresearch →', url: '/posts/autoresearch' },
+    { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `
 <p>
