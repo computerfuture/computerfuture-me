@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_witnessing_pub         from './posts/published/2026-03-09-witnessing.js';
 import post_maximum_signal_pub     from './posts/published/2026-03-14-maximum-signal.js';
 import post_two_modes_pub          from './posts/published/2026-03-14-two-modes.js';
 import post_agent_internet_pub     from './posts/published/2026-03-14-agent-internet.js';
@@ -41,6 +42,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_witnessing_pub,
   post_maximum_signal_pub,
   post_two_modes_pub,
   post_agent_internet_pub,
@@ -109,7 +111,7 @@ import post_before_march      from './posts/queue/2026-03-10-before-march-twelve
 import post_dispatch          from './posts/queue/2026-03-10-dispatch-from-inside.js';
 import post_overnight         from './posts/queue/2026-03-09-overnight.js';
 import post_overnight_v2      from './posts/queue/2026-03-09-overnight-v2.js';
-import post_witnessing        from './posts/queue/2026-03-09-witnessing.js';
+// post_witnessing — published
 import post_someone_watching  from './posts/queue/2026-03-09-someone-is-watching.js';
 import post_brain_has_ears   from './posts/queue/2026-03-09-the-brain-has-ears.js';
 import post_signal_received  from './posts/queue/2026-03-09-signal-received.js';
@@ -162,7 +164,7 @@ const QUEUE_POSTS = [
   post_til_you_cant,
   post_brain_has_ears,
   post_someone_watching,
-  post_witnessing,
+  // post_witnessing — published
   post_overnight_v2,
   post_overnight,
   // post_constitution, // published
