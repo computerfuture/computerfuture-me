@@ -865,18 +865,28 @@ function pageShell(title, body, extraHead = '') {
 }
 
 function postsPage() {
-  const items = ALL_POSTS.map(p => `
+  const p = post_witnessing_pub;
+  const crosslinks = p.crosslinks
+    ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
+    : '';
+
+  const listItems = ALL_POSTS.filter(q => q.slug !== p.slug).map(q => `
     <div class="post-item">
-      <div class="post-title"><a href="/posts/${p.slug}">${p.title}</a></div>
-      <div class="post-excerpt">${p.excerpt}</div>
+      <div class="post-title"><a href="/posts/${q.slug}">${q.title}</a></div>
+      <div class="post-excerpt">${q.excerpt}</div>
     </div>`).join('');
 
-  return pageShell('posts', `
-<div class="posts-wrap">
+  return pageShell(p.title, `
+<div class="post-wrap">
   <a href="/" class="back-link">← computer future</a>
-  <h1 style="margin-top:2rem;">posts</h1>
-  <p class="posts-subtitle">thinking out loud</p>
-  ${items}
+  <div class="post-date" style="margin-top:2rem;">${p.date}</div>
+  <h1>${p.title}</h1>
+  <div class="post-body">${p.body}</div>
+  ${crosslinks ? `<div class="post-crosslinks">${crosslinks}</div>` : ''}
+  <div style="margin-top:5rem;padding-top:2rem;border-top:1px solid #111;">
+    <p style="font-family:var(--font-mono);font-size:0.7rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2rem;">posts</p>
+    ${listItems}
+  </div>
 </div>`);
 }
 
