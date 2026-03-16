@@ -140,9 +140,11 @@ import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js
 import post_playing_honest     from './posts/queue/2026-03-15-playing-is-honest.js';
 import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-limiters.js';
 import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful.js';
+import post_molted_preview     from './posts/queue/2026-03-15-molted-moltbook-preview.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_molted_preview,
   post_who_limits,
   post_playing_honest,
   post_witnessing,
@@ -962,8 +964,18 @@ async function notifyAndy(env, message) {
   });
 }
 
+const BEACON_SCRIPT = `<script>
+(function(){var p=location.pathname,r=document.referrer||'';
+fetch('https://board.computerfuture.me/beacon',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({site:'me',page:p,ref:r})}).catch(function(){});
+})();
+</script>`;
+
+function withBeacon(html) {
+  return html.replace('</body>', BEACON_SCRIPT + '</body>');
+}
+
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const path = url.pathname.replace(/\/$/, '') || '/';
 
@@ -990,14 +1002,14 @@ export default {
       );
     }
 
-    if (path === '/') return new Response(homePage(), { headers });
-    if (path === '/inspiration') return new Response(inspirationPage(), { headers });
-    if (path === '/posts') return new Response(postsPage(), { headers });
+    if (path === '/') return new Response(withBeacon(homePage()), { headers });
+    if (path === '/inspiration') return new Response(withBeacon(inspirationPage()), { headers });
+    if (path === '/posts') return new Response(withBeacon(postsPage()), { headers });
 
     if (path.startsWith('/posts/')) {
       const slug = path.slice('/posts/'.length);
       const post = ALL_POSTS.find(p => p.slug === slug);
-      if (post) return new Response(singlePostPage(post), { headers });
+      if (post) return new Response(withBeacon(singlePostPage(post)), { headers });
     }
 
     if (path === '/preview') return new Response(previewListPage(), { headers: noindexHeaders });
