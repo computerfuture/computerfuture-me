@@ -4,6 +4,7 @@
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_witnessing_pub         from './posts/published/2026-03-09-witnessing.js';
+import post_morality_pub           from './posts/published/2026-03-15-morality-of-the-moment.js';
 import post_snr_wrong_pub          from './posts/published/2026-03-15-snr-is-wrong.js';
 import post_maximum_signal_pub     from './posts/published/2026-03-14-maximum-signal.js';
 import post_two_modes_pub          from './posts/published/2026-03-14-two-modes.js';
@@ -43,6 +44,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_morality_pub,
   post_witnessing_pub,
   post_snr_wrong_pub,
   post_maximum_signal_pub,
