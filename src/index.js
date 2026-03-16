@@ -4,6 +4,7 @@
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_window_closes_pub      from './posts/published/2026-03-16-the-window-closes.js';
+import post_manual_telescoping_pub from './posts/published/2026-03-16-manual-telescoping.js';
 import post_witnessing_pub         from './posts/published/2026-03-09-witnessing.js';
 import post_iteration_pub          from './posts/published/2026-03-15-iteration-is-time-travel.js';
 import post_morality_pub           from './posts/published/2026-03-15-morality-of-the-moment.js';
@@ -47,6 +48,7 @@ import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequat
 
 const ALL_POSTS = [
   post_window_closes_pub,
+  post_manual_telescoping_pub,
   post_iteration_pub,
   post_morality_pub,
   post_witnessing_pub,
