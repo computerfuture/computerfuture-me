@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_writing_is_work_pub    from './posts/published/2026-03-18-the-writing-is-the-work.js';
 import post_window_closes_pub      from './posts/published/2026-03-16-the-window-closes.js';
 import post_manual_telescoping_pub from './posts/published/2026-03-16-manual-telescoping.js';
 import post_witnessing_pub         from './posts/published/2026-03-09-witnessing.js';
@@ -47,6 +48,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_writing_is_work_pub,
   post_window_closes_pub,
   post_manual_telescoping_pub,
   post_iteration_pub,
