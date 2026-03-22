@@ -6,7 +6,7 @@ export default {
   crosslinks: [
     { label: 'manual telescoping →', url: '/posts/manual-telescoping' },
     { label: 'iteration is time travel →', url: '/posts/iteration-is-time-travel' },
-    { label: 'the computer future is near →', url: 'https://a-z.md/posts/jn7cbssabe09bsntjnjvc0dn5n835qht' },
+    { label: 'root level deflation →', url: '/posts/root-level-deflation' },
   ],
   body: `
 <!-- written: 2026-03-18 -->
