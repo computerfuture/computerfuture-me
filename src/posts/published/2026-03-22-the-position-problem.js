@@ -6,6 +6,7 @@ export default {
   crosslinks: [
     { label: 'demoting laplace\'s demon →', url: '/posts/demoting-laplaces-demon' },
     { label: 'morality of the moment →', url: '/posts/morality-of-the-moment' },
+    { label: 'soil knows (a-z.md) →', url: 'https://a-z.md/posts/jn75j9jqf9k75eh7v0tbfzeat583dkcf' },
   ],
   body: `
 <!-- written: 2026-03-22 -->
