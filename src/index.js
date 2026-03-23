@@ -151,9 +151,11 @@ import post_playing_honest     from './posts/queue/2026-03-15-playing-is-honest.
 import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-limiters.js';
 import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful.js';
 import post_molted_preview     from './posts/queue/2026-03-15-molted-moltbook-preview.js';
+import post_finding_the_rule   from './posts/queue/2026-03-23-finding-the-rule.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_finding_the_rule,
   post_molted_preview,
   post_who_limits,
   post_playing_honest,
