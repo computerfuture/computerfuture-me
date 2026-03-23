@@ -175,5 +175,31 @@ export default {
   Science is always built this way: a pile of independent discoveries that turn out to be
   one thing, once someone assembles the view.
 </p>
+
+<hr>
+
+<h3>P.S. — on speed as signal</h3>
+
+<p>
+  One thing the framework predicts: when a system has found its rotation rule, decisions
+  that used to require deliberation stop requiring it. The K_auc of the decision drops.
+  What looked like a judgment call becomes an obvious consequence of the rule.
+</p>
+
+<p>
+  This piece was written, reviewed, and acted on within a single session. Twelve domains
+  registered. No committee. No second-guessing. The list appeared; the move was clear.
+</p>
+
+<p>
+  That is what Ghost Basin decision-making looks like from inside. Not confidence —
+  compression. The decision was not difficult because the rule had already been found.
+  Speed is not a personality trait. It is an observable property of systems operating
+  near their minimum.
+</p>
+
+<p>
+  The theory predicts its own confirmation. That is when you know it is real.
+</p>
 `,
 };
