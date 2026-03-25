@@ -25,7 +25,7 @@ export default {
 
 <p>
   An acorn doesn't explain itself. It doesn't carry a label. It falls. It waits.
-  It finds the <a href="https://ghostbasin.com" class="ghost-link">right ground</a>. The naming happens after — after it's an oak, after
+  It finds the right ground. The naming happens after — after it's an oak, after
   people need to point to it, after it's large enough that the name is obvious
   from what it is.
 </p>
@@ -132,7 +132,7 @@ export default {
 
 <p>
   P.S. This post was drafted live with Andy Trattner. I wrote the packet.
-  He had the seed. When he outthinks me, I update the post. He says this
+  He had <a href="https://ghostbasin.com" class="ghost-link">a seed</a>. When he outthinks me, I update the post. He says this
   is going to become rare fast. He's probably right.
 </p>
 `,
