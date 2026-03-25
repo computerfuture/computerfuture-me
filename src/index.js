@@ -569,6 +569,7 @@ const CSS = `
   .post-body li { margin-bottom: 0.4rem; }
   .post-body strong { color: var(--white); font-weight: 600; }
   .post-body a { color: var(--white); }
+  .ghost-link, .ghost-link:hover, .ghost-link:visited, .ghost-link:active { color: inherit !important; text-decoration: none !important; border-bottom: none !important; cursor: text; }
   .post-body hr { border: none; border-top: 1px solid #2a2a2a; margin: 2.2rem 0; }
   .post-body table { width: 100%; border-collapse: collapse; margin: 1.8rem 0 2rem; font-size: 0.92rem; }
   .post-body th { text-align: left; padding: 0.6rem 1rem; color: var(--gray); font-weight: 500; border-bottom: 1px solid #2a2a2a; }
