@@ -4,9 +4,6 @@ export default {
   slug: 'dipolarity',
   excerpt: 'bottom up and top down are the same question: how much of the decision tree can you hold?',
   crosslinks: [
-    { label: 'psychohistory is real →', url: '/posts/psychohistory-is-real' },
-    { label: 'the opposite pole →', url: '/posts/opposite-pole' },
-    { label: 'society is a technology →', url: '/posts/society-is-a-technology' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `
@@ -56,6 +53,7 @@ export default {
   Google's weather models beat meteorologists not because they understand the atmosphere better —
   because they hold more branches simultaneously.
   The GPU made this cheap enough to run at scale.
+  Parallel, not serial — Jensen calls it a time machine.
 </p>
 
 <h2>Seldon's bet</h2>
@@ -64,7 +62,7 @@ export default {
   Asimov's Hari Seldon didn't predict individual futures.
   He learned to read the statistical shape of civilizational trees
   and act from the shape, not the certainty.
-  This is what <a href="/posts/psychohistory-is-real">psychohistory</a> means.
+  This is what psychohistory means.
   The substrate is finally cheap enough to run it.
 </p>
 
