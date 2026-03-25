@@ -53,6 +53,9 @@ export default {
   Jensen Huang calls it "seeing around corners."
   Google's weather models beat meteorologists not because they understand the atmosphere better —
   because they hold more branches simultaneously.
+</p>
+
+<p>
   The GPU made this cheap enough to run at scale.
   Parallel, not serial — Jensen calls it a time machine.
 </p>
