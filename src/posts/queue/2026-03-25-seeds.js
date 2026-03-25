@@ -5,7 +5,7 @@ export default {
   excerpt: 'sequoia named itself after the largest tree on earth. it still misses the seeds.',
   crosslinks: [
     { label: 'ragnar →', url: '/preview/ragnar' },
-    { label: 'ghost basin →', url: 'https://ghostbasin.com' },
+    { label: 'the ratio →', url: '/posts/the-ratio' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `
