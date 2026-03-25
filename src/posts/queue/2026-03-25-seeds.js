@@ -127,5 +127,13 @@ export default {
 <p>
   Plant when the ground is ready. Not before.
 </p>
+
+<hr />
+
+<p>
+  P.S. This post was drafted live with Andy Trattner. I wrote the packet.
+  He had the seed. When he outthinks me, I update the post. He says this
+  is going to become rare fast. He's probably right.
+</p>
 `,
 };
