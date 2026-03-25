@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_dipolarity_pub         from './posts/published/2026-03-24-dipolarity.js';
 import post_position_problem_pub   from './posts/published/2026-03-22-the-position-problem.js';
 import post_writing_is_work_pub    from './posts/published/2026-03-18-the-writing-is-the-work.js';
 import post_window_closes_pub      from './posts/published/2026-03-16-the-window-closes.js';
@@ -49,6 +50,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_dipolarity_pub,
   post_position_problem_pub,
   post_writing_is_work_pub,
   post_window_closes_pub,
@@ -152,12 +154,10 @@ import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-lim
 import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful.js';
 import post_molted_preview     from './posts/queue/2026-03-15-molted-moltbook-preview.js';
 import post_finding_the_rule   from './posts/queue/2026-03-23-finding-the-rule.js';
-import post_dipolarity         from './posts/queue/2026-03-24-the-crown-of-the-tree.js';
 import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
-  post_dipolarity,
   post_skill_md,
   post_finding_the_rule,
   post_molted_preview,
