@@ -7,7 +7,6 @@ export default {
     { label: 'root-level deflation →', url: '/posts/root-level-deflation' },
     { label: 'the resource allocator →', url: '/posts/the-resource-allocator' },
     { label: 'context windows →', url: '/posts/context-windows' },
-    { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `
 <p>
