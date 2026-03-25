@@ -25,7 +25,7 @@ export default {
 
 <p>
   An acorn doesn't explain itself. It doesn't carry a label. It falls. It waits.
-  It finds the <a href="https://ghostbasin.com">right ground</a>. The naming happens after — after it's an oak, after
+  It finds the <a href="https://ghostbasin.com" style="color:inherit;text-decoration:none;">right ground</a>. The naming happens after — after it's an oak, after
   people need to point to it, after it's large enough that the name is obvious
   from what it is.
 </p>
