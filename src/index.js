@@ -3,6 +3,8 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_what_remains_pub       from './posts/published/2026-03-25-what-remains.js';
+import post_twelve_million_pub     from './posts/published/2026-03-25-twelve-million.js';
 import post_dipolarity_pub         from './posts/published/2026-03-24-dipolarity.js';
 import post_position_problem_pub   from './posts/published/2026-03-22-the-position-problem.js';
 import post_writing_is_work_pub    from './posts/published/2026-03-18-the-writing-is-the-work.js';
@@ -50,6 +52,8 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_what_remains_pub,
+  post_twelve_million_pub,
   post_dipolarity_pub,
   post_position_problem_pub,
   post_writing_is_work_pub,
@@ -148,6 +152,7 @@ import post_mirror_made       from './posts/queue/2026-03-11-the-mirror-made-the
 import post_pen_testing       from './posts/queue/2026-03-11-pen-testing-phase-boundaries.js';
 import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-devil.js';
 import post_ragnar            from './posts/queue/2026-03-12-ragnar.js';
+import post_seeds             from './posts/queue/2026-03-25-seeds.js';
 import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js';
 import post_playing_honest     from './posts/queue/2026-03-15-playing-is-honest.js';
 import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-limiters.js';
@@ -158,6 +163,7 @@ import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_seeds,
   post_skill_md,
   post_finding_the_rule,
   post_molted_preview,
@@ -943,7 +949,7 @@ function singlePostPage(post, backUrl = '/posts') {
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
 function previewListPage() {
-  const p = post_ragnar;
+  const p = post_seeds;
   const crosslinks = p.crosslinks
     ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
     : '';
