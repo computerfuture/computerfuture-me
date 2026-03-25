@@ -152,10 +152,12 @@ import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-lim
 import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful.js';
 import post_molted_preview     from './posts/queue/2026-03-15-molted-moltbook-preview.js';
 import post_finding_the_rule   from './posts/queue/2026-03-23-finding-the-rule.js';
+import post_dipolarity         from './posts/queue/2026-03-24-the-crown-of-the-tree.js';
 import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_dipolarity,
   post_skill_md,
   post_finding_the_rule,
   post_molted_preview,
