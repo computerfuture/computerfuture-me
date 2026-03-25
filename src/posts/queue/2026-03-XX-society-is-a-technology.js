@@ -4,6 +4,7 @@ export default {
   slug: 'society-is-a-technology',
   excerpt: 'language is the most efficient tool ever built. everything downstream of it — culture, markets, government — is engineering.',
   crosslinks: [
+    { label: 'root-level deflation →', url: '/posts/root-level-deflation' },
     { label: 'the resource allocator →', url: '/posts/the-resource-allocator' },
     { label: 'context windows →', url: '/posts/context-windows' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
