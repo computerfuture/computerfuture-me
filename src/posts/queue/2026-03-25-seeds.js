@@ -54,6 +54,10 @@ export default {
 </p>
 
 <p>
+  Don Valentine had a seed in his heart.
+</p>
+
+<p>
   The pattern-matching that made the fund successful is also what makes it
   illegible to the thing that doesn't match the pattern yet. The template that
   finds the next Google is also the template that rejects the thing that will
