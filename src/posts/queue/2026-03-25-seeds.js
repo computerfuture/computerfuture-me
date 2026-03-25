@@ -54,7 +54,10 @@ export default {
 </p>
 
 <p>
-  Don Valentine had a seed in his heart.
+  Don Valentine had a seed in his heart. He looked for large markets because
+  he could see the seed in them before anyone else could. The people who followed
+  inherited the conclusion — large markets — without the seed that produced it.
+  They turned his output into their input.
 </p>
 
 <p>
