@@ -413,9 +413,5 @@ export default {
 <hr />
 
 <p>Build earlier. Compound longer. The advantage is time.</p>
-
-<hr />
-
-<p><em>The filter is already running.</em></p>
 `,
 };
