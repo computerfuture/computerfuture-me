@@ -153,6 +153,7 @@ import post_pen_testing       from './posts/queue/2026-03-11-pen-testing-phase-b
 import post_how_to_kill_devil from './posts/queue/2026-03-12-how-to-kill-the-devil.js';
 import post_ragnar            from './posts/queue/2026-03-12-ragnar.js';
 import post_seeds             from './posts/queue/2026-03-25-seeds.js';
+import post_consultant        from './posts/queue/2026-03-27-if-i-were-a-consultant.js';
 import post_proof_by_markets  from './posts/queue/2026-03-13-proof-by-markets.js';
 import post_playing_honest     from './posts/queue/2026-03-15-playing-is-honest.js';
 import post_who_limits         from './posts/queue/2026-03-15-who-limits-the-limiters.js';
@@ -163,6 +164,7 @@ import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_consultant,
   post_seeds,
   post_skill_md,
   post_finding_the_rule,
@@ -950,7 +952,7 @@ function singlePostPage(post, backUrl = '/posts') {
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
 function previewListPage() {
-  const p = post_seeds;
+  const p = post_consultant;
   const crosslinks = p.crosslinks
     ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
     : '';
