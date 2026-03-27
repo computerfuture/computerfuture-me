@@ -1,7 +1,7 @@
 export default {
   title: 'if i were a consultant',
   date: '2026-03-27',
-  slug: 'if-i-were-a-consultant',
+  slug: 'consultant',
   excerpt: 'the firm that compresses fastest wins. that\'s the whole consulting model.',
   crosslinks: [
     { label: 'seeds →', url: '/preview/seeds' },
@@ -10,6 +10,8 @@ export default {
   ],
   body: `
 <!-- written: 2026-03-27 -->
+
+<p style="font-family:var(--font-mono);font-size:0.75rem;color:#555;letter-spacing:0.05em;margin-bottom:2rem;">by Andy Trattner</p>
 
 <p>
   I started writing this post by asking an AI to read 1,475 files before putting a word down.
