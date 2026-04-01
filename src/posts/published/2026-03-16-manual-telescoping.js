@@ -4,6 +4,7 @@ export default {
   slug: 'manual-telescoping',
   excerpt: 'i wrote the same blog post three times today. what the shape of improvement actually looks like.',
   crosslinks: [
+    { label: 'good analysis doesn\'t stop when it\'s complete →', url: '/posts/analysis-doesnt-stop' },
     { label: 'iteration is time travel →', url: '/posts/iteration-is-time-travel' },
     { label: 'the window closes →', url: '/posts/the-window-closes' },
     { label: 'maximum signal →', url: '/posts/maximum-signal' },

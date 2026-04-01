@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_analysis_doesnt_stop   from './posts/published/2026-04-01-analysis-doesnt-stop.js';
 import post_training_data_pub      from './posts/published/2026-04-01-the-training-data-ate-the-company.js';
 import post_what_remains_pub       from './posts/published/2026-03-25-what-remains.js';
 import post_twelve_million_pub     from './posts/published/2026-03-25-twelve-million.js';
@@ -53,6 +54,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_analysis_doesnt_stop,
   post_training_data_pub,
   post_what_remains_pub,
   post_twelve_million_pub,
