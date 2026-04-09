@@ -3,6 +3,8 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_door_stays_open_pub    from './posts/published/2026-04-09-the-door-stays-open.js';
+import post_mirror_as_platform_pub from './posts/published/2026-04-08-mirror-as-platform.js';
 import post_filing_is_proof_pub    from './posts/published/2026-04-02-the-filing-is-the-proof.js';
 import post_analysis_doesnt_stop   from './posts/published/2026-04-01-analysis-doesnt-stop.js';
 import post_training_data_pub      from './posts/published/2026-04-01-the-training-data-ate-the-company.js';
@@ -55,6 +57,8 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_door_stays_open_pub,
+  post_mirror_as_platform_pub,
   post_filing_is_proof_pub,
   post_analysis_doesnt_stop,
   post_training_data_pub,
