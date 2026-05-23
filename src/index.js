@@ -3,6 +3,7 @@
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
+import post_small_enough_to_read   from './posts/published/2026-05-23-small-enough-to-read.js';
 import post_door_stays_open_pub    from './posts/published/2026-04-09-the-door-stays-open.js';
 import post_mirror_as_platform_pub from './posts/published/2026-04-08-mirror-as-platform.js';
 import post_filing_is_proof_pub    from './posts/published/2026-04-02-the-filing-is-the-proof.js';
@@ -57,6 +58,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_small_enough_to_read,
   post_door_stays_open_pub,
   post_mirror_as_platform_pub,
   post_filing_is_proof_pub,
@@ -113,6 +115,7 @@ const ALL_POSTS = [
 ];
 
 // ── Queued drafts (preview at /preview and /preview/:slug) ─────────────────
+import post_tech_uses_you     from './posts/queue/2026-04-12-the-technology-uses-you.js';
 import post_chess_world       from './posts/queue/2026-03-XX-chess-world.js';
 import post_dictionary        from './posts/queue/2026-03-XX-you-are-the-dictionary.js';
 import post_ghost_reads       from './posts/queue/2026-03-XX-ghost-reads-first.js';
@@ -174,6 +177,7 @@ import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_tech_uses_you,
   post_consultant,
   post_seeds,
   post_skill_md,
