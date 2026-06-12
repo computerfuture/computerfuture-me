@@ -2,7 +2,7 @@
 // Brand hub for Computer Future. Anonymous — no attribution.
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
-import simplePage from './simple-page.js';
+import { handleSimpleApi, simpleHomePage, simpleWorkbenchPage } from './simple-lab.js';
 
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_small_enough_to_read   from './posts/published/2026-05-23-small-enough-to-read.js';
@@ -1107,13 +1107,27 @@ export default {
     }
 
     if (path === '/simple' || path === '/simple/index.html') {
-      return new Response(simplePage, {
+      return new Response(simpleHomePage(), {
         headers: {
           ...noindexHeaders,
           'x-robots-tag': 'noindex, nofollow, noarchive, nosnippet, noimageindex',
           'referrer-policy': 'no-referrer',
         },
       });
+    }
+
+    if (path === '/simple/workbench') {
+      return new Response(simpleWorkbenchPage(), {
+        headers: {
+          ...noindexHeaders,
+          'x-robots-tag': 'noindex, nofollow, noarchive, nosnippet, noimageindex',
+          'referrer-policy': 'no-referrer',
+        },
+      });
+    }
+
+    if (path.startsWith('/simple/api')) {
+      return handleSimpleApi(request, env, path);
     }
 
     if (path === '/') return new Response(withBeacon(homePage()), { headers });
