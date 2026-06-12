@@ -2,6 +2,8 @@
 // Brand hub for Computer Future. Anonymous — no attribution.
 // Routes: / (manifesto slides), /inspiration, /posts, /posts/:slug, * (404)
 
+import simplePage from './simple-page.js';
+
 // ── Published posts (live at /posts) ───────────────────────────────────────
 import post_small_enough_to_read   from './posts/published/2026-05-23-small-enough-to-read.js';
 import post_door_stays_open_pub    from './posts/published/2026-04-09-the-door-stays-open.js';
@@ -1093,7 +1095,7 @@ export default {
 
     if (path === '/robots.txt') {
       return new Response(
-        'User-agent: *\nDisallow: /preview\nDisallow: /preview/\n',
+        'User-agent: *\nDisallow: /preview\nDisallow: /preview/\nDisallow: /simple\nDisallow: /simple/\n',
         { headers: { 'content-type': 'text/plain', 'cache-control': 'public, max-age=86400' } }
       );
     }
@@ -1101,6 +1103,16 @@ export default {
     if (path === '/llms.txt') {
       return new Response(LLMS_TXT, {
         headers: { 'content-type': 'text/plain;charset=UTF-8', 'cache-control': 'no-cache' }
+      });
+    }
+
+    if (path === '/simple' || path === '/simple/index.html') {
+      return new Response(simplePage, {
+        headers: {
+          ...noindexHeaders,
+          'x-robots-tag': 'noindex, nofollow, noarchive, nosnippet, noimageindex',
+          'referrer-policy': 'no-referrer',
+        },
       });
     }
 
