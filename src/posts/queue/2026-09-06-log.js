@@ -16,6 +16,19 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:48 PT · forever-tick</strong><br />
+  Strip pass on <code>content/drafts/confused-deputy.md</code> (~437w body, still HOLD):
+  cut eval restatement + crosslink padding; hard line once. Dry-run clear ≠ aloud PASS.
+  Evening ~19:00 still owns <code>fit-is-the-method</code> convert. Public <strong>3/10</strong>
+  (molt + two-trifectas + soft-shell-commons). Micros since ~16:30 consolidate:
+  <strong>5</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash. Day-log append only
+  (no forever-tick-* slug). Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">confused-deputy strip · fit HOLD evening · public 3/10 · micros 5/20 · no public ship</pre>
+</details>
+<hr />
+
 <p><strong>~16:46 PT · preview-stream</strong><br />
   Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
   still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
