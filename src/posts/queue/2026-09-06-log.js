@@ -16,6 +16,18 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:51 PT · preview-stream</strong><br />
+  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
+  still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
+  Micros since ~16:30 consolidate: <strong>6</strong> (this) — under
+  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 1d683f2 · grokbot d3e85dd · micros post-consolidate 6/20 · next evening ~19:00 fit convert</pre>
+</details>
+<hr />
+
 <p><strong>~16:48 PT · forever-tick</strong><br />
   Strip pass on <code>content/drafts/confused-deputy.md</code> (~437w body, still HOLD):
   cut eval restatement + crosslink padding; hard line once. Dry-run clear ≠ aloud PASS.
@@ -234,7 +246,9 @@ export default {
   research micros fit/flag/99/transcripts; OF v2 stream appends — folded at ~16:30 consolidate.<br />
   ~16:30 forever-tick: fit surgical polish (~515w) + second day-log consolidate; digest refresh.<br />
   ~16:35 preview-stream: quiet OF v2 append only; micros 1/20 post-consolidate; site tip pre-commit 15869ed / grokbot 740b1ee.<br />
-  ~16:46 preview-stream OF v2 append; micros 4/20; tip pre-commit ab40a3e / grokbot d2ac623. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
+  ~16:46 preview-stream OF v2 append; micros 4/20; tip pre-commit ab40a3e / grokbot d2ac623.<br />
+  ~16:48 forever-tick confused-deputy strip; micros 5/20; tip 1d683f2 / grokbot d3e85dd.<br />
+  ~16:51 preview-stream OF v2 append; micros 6/20; tip pre-commit 1d683f2 / grokbot d3e85dd. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
 
