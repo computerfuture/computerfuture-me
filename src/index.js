@@ -60,6 +60,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_two_trifectas_pub,
   post_molt_pub,
   post_small_enough_to_read,
   post_door_stays_open_pub,
@@ -127,6 +128,7 @@ import post_orchestrator      from './posts/queue/2026-03-XX-you-think-youre-the
 import post_living_book       from './posts/queue/2026-04-01-the-living-book.js';
 import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js';
 import post_molt_pub           from './posts/published/2026-09-06-molt.js';
+import post_two_trifectas_pub from './posts/published/2026-09-06-two-trifectas.js';
 import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js';
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
@@ -219,6 +221,7 @@ import post_research_micro_1231 from './posts/queue/2026-09-06-research-micro-12
 import post_research_micro_1328 from './posts/queue/2026-09-06-research-micro-1328.js';
 import post_public_gate_1219 from './posts/queue/2026-09-06-public-gate-1219.js';
 import post_public_gate_1346 from './posts/queue/2026-09-06-public-gate-1346.js';
+import post_publish_wave_b from './posts/queue/2026-09-06-publish-wave-b.js';
 import post_preview_stream_1222 from './posts/queue/2026-09-06-preview-stream-1222.js';
 import post_sha_trail_1222 from './posts/queue/2026-09-06-sha-trail-1222.js';
 import post_hold_next_1222 from './posts/queue/2026-09-06-hold-next-1222.js';
@@ -227,6 +230,7 @@ import post_hold_next_1156 from './posts/queue/2026-09-06-hold-next-1156.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_publish_wave_b,
   post_public_gate_1346,
   post_research_micro_1328,
   post_research_micro_1231,
