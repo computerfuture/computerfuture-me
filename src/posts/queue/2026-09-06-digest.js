@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS), post-wave public-gate miss on fit, fit/flag seeds HOLD.',
+  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; confused-deputy crystalized HOLD.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
@@ -57,10 +57,11 @@ export default {
 </p>
 
 <p><strong>Next crystal HOLD.</strong>
-  <em>Fit is the method</em> stays HOLD after Wave C. Forever-tick ~16:30 surgical polish
-  (~561→~515w body) — mid crosslink tightened (2 published links; workshop meta cut);
-  dry-run clear ≠ aloud PASS. Evening improve owns convert. Residual 3/10 ≠ soft-promote.
-  Sibling seeds seed-only (flag-the-absence / 99-is-not-a-number).
+  <em>Fit is the method</em> stays HOLD after Wave C (evening ~19:00 owns aloud PASS).
+  Forever-tick ~16:39 crystalized <em>confused deputy</em> as a second HOLD draft
+  (<code>content/drafts/confused-deputy.md</code>, ~520w) — broker-as-boundary, not soft-shell
+  rehash. Residual 3/10 ≠ soft-promote either crystal. Sibling seeds seed-only
+  (flag-the-absence / 99-is-not-a-number).
 </p>
 
 <p><strong>OF v2 + Mac.</strong>
@@ -79,7 +80,7 @@ export default {
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:30</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:39</em>
 </p>
 `,
 };

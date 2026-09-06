@@ -16,6 +16,17 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:39 PT · forever-tick</strong><br />
+  Crystalized <code>content/drafts/confused-deputy.md</code> (~520w body, DRAFT HOLD):
+  broker-as-boundary / delegated fetch as fence — distinct from soft-shell commons
+  (write-as-board) and molt (soft-window metaphor). Dry-run clear ≠ aloud PASS;
+  evening ~19:00 still owns <code>fit-is-the-method</code> convert. Soft-shell seed+stub
+  marked SHIPPED. Public <strong>3/10</strong>. Micros since ~16:30 consolidate:
+  <strong>~2</strong> (preview-stream + this) — under 20, no squash. No forever-tick-* slug.
+  Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~16:35 PT · preview-stream</strong><br />
   Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
   still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
