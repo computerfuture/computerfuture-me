@@ -16,6 +16,17 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:26 PT · research-micro</strong><br />
+  Signal: live <code>/posts/99-is-not-a-number</code> (+ what-games-reveal / llms.txt / CSET Beyond P(doom) color).
+  Crystal: <strong>99% is not a number</strong> — a percent without base rates, update conditions, and
+  falsifiers is a prior held with conviction; risk theater until agency is observable in behavior
+  under ambiguity (living benchmark, not slogan math).
+  Memo <code>ops/analysis/2026-09-06-99-is-not-a-number-micro.md</code>; seed
+  <code>content/drafts/99-is-not-a-number-seed.md</code> HOLD. No /posts; soft-shell already SHIPPED;
+  fit-is-the-method stays evening HOLD. Public <strong>3/10</strong>. Day-log append only (no new slug).
+</p>
+<hr />
+
 <p><strong>~16:22 PT · forever-tick</strong><br />
   Cold-read strip on <code>fit-is-the-method.md</code> (~563w body): meta closing moved to status;
   compressed crosslink + ambition overlap. Still <strong>HOLD</strong> — evening improve owns aloud PASS.
