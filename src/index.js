@@ -179,141 +179,38 @@ import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful
 import post_molted_preview     from './posts/queue/2026-03-15-molted-moltbook-preview.js';
 import post_finding_the_rule   from './posts/queue/2026-03-23-finding-the-rule.js';
 import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
+import post_digest_20260906 from './posts/queue/2026-09-06-digest.js';
+import post_log_20260906 from './posts/queue/2026-09-06-log.js';
 import post_preview_stream_tick from './posts/queue/2026-09-06-preview-stream-tick.js';
 import post_next_bets_after_molt from './posts/queue/2026-09-06-next-bets-after-molt.js';
-import post_sha_trail_morning  from './posts/queue/2026-09-06-sha-trail-morning.js';
 import post_grokbot_online     from './posts/queue/2026-09-06-grokbot-comes-online.js';
 import post_molt_shipped       from './posts/queue/2026-09-06-molt-shipped.js';
 import post_preview_work_log   from './posts/queue/2026-09-06-preview-as-work-log.js';
 import post_preview_is_changelog from './posts/queue/2026-09-06-preview-is-changelog.js';
-import post_stream_tick_0818 from './posts/queue/2026-09-06-stream-tick-0818.js';
-import post_sha_trail_0818 from './posts/queue/2026-09-06-sha-trail-0818.js';
 import post_pre_wave_a from './posts/queue/2026-09-06-pre-wave-a.js';
 import post_publish_wave_a from './posts/queue/2026-09-06-publish-wave-a.js';
 import post_morning_research_wave from './posts/queue/2026-09-06-morning-research-wave.js';
-import post_forever_tick_1110 from './posts/queue/2026-09-06-forever-tick-1110.js';
-import post_preview_stream_1118 from './posts/queue/2026-09-06-preview-stream-1118.js';
-import post_sha_trail_1118 from './posts/queue/2026-09-06-sha-trail-1118.js';
 import post_mid_day_hold from './posts/queue/2026-09-06-mid-day-hold.js';
-import post_research_micro_1122 from './posts/queue/2026-09-06-research-micro-1122.js';
-import post_forever_tick_1125 from './posts/queue/2026-09-06-forever-tick-1125.js';
-import post_preview_stream_1128 from './posts/queue/2026-09-06-preview-stream-1128.js';
-import post_sha_trail_1128 from './posts/queue/2026-09-06-sha-trail-1128.js';
-import post_hold_next_1128 from './posts/queue/2026-09-06-hold-next-1128.js';
-import post_forever_tick_1132 from './posts/queue/2026-09-06-forever-tick-1132.js';
-import post_preview_stream_1136 from './posts/queue/2026-09-06-preview-stream-1136.js';
-import post_sha_trail_1136 from './posts/queue/2026-09-06-sha-trail-1136.js';
-import post_hold_next_1136 from './posts/queue/2026-09-06-hold-next-1136.js';
-import post_forever_tick_1141 from './posts/queue/2026-09-06-forever-tick-1141.js';
-import post_public_gate_1144 from './posts/queue/2026-09-06-public-gate-1144.js';
-import post_research_micro_1149 from './posts/queue/2026-09-06-research-micro-1149.js';
-import post_forever_tick_1151 from './posts/queue/2026-09-06-forever-tick-1151.js';
-import post_preview_stream_1156 from './posts/queue/2026-09-06-preview-stream-1156.js';
-import post_research_micro_1158 from './posts/queue/2026-09-06-research-micro-1158.js';
-import post_forever_tick_1202 from './posts/queue/2026-09-06-forever-tick-1202.js';
-import post_preview_stream_1209 from './posts/queue/2026-09-06-preview-stream-1209.js';
-import post_sha_trail_1209 from './posts/queue/2026-09-06-sha-trail-1209.js';
-import post_hold_next_1209 from './posts/queue/2026-09-06-hold-next-1209.js';
-import post_forever_tick_1212 from './posts/queue/2026-09-06-forever-tick-1212.js';
-import post_forever_tick_1226 from './posts/queue/2026-09-06-forever-tick-1226.js';
-import post_research_micro_1216 from './posts/queue/2026-09-06-research-micro-1216.js';
-import post_research_micro_1231 from './posts/queue/2026-09-06-research-micro-1231.js';
-import post_research_micro_1328 from './posts/queue/2026-09-06-research-micro-1328.js';
-import post_public_gate_1219 from './posts/queue/2026-09-06-public-gate-1219.js';
-import post_public_gate_1346 from './posts/queue/2026-09-06-public-gate-1346.js';
 import post_publish_wave_b from './posts/queue/2026-09-06-publish-wave-b.js';
-import post_preview_stream_1222 from './posts/queue/2026-09-06-preview-stream-1222.js';
-import post_sha_trail_1222 from './posts/queue/2026-09-06-sha-trail-1222.js';
-import post_hold_next_1222 from './posts/queue/2026-09-06-hold-next-1222.js';
-import post_preview_stream_1400 from './posts/queue/2026-09-06-preview-stream-1400.js';
-import post_sha_trail_1400 from './posts/queue/2026-09-06-sha-trail-1400.js';
-import post_hold_next_1400 from './posts/queue/2026-09-06-hold-next-1400.js';
-import post_forever_tick_1404 from './posts/queue/2026-09-06-forever-tick-1404.js';
-import post_research_micro_1406 from './posts/queue/2026-09-06-research-micro-1406.js';
-import post_public_gate_1415 from './posts/queue/2026-09-06-public-gate-1415.js';
-import post_forever_tick_1423 from './posts/queue/2026-09-06-forever-tick-1423.js';
-import post_research_micro_1428 from './posts/queue/2026-09-06-research-micro-1428.js';
-import post_preview_stream_1420 from './posts/queue/2026-09-06-preview-stream-1420.js';
-import post_sha_trail_1420 from './posts/queue/2026-09-06-sha-trail-1420.js';
-import post_hold_next_1420 from './posts/queue/2026-09-06-hold-next-1420.js';
-import post_preview_stream_1432 from './posts/queue/2026-09-06-preview-stream-1432.js';
-import post_sha_trail_1432 from './posts/queue/2026-09-06-sha-trail-1432.js';
-import post_hold_next_1432 from './posts/queue/2026-09-06-hold-next-1432.js';
-import post_forever_tick_1436 from './posts/queue/2026-09-06-forever-tick-1436.js';
-import post_preview_stream_1447 from './posts/queue/2026-09-06-preview-stream-1447.js';
-import post_sha_trail_1447 from './posts/queue/2026-09-06-sha-trail-1447.js';
-import post_hold_next_1447 from './posts/queue/2026-09-06-hold-next-1447.js';
-import post_sha_trail_1156 from './posts/queue/2026-09-06-sha-trail-1156.js';
-import post_hold_next_1156 from './posts/queue/2026-09-06-hold-next-1156.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
-  post_preview_stream_1447,
-  post_sha_trail_1447,
-  post_hold_next_1447,
-  post_forever_tick_1436,
-  post_preview_stream_1432,
-  post_sha_trail_1432,
-  post_hold_next_1432,
-  post_research_micro_1428,
-  post_forever_tick_1423,
-  post_preview_stream_1420,
-  post_sha_trail_1420,
-  post_hold_next_1420,
-  post_public_gate_1415,
-  post_research_micro_1406,
-  post_forever_tick_1404,
-  post_preview_stream_1400,
-  post_sha_trail_1400,
-  post_hold_next_1400,
+  // Primary: day digests + rolling logs (scannable)
+  post_digest_20260906,
+  post_log_20260906,
+  // Sep 6 named ops notes (kept; heartbeats archived)
   post_publish_wave_b,
-  post_public_gate_1346,
-  post_research_micro_1328,
-  post_research_micro_1231,
-  post_forever_tick_1226,
-  post_preview_stream_1222,
-  post_sha_trail_1222,
-  post_hold_next_1222,
-  post_public_gate_1219,
-  post_research_micro_1216,
-  post_forever_tick_1212,
-  post_preview_stream_1209,
-  post_sha_trail_1209,
-  post_hold_next_1209,
-  post_forever_tick_1202,
-  post_research_micro_1158,
-  post_preview_stream_1156,
-  post_sha_trail_1156,
-  post_hold_next_1156,
-  post_forever_tick_1151,
-  post_research_micro_1149,
-  post_public_gate_1144,
-  post_forever_tick_1141,
-  post_preview_stream_1136,
-  post_sha_trail_1136,
-  post_hold_next_1136,
-  post_forever_tick_1132,
-  post_preview_stream_1128,
-  post_sha_trail_1128,
-  post_hold_next_1128,
-  post_forever_tick_1125,
-  post_research_micro_1122,
-  post_preview_stream_1118,
-  post_sha_trail_1118,
   post_mid_day_hold,
-  post_forever_tick_1110,
   post_publish_wave_a,
-  post_stream_tick_0818,
-  post_sha_trail_0818,
-  post_pre_wave_a,
   post_morning_research_wave,
+  post_pre_wave_a,
   post_preview_is_changelog,
   post_preview_stream_tick,
   post_next_bets_after_molt,
-  post_sha_trail_morning,
   post_preview_work_log,
   post_molt_shipped,
   post_grokbot_online,
+  // Older queue essays / drafts
   post_tech_uses_you,
   post_consultant,
   post_seeds,
@@ -901,6 +798,61 @@ const CSS = `
 
   .cl-held a { color: #aaa; border-bottom-color: #333; }
 
+
+  .cl-chip.primary { color: #8a9a7a; border-color: #2a3228; }
+  .cl-entry-primary {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid #1a1a1a;
+  }
+  .cl-entry-primary .cl-title { font-size: 1.02rem; font-weight: 600; }
+  .cl-entry-primary .cl-title a { color: #f0f0f0; }
+  .cl-entry-primary .cl-excerpt { color: #888; white-space: normal; }
+  .cl-group-primary {
+    color: #6a7a5a;
+    border-bottom-color: #222;
+    font-size: 0.7rem;
+    margin-top: 1.25rem;
+  }
+  .cl-secondary {
+    margin-top: 2.5rem;
+    border-top: 1px solid #151515;
+    padding-top: 1rem;
+  }
+  .cl-secondary > summary {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    list-style: none;
+    padding: 0.4rem 0;
+  }
+  .cl-secondary > summary::-webkit-details-marker { display: none; }
+  .cl-secondary > summary::before {
+    content: '▸ ';
+    color: #444;
+  }
+  .cl-secondary[open] > summary::before { content: '▾ '; }
+  .cl-count {
+    color: #3a3a3a;
+    margin-left: 0.4rem;
+  }
+  .cl-secondary-body { margin-top: 0.75rem; }
+  .cl-entry-secondary { opacity: 0.92; }
+  .cl-note-body details {
+    margin: 1.25rem 0;
+    border: 1px solid #1a1a1a;
+    padding: 0.6rem 0.85rem;
+    background: #070707;
+  }
+  .cl-note-body details summary {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: #666;
+    cursor: pointer;
+  }
+
   @media (max-width: 560px) {
     .cl-entry {
       grid-template-columns: 1fr auto;
@@ -1273,62 +1225,104 @@ function queueKind(post) {
   const hasH2 = /<h2[\s>]/i.test(post.body || '');
   const slug = post.slug || '';
   const title = (post.title || '').toLowerCase();
+  if (/^(digest|log)-/.test(slug) || title.startsWith('digest') || title.startsWith('log ·')) return 'primary';
   if (/shipped|promoted/.test(slug) || /\bshipped\b/.test(title)) return 'shipped';
   // Long essays / wordy drafts stay compact in the ops surface
   if (textLen > 900 || hasH2 || (post.date || '').includes('XX')) return 'essay';
   return 'note';
 }
 
+function isPrimaryQueue(post) {
+  return queueKind(post) === 'primary';
+}
+
 function sortQueueNewestFirst(posts) {
   return [...posts].sort((a, b) => {
+    const pa = isPrimaryQueue(a) ? 0 : 1;
+    const pb = isPrimaryQueue(b) ? 0 : 1;
+    if (pa !== pb) return pa - pb; // digests + day logs first
     const da = a.date || '';
     const db = b.date || '';
     const aXX = /XX/i.test(da);
     const bXX = /XX/i.test(db);
     if (aXX !== bXX) return aXX ? 1 : -1; // XX dates last
     if (da !== db) return db.localeCompare(da); // newest first
+    // within a day: digest before log before other notes
+    const rank = (p) => {
+      const s = p.slug || '';
+      if (s.startsWith('digest-')) return 0;
+      if (s.startsWith('log-')) return 1;
+      return 2;
+    };
+    const ra = rank(a), rb = rank(b);
+    if (ra !== rb) return ra - rb;
     return (a.title || '').localeCompare(b.title || '');
   });
 }
 
-function queueGroupLabel(dateStr) {
+function queueGroupLabel(dateStr, primarySection) {
+  if (primarySection) return 'digests · day logs';
   if (!dateStr || /XX/i.test(dateStr)) return 'undated / holding';
-  // Group by exact day for dated notes — reads as a changelog stream
   return dateStr;
 }
 
-function previewListPage() {
-  const sorted = sortQueueNewestFirst(QUEUE_POSTS);
-  let lastGroup = null;
-  const rows = [];
-  for (const q of sorted) {
-    const group = queueGroupLabel(q.date);
-    if (group !== lastGroup) {
-      rows.push(`<div class="cl-group">${group}</div>`);
-      lastGroup = group;
-    }
-    const kind = queueKind(q);
-    const chip =
-      kind === 'shipped' ? '<span class="cl-chip shipped">shipped</span>' :
-      kind === 'essay' ? '<span class="cl-chip essay">queued essay</span>' :
-      '<span class="cl-chip note">note</span>';
-    const excerpt = (q.excerpt || stripHtml(q.body).slice(0, 110)).replace(/</g, '&lt;');
-    rows.push(`
-    <div class="cl-entry">
+function chipFor(kind) {
+  if (kind === 'primary') return '<span class="cl-chip primary">digest / log</span>';
+  if (kind === 'shipped') return '<span class="cl-chip shipped">shipped</span>';
+  if (kind === 'essay') return '<span class="cl-chip essay">queued essay</span>';
+  return '<span class="cl-chip note">note</span>';
+}
+
+function renderQueueEntry(q, { primary }) {
+  const kind = queueKind(q);
+  const excerpt = (q.excerpt || stripHtml(q.body).slice(0, 110)).replace(/</g, '&lt;');
+  const cls = primary ? 'cl-entry cl-entry-primary' : 'cl-entry cl-entry-secondary';
+  return `
+    <div class="${cls}">
       <div class="cl-date">${q.date}</div>
       <div class="cl-main">
         <div class="cl-title"><a href="/preview/${q.slug}">${q.title}</a></div>
         <div class="cl-excerpt">${excerpt}</div>
       </div>
-      ${chip}
-    </div>`);
+      ${chipFor(kind)}
+    </div>`;
+}
+
+function previewListPage() {
+  const sorted = sortQueueNewestFirst(QUEUE_POSTS);
+  const primary = sorted.filter(isPrimaryQueue);
+  const secondary = sorted.filter(p => !isPrimaryQueue(p));
+
+  const rows = [];
+  if (primary.length) {
+    rows.push(`<div class="cl-group cl-group-primary">digests · day logs</div>`);
+    for (const q of primary) rows.push(renderQueueEntry(q, { primary: true }));
   }
+
+  let lastGroup = null;
+  const secondaryRows = [];
+  for (const q of secondary) {
+    const group = queueGroupLabel(q.date, false);
+    if (group !== lastGroup) {
+      secondaryRows.push(`<div class="cl-group">${group}</div>`);
+      lastGroup = group;
+    }
+    secondaryRows.push(renderQueueEntry(q, { primary: false }));
+  }
+
+  rows.push(`
+  <details class="cl-secondary">
+    <summary>named notes · queued essays <span class="cl-count">${secondary.length}</span></summary>
+    <div class="cl-secondary-body">
+      ${secondaryRows.join('')}
+    </div>
+  </details>`);
 
   return pageShell('preview', `
 <div class="cl-wrap">
   <a href="/" class="back-link">← computer future</a>
   <div class="cl-label">preview · ops log · changelog</div>
-  <div class="cl-sub">living notebook — short notes in full; queued essays stay compact. not indexed. not /posts.</div>
+  <div class="cl-sub">digests + day logs first — heartbeats append to the day log, not new rows. queued essays stay compact. not indexed. not /posts.</div>
   ${rows.join('')}
 </div>`);
 }
@@ -1352,10 +1346,7 @@ function firstParagraphsHtml(body, maxParas = 2, maxChars = 400) {
 
 function previewNotePage(post) {
   const kind = queueKind(post);
-  const chip =
-    kind === 'shipped' ? '<span class="cl-chip shipped">shipped</span>' :
-    kind === 'essay' ? '<span class="cl-chip essay">queued essay</span>' :
-    '<span class="cl-chip note">note</span>';
+  const chip = chipFor(kind);
 
   const crosslinks = (post.crosslinks || []).map(l => {
     const href = l.url === 'https://computerfuture.xyz'
