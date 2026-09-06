@@ -16,6 +16,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:22 PT · forever-tick</strong><br />
+  Cold-read strip on <code>fit-is-the-method.md</code> (~563w body): meta closing moved to status;
+  compressed crosslink + ambition overlap. Still <strong>HOLD</strong> — evening improve owns aloud PASS.
+  Soft-shell already SHIPPED (Wave C). Public <strong>3/10</strong>. Digest stale Soft-shell HOLD line corrected.
+  No new forever-tick-* slug (day-log append only). Micros under 20; no squash. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~16:18 PT · public-gate</strong><br />
   FAIL/HOLD — post-wave residual re-scan. Soft-shell already SHIPPED (Wave C PASS ~16:15);
   daily public <strong>3/10</strong>. Next crystal <code>fit-is-the-method</code> stays HOLD

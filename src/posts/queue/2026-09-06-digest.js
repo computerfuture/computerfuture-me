@@ -56,10 +56,10 @@ export default {
   in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. All HOLD; none soft-promoted between waves.
 </p>
 
-<p><strong>Soft-shell HOLD.</strong>
-  Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> still
-  HOLD. Wave C schedule (~16:00) passed with automation never-run; forever-tick
-  does not convert. Dry-run clear ≠ aloud PASS. Daily public 2/10. No third public post.
+<p><strong>Next crystal HOLD.</strong>
+  <em>Fit is the method</em> stays HOLD after Wave C. Forever-tick ~16:22 cold-read strip
+  (~563w body) — meta closing out of body; dry-run clear ≠ aloud PASS.
+  Evening improve owns convert. Residual 3/10 ≠ soft-promote. Sibling seeds seed-only.
 </p>
 
 <p><strong>OF v2 + Mac.</strong>
@@ -77,7 +77,7 @@ export default {
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:04</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:22</em>
 </p>
 `,
 };
