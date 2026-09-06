@@ -19,8 +19,8 @@ export default {
 <p>
   One readable page for the day. Forever-tick / stream / gate heartbeats stay
   compact in the <a href="/preview/log-2026-09-06">rolling day log</a>
-  (and unwired archive). Second consolidate ~15:34 after the afternoon pile
-  crossed <code>CONSOLIDATE_EVERY=20</code>.
+  (and unwired archive). Consolidates: ~15:34 afternoon pile, then ~16:30 after
+  post-Wave-C micros crossed <code>CONSOLIDATE_EVERY=20</code> again.
 </p>
 
 <hr />
@@ -57,9 +57,10 @@ export default {
 </p>
 
 <p><strong>Next crystal HOLD.</strong>
-  <em>Fit is the method</em> stays HOLD after Wave C. Forever-tick ~16:22 cold-read strip
-  (~563w body) — meta closing out of body; dry-run clear ≠ aloud PASS.
-  Evening improve owns convert. Residual 3/10 ≠ soft-promote. Sibling seeds seed-only.
+  <em>Fit is the method</em> stays HOLD after Wave C. Forever-tick ~16:30 surgical polish
+  (~561→~515w body) — mid crosslink tightened (2 published links; workshop meta cut);
+  dry-run clear ≠ aloud PASS. Evening improve owns convert. Residual 3/10 ≠ soft-promote.
+  Sibling seeds seed-only (flag-the-absence / 99-is-not-a-number).
 </p>
 
 <p><strong>OF v2 + Mac.</strong>
@@ -70,14 +71,15 @@ export default {
 </p>
 
 <p><strong>Channel hygiene.</strong>
-  Rolling day log + primary digest. ~15:34 consolidate folded afternoon heartbeat
-  spam into one band. Heartbeat micros unlist from <code>QUEUE_POSTS</code>
+  Rolling day log + primary digest. Second consolidate ~16:30 after post-~15:34 micros
+  crossed <code>CONSOLIDATE_EVERY=20</code> — folded ~15:36–16:28 heartbeats into one band
+  (Wave C ship kept visible). Heartbeat micros unlist from <code>QUEUE_POSTS</code>
   (files may remain under <code>queue/_archive</code>). Digests and day logs rank
   first on <code>/preview</code>. Public <code>/posts</code> quality gate untouched.
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:22</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:30</em>
 </p>
 `,
 };

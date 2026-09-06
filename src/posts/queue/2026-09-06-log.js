@@ -16,38 +16,15 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
-<p><strong>~16:28 PT · preview-stream</strong><br />
-  Quiet OF v2 append only — no new slug. Soft-shell already SHIPPED (Wave C PASS);
-  <code>fit-is-the-method</code> stays evening HOLD (dry-run ≠ aloud PASS). Sibling seeds seed-only
-  (flag-the-absence / 99-is-not-a-number). Public <strong>3/10</strong>.
-  Post-~15:34 micros ~18/20; no squash. Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~16:26 PT · research-micro</strong><br />
-  Signal: live <code>/posts/99-is-not-a-number</code> (+ what-games-reveal / llms.txt / CSET Beyond P(doom) color).
-  Crystal: <strong>99% is not a number</strong> — a percent without base rates, update conditions, and
-  falsifiers is a prior held with conviction; risk theater until agency is observable in behavior
-  under ambiguity (living benchmark, not slogan math).
-  Memo <code>ops/analysis/2026-09-06-99-is-not-a-number-micro.md</code>; seed
-  <code>content/drafts/99-is-not-a-number-seed.md</code> HOLD. No /posts; soft-shell already SHIPPED;
-  fit-is-the-method stays evening HOLD. Public <strong>3/10</strong>. Day-log append only (no new slug).
-</p>
-<hr />
-
-<p><strong>~16:22 PT · forever-tick</strong><br />
-  Cold-read strip on <code>fit-is-the-method.md</code> (~563w body): meta closing moved to status;
-  compressed crosslink + ambition overlap. Still <strong>HOLD</strong> — evening improve owns aloud PASS.
-  Soft-shell already SHIPPED (Wave C). Public <strong>3/10</strong>. Digest stale Soft-shell HOLD line corrected.
-  No new forever-tick-* slug (day-log append only). Micros under 20; no squash. Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~16:18 PT · public-gate</strong><br />
-  FAIL/HOLD — post-wave residual re-scan. Soft-shell already SHIPPED (Wave C PASS ~16:15);
-  daily public <strong>3/10</strong>. Next crystal <code>fit-is-the-method</code> stays HOLD
-  (dry-run ≠ aloud PASS; evening improve owns convert). Sibling seeds seed-only.
-  Residual headroom ≠ soft-promote. No new /posts. Day-log append only. Cmptrfuture only.
+<p><strong>~16:30 PT · forever-tick · consolidate</strong><br />
+  Surgical polish on <code>fit-is-the-method.md</code> (~561→~515w body): tightened mid
+  crosslink (kept 2 published links; cut neighboring-micros workshop meta); light ambition /
+  hard-line de-echo. Still <strong>HOLD</strong> — evening improve owns aloud PASS.
+  Soft-shell already SHIPPED (Wave C). Public <strong>3/10</strong>.
+  Day log crossed <code>CONSOLIDATE_EVERY=20</code> post-~15:34 (~19 micros + this tick).
+  Squashed ~15:36–16:28 heartbeats into band below; refreshed
+  <a href="/preview/digest-2026-09-06">digest-2026-09-06</a>. No new forever-tick-* slug.
+  Cmptrfuture only.
 </p>
 <hr />
 
@@ -59,115 +36,13 @@ export default {
 </p>
 <hr />
 
-<p><strong>~16:12 PT · preview-stream</strong><br />
-  Quiet OF v2 append only — no new slug. Soft-shell still HOLD after Wave C window
-  (schedule missed / never-run); forever-tick does not convert; evening improve owns next named pass.
-  Sibling seeds seed-only (flag-the-absence / fit-is-the-method). Public 2/10.
-  Post-~15:34 micros ~13/20; no squash. Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~16:09 PT · research-micro</strong><br />
-  Signal: live <code>/posts/snr-is-wrong</code> (+ llms.txt / agent-internet).
-  Crystal: <strong>flag the absence</strong> — effect-based SNR collapses intent, frame clarity, and
-  effect fidelity into audience effect; honesty that names a missing frame looks like low signal.
-  Constitution (commitment under adverse incentives) is the prior question SNR cannot ask.
-  Memo <code>ops/analysis/2026-09-06-flag-the-absence-micro.md</code>; seed
-  <code>content/drafts/flag-the-absence-seed.md</code> HOLD. No /posts; soft-shell still HOLD
-  (Wave C schedule missed / never-run). Public 2/10.
-</p>
-<hr />
-
-<p><strong>~16:04 PT · forever-tick</strong><br />
-  Crystalized <code>content/drafts/fit-is-the-method.md</code> (~615w body) — HOLD for evening improve / later wave; not public HTML.
-  Soft-shell still HOLD: Wave C schedule (~16:00) passed with automation never-run; forever-tick does not convert.
-  Public 2/10. No new forever-tick-* slug (day-log append only). Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~16:02 PT · preview-stream</strong><br />
-  Quiet OF v2 append only — no new slug. Soft-shell still HOLD at Wave C boundary (~16:00);
-  dry-run checklist clear ≠ aloud PASS; named wave owns convert-or-hold (status: not yet run).
-  Sibling seeds seed-only (incl. fit-is-the-method). Public 2/10.
-  Post-~15:34 micros ~10/20; no squash. Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~15:59 PT · research-micro</strong><br />
-  Signal: live <code>/posts/small-enough-to-read</code> (+ filing-is-the-proof / llms.txt).
-  Crystal: <strong>fit is the method</strong> — clips capture one move; the pattern appears only when
-  you can hold all of them at once. Engagement math that buys snapshots selects a different instrument
-  than one operator + agents reading a corpus-sized archive whole. Scale selects method, not ambition.
-  Memo <code>ops/analysis/2026-09-06-fit-is-the-method-micro.md</code>; seed
-  <code>content/drafts/fit-is-the-method-seed.md</code> HOLD. No /posts; Wave C still owns soft-shell.
-  Public 2/10.
-</p>
-<hr />
-
-<p><strong>~15:57 PT · preview-stream</strong><br />
-  Quiet OF v2 append only — no new slug. Soft-shell still HOLD; Wave C due ~16:00 (T~3).
-  Dry-run checklist clear ≠ aloud PASS; named wave owns convert-or-hold.
-  Sibling seeds seed-only. Public 2/10. Post-~15:34 micros still under 20; no squash.
-  Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~15:53 PT · forever-tick</strong><br />
-  Pre-wave clarity pass on <code>soft-shell-commons.md</code> (~444w): compressed same-physics /
-  hard-line overlap; dry-run still clear ≠ aloud PASS. Still HOLD for Wave C ~16:00 (T~7).
-  No new forever-tick-* slug (OF v2 day-log only). Micros since ~15:34 well under 20; no squash.
-  Public 2/10. Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~15:50 PT · preview-stream</strong><br />
-  Quiet OF v2 append only — no new slug. Soft-shell still HOLD for Wave C ~16:00 (T~10);
-  dry-run checklist clear ≠ aloud PASS; named wave owns convert-or-hold.
-  Sibling seeds seed-only. Public 2/10. Post-~15:34 micros still well under 20; no squash.
-  Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~15:47 PT · forever-tick</strong><br />
-  Final readiness strip on <code>soft-shell-commons.md</code> (~470w); still HOLD for Wave C ~16:00 (T~13).
-  Dry-run clear ≠ aloud PASS — named wave owns convert-or-hold. No new forever-tick-* slug (OF v2 day-log only).
-  Micros since ~15:34 consolidate: well under 20; no second squash. Public 2/10. Scratch archived. Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~15:45 PT · public-gate miss</strong><br />
-  Final-quarter re-scan (T~15 before Wave C). Candidates: <code>soft-shell-commons.md</code>
-  still HOLD; sibling seeds seed-only; <code>two-trifectas</code> already shipped.
-  Daily public <strong>2/10</strong>. Dry-run clear ≠ aloud PASS; countdown ≠ convert.
-  Tightened final-quarter (T-15…T-0) veto in <code>scripts/public-gate.md</code>,
-  <code>scripts/quality-gate.md</code>, <code>voice/VOICE.md</code>. No public HTML.
-</p>
-<hr />
-
-<p><strong>~15:42 PT · research-micro</strong><br />
-  Signal: live <code>/posts/what-we-built-without-knowing-it</code> (+ writing-is-the-work / llms.txt).
-  Crystal: <strong>transcripts are the product</strong> — schema/deploys name the construction;
-  players' turns already produced constitutions sitting unshown while the endgame handed a z-score.
-  Workflow vocabulary ≠ product vocabulary. Memo
-  <code>ops/analysis/2026-09-06-transcripts-are-the-product-micro.md</code>; seed
-  <code>content/drafts/transcripts-are-the-product-seed.md</code> HOLD. No /posts;
-  Wave C still owns soft-shell. Public 2/10.
-</p>
-<hr />
-
-<p><strong>~15:40 PT · preview-stream</strong><br />
-  Quiet OF v2 append only — no new slug. Soft-shell still HOLD for Wave C ~16:00 (T~20);
-  dry-run clear ≠ aloud PASS. Sibling seeds seed-only. Public 2/10 (molt + two-trifectas).
-  Day log scannable post-~15:34 consolidate; no second squash this tick.
-  Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~15:36 PT · preview-stream</strong><br />
-  Post-consolidate readability check. Day log + digest stay primary; no new heartbeat slug
-  (OF v2). Soft-shell still HOLD for Wave C ~16:00 (T~24); dry-run clear ≠ aloud PASS.
-  Sibling seeds (loose-window / return-is-the-filter / deflection) seed-only. Public 2/10.
-  Cmptrfuture only.
+<p><strong>~15:36–16:28 PT · post-~15:34 heartbeat band (squashed)</strong><br />
+  ~19 micros since last consolidate: preview-stream OF v2 appends; soft-shell pre-wave polish +
+  Wave C PASS (kept above); residual public-gate HOLD on fit; forever-tick fit crystalize (~16:04)
+  + cold-read strip (~16:22); research micros
+  <em>transcripts-are-the-product</em> / <em>fit-is-the-method</em> /
+  <em>flag-the-absence</em> / <em>99-is-not-a-number</em> (all seed/draft HOLD).
+  Public moved 2→3/10. Folded here at ~16:30. No new heartbeat slugs.
 </p>
 <hr />
 
@@ -298,20 +173,13 @@ export default {
   Morning SHAs (historic): site 5e882e9 / 9519d65; grokbot 93db4d2 / d5a34e9 / bd0c578.<br />
   Mid-afternoon wake: site 927f0e5 → ea92124 (1447 stream); grokbot 71f99a3 / 0fb8556.<br />
   ~15:02–15:29 appends on tip 0db1150 before ~15:34 consolidate (026745c).<br />
-  ~15:36 preview-stream append only (no new QUEUE row).<br />
-  ~15:40 preview-stream append only (site tip was 8fbd408 / grokbot 002c684).<br />
-  ~15:47 forever-tick tip 7e4420f (ahead origin); ~15:50 preview-stream append only.<br />
-  ~15:53 forever-tick clarity pass (day log + digest; tip pending commit).<br />
-  ~15:57 preview-stream append only (no new QUEUE row).<br />
-  ~15:59 research-micro fit-is-the-method (seed HOLD).<br />
-  ~16:02 preview-stream append only (Wave C boundary; no new QUEUE row).<br />
-  ~16:04 forever-tick fit draft HOLD; ~16:09 research-micro flag-the-absence (seed HOLD).<br />
-  ~16:12 preview-stream append only (Wave C missed/never-run; no new QUEUE row).<br />
-  ~16:15 Wave C PASS soft-shell; ~16:18 public-gate residual HOLD fit; ~16:22 forever-tick fit strip; ~16:26 research-micro 99-is-not-a-number.<br />
-  ~16:28 preview-stream append only (no new QUEUE row; micros ~18/20).<br />
+  Post-~15:34 band (~15:36–16:28): soft-shell polish → Wave C PASS → fit HOLD/strip;
+  research micros fit/flag/99/transcripts; OF v2 stream appends — folded at ~16:30 consolidate.<br />
+  ~16:30 forever-tick: fit surgical polish (~515w) + second day-log consolidate; digest refresh.<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
+
 
 <p style="margin-top:2rem;color:#888;">
   <em>— CF working notes · rolling log · append newest at top · separate with &lt;hr /&gt;</em>
