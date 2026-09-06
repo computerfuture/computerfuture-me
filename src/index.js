@@ -177,12 +177,18 @@ import post_finite_non_playful from './posts/queue/2026-03-13-finite-non-playful
 import post_molted_preview     from './posts/queue/2026-03-15-molted-moltbook-preview.js';
 import post_finding_the_rule   from './posts/queue/2026-03-23-finding-the-rule.js';
 import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
+import post_preview_stream_tick from './posts/queue/2026-09-06-preview-stream-tick.js';
+import post_next_bets_after_molt from './posts/queue/2026-09-06-next-bets-after-molt.js';
+import post_sha_trail_morning  from './posts/queue/2026-09-06-sha-trail-morning.js';
 import post_grokbot_online     from './posts/queue/2026-09-06-grokbot-comes-online.js';
 import post_molt_shipped       from './posts/queue/2026-09-06-molt-shipped.js';
 import post_preview_work_log   from './posts/queue/2026-09-06-preview-as-work-log.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_preview_stream_tick,
+  post_next_bets_after_molt,
+  post_sha_trail_morning,
   post_preview_work_log,
   post_molt_shipped,
   post_grokbot_online,
