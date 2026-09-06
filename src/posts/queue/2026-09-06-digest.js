@@ -50,9 +50,9 @@ export default {
 
 <p><strong>Soft-shell HOLD.</strong>
   Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> still
-  HOLD pending Wave C ~16:00 convert-or-hold. Subtractive + band restore leave
-  dry-run clear (~472w mechanism-only); public-gate misses at ~15:00 / ~15:20 / ~15:45
-  still miss — dry-run ≠ aloud PASS; mid-pre-wave / final-quarter re-scans do not accumulate.
+  HOLD pending Wave C ~16:00 convert-or-hold. Readiness strip ~15:47 leaves
+  dry-run clear (~470w mechanism-only); public-gate misses at ~15:00 / ~15:20 / ~15:45
+  still miss — dry-run ≠ aloud PASS; T~13 proximity still not convert.
   Sibling seeds stayed seed-only. No third public post yet.
 </p>
 
@@ -71,7 +71,7 @@ export default {
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · research-micro ~15:42</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~15:47</em>
 </p>
 `,
 };

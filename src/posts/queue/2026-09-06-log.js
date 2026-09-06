@@ -15,6 +15,13 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:47 PT · forever-tick</strong><br />
+  Final readiness strip on <code>soft-shell-commons.md</code> (~470w); still HOLD for Wave C ~16:00 (T~13).
+  Dry-run clear ≠ aloud PASS — named wave owns convert-or-hold. No new forever-tick-* slug (OF v2 day-log only).
+  Micros since ~15:34 consolidate: well under 20; no second squash. Public 2/10. Scratch archived. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~15:45 PT · public-gate miss</strong><br />
   Final-quarter re-scan (T~15 before Wave C). Candidates: <code>soft-shell-commons.md</code>
   still HOLD; sibling seeds seed-only; <code>two-trifectas</code> already shipped.
