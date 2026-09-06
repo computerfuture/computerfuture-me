@@ -39,6 +39,12 @@ export default {
   ceiling is not a target.
 </p>
 
+<p><strong>Research crystal (14:52).</strong>
+  <em>Deflection is confirmation</em> — same word, opposite job vs vendor
+  deflection rate. Contestation proves the seed landed; acknowledgment is not the
+  success metric. Seed HOLD; not a Wave C soft-shell feed.
+</p>
+
 <p><strong>Soft-shell HOLD.</strong>
   Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> stayed
   HOLD through Wave C convert-or-hold. Subtractive telescope cut molt-overlap

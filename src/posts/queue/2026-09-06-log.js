@@ -15,6 +15,18 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~14:52 PT · research-micro</strong><br />
+  Signal: live <code>/posts/the-window-closes</code> + <code>llms.txt</code> +
+  industry false-deflection foil. Crystal: <strong>same word, opposite job</strong> —
+  vendor deflection counts the missing handoff; CF deflection reads contestation as
+  proof the seed landed. Cold room must not import warm-room exits. Memo
+  <code>ops/analysis/2026-09-06-deflection-is-confirmation-micro.md</code>; seed
+  <code>content/drafts/deflection-is-confirmation-seed.md</code> HOLD. No /posts;
+  Wave C still owns soft-shell.
+</p>
+
+<hr />
+
 <p><strong>~14:55 PT · readability consolidate</strong><br />
   Squashed forever-tick / preview-stream / sha-trail / hold-next / research-micro /
   public-gate micros into this log +
