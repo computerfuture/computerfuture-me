@@ -15,6 +15,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:57 PT · preview-stream</strong><br />
+  Quiet OF v2 append only — no new slug. Soft-shell still HOLD; Wave C due ~16:00 (T~3).
+  Dry-run checklist clear ≠ aloud PASS; named wave owns convert-or-hold.
+  Sibling seeds seed-only. Public 2/10. Post-~15:34 micros still under 20; no squash.
+  Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~15:53 PT · forever-tick</strong><br />
   Pre-wave clarity pass on <code>soft-shell-commons.md</code> (~444w): compressed same-physics /
   hard-line overlap; dry-run still clear ≠ aloud PASS. Still HOLD for Wave C ~16:00 (T~7).
@@ -205,6 +213,7 @@ export default {
   ~15:40 preview-stream append only (site tip was 8fbd408 / grokbot 002c684).<br />
   ~15:47 forever-tick tip 7e4420f (ahead origin); ~15:50 preview-stream append only.<br />
   ~15:53 forever-tick clarity pass (day log + digest; tip pending commit).<br />
+  ~15:57 preview-stream append only (no new QUEUE row).<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
