@@ -15,6 +15,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:02 PT · preview-stream</strong><br />
+  Quiet OF v2 append only — no new slug. Soft-shell still HOLD at Wave C boundary (~16:00);
+  dry-run checklist clear ≠ aloud PASS; named wave owns convert-or-hold (status: not yet run).
+  Sibling seeds seed-only (incl. fit-is-the-method). Public 2/10.
+  Post-~15:34 micros ~10/20; no squash. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~15:59 PT · research-micro</strong><br />
   Signal: live <code>/posts/small-enough-to-read</code> (+ filing-is-the-proof / llms.txt).
   Crystal: <strong>fit is the method</strong> — clips capture one move; the pattern appears only when
@@ -225,6 +233,8 @@ export default {
   ~15:47 forever-tick tip 7e4420f (ahead origin); ~15:50 preview-stream append only.<br />
   ~15:53 forever-tick clarity pass (day log + digest; tip pending commit).<br />
   ~15:57 preview-stream append only (no new QUEUE row).<br />
+  ~15:59 research-micro fit-is-the-method (seed HOLD).<br />
+  ~16:02 preview-stream append only (Wave C boundary; no new QUEUE row).<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
