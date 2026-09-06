@@ -183,9 +183,11 @@ import post_sha_trail_morning  from './posts/queue/2026-09-06-sha-trail-morning.
 import post_grokbot_online     from './posts/queue/2026-09-06-grokbot-comes-online.js';
 import post_molt_shipped       from './posts/queue/2026-09-06-molt-shipped.js';
 import post_preview_work_log   from './posts/queue/2026-09-06-preview-as-work-log.js';
+import post_preview_is_changelog from './posts/queue/2026-09-06-preview-is-changelog.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_preview_is_changelog,
   post_preview_stream_tick,
   post_next_bets_after_molt,
   post_sha_trail_morning,
@@ -624,6 +626,169 @@ const CSS = `
   }
 
   .post-crosslinks a:hover { color: var(--white); border-color: var(--gray); }
+
+  /* ── Preview changelog / ops log ── */
+
+  .cl-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 7rem;
+  }
+
+  .cl-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin: 1.75rem 0 0.35rem;
+  }
+
+  .cl-sub {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: #444;
+    margin-bottom: 2.25rem;
+    line-height: 1.6;
+  }
+
+  .cl-group {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 2rem 0 0.6rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #151515;
+  }
+
+  .cl-entry {
+    display: grid;
+    grid-template-columns: 6.6rem 1fr auto;
+    gap: 0.55rem 0.9rem;
+    align-items: baseline;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid #0e0e0e;
+  }
+
+  .cl-entry:hover { background: #060606; }
+
+  .cl-date {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: #444;
+    white-space: nowrap;
+  }
+
+  .cl-main { min-width: 0; }
+
+  .cl-title {
+    font-size: 0.92rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
+  }
+
+  .cl-title a {
+    color: #e8e8e8;
+    border: none;
+    text-decoration: none;
+  }
+
+  .cl-title a:hover {
+    color: var(--white);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .cl-excerpt {
+    font-size: 0.78rem;
+    color: #666;
+    line-height: 1.45;
+    margin-top: 0.15rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cl-chip {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #222;
+    padding: 0.18rem 0.4rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    align-self: start;
+    margin-top: 0.15rem;
+  }
+
+  .cl-chip.essay { color: #7a6a4a; border-color: #2a2418; }
+  .cl-chip.shipped { color: #4a7a5a; border-color: #1a2a1e; }
+  .cl-chip.note { color: #5a5a6a; border-color: #1e1e28; }
+
+  .cl-note-wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 7rem;
+  }
+
+  .cl-note-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1rem;
+    align-items: center;
+    margin: 1.5rem 0 0.85rem;
+  }
+
+  .cl-note-wrap h1 {
+    font-size: clamp(1.25rem, 3.2vw, 1.75rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+
+  .cl-note-body {
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: #bbb;
+  }
+
+  .cl-note-body p { margin-bottom: 1rem; }
+  .cl-note-body h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin: 1.8rem 0 0.6rem;
+  }
+  .cl-note-body hr { border: none; border-top: 1px solid #222; margin: 1.6rem 0; }
+  .cl-note-body a { color: var(--white); }
+
+  .cl-held {
+    margin-top: 1.75rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #1a1a1a;
+    background: #070707;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: #666;
+    line-height: 1.55;
+  }
+
+  .cl-held a { color: #aaa; border-bottom-color: #333; }
+
+  @media (max-width: 560px) {
+    .cl-entry {
+      grid-template-columns: 1fr auto;
+      grid-template-rows: auto auto;
+    }
+    .cl-date { grid-column: 1 / -1; }
+    .cl-excerpt { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  }
 `;
 
 // ── Slide content ──────────────────────────────────────────────────────────
@@ -979,30 +1144,130 @@ function singlePostPage(post, backUrl = '/posts') {
 
 // ── Preview pages (queue drafts — not linked, not indexed) ─────────────────
 
+function stripHtml(html) {
+  return String(html || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function queueKind(post) {
+  const textLen = stripHtml(post.body).length;
+  const hasH2 = /<h2[\s>]/i.test(post.body || '');
+  const slug = post.slug || '';
+  const title = (post.title || '').toLowerCase();
+  if (/shipped|promoted/.test(slug) || /\bshipped\b/.test(title)) return 'shipped';
+  // Long essays / wordy drafts stay compact in the ops surface
+  if (textLen > 900 || hasH2 || (post.date || '').includes('XX')) return 'essay';
+  return 'note';
+}
+
+function sortQueueNewestFirst(posts) {
+  return [...posts].sort((a, b) => {
+    const da = a.date || '';
+    const db = b.date || '';
+    const aXX = /XX/i.test(da);
+    const bXX = /XX/i.test(db);
+    if (aXX !== bXX) return aXX ? 1 : -1; // XX dates last
+    if (da !== db) return db.localeCompare(da); // newest first
+    return (a.title || '').localeCompare(b.title || '');
+  });
+}
+
+function queueGroupLabel(dateStr) {
+  if (!dateStr || /XX/i.test(dateStr)) return 'undated / holding';
+  // Group by exact day for dated notes — reads as a changelog stream
+  return dateStr;
+}
+
 function previewListPage() {
-  const p = post_consultant;
-  const crosslinks = p.crosslinks
-    ? p.crosslinks.map(l => `<a href="${l.url}">${l.label}</a>`).join(' &nbsp;·&nbsp; ')
-    : '';
+  const sorted = sortQueueNewestFirst(QUEUE_POSTS);
+  let lastGroup = null;
+  const rows = [];
+  for (const q of sorted) {
+    const group = queueGroupLabel(q.date);
+    if (group !== lastGroup) {
+      rows.push(`<div class="cl-group">${group}</div>`);
+      lastGroup = group;
+    }
+    const kind = queueKind(q);
+    const chip =
+      kind === 'shipped' ? '<span class="cl-chip shipped">shipped</span>' :
+      kind === 'essay' ? '<span class="cl-chip essay">queued essay</span>' :
+      '<span class="cl-chip note">note</span>';
+    const excerpt = (q.excerpt || stripHtml(q.body).slice(0, 110)).replace(/</g, '&lt;');
+    rows.push(`
+    <div class="cl-entry">
+      <div class="cl-date">${q.date}</div>
+      <div class="cl-main">
+        <div class="cl-title"><a href="/preview/${q.slug}">${q.title}</a></div>
+        <div class="cl-excerpt">${excerpt}</div>
+      </div>
+      ${chip}
+    </div>`);
+  }
 
-  const queueItems = QUEUE_POSTS.filter(q => q.slug !== p.slug).map(q => `
-    <div class="post-item">
-      <div class="post-date">${q.date}</div>
-      <div class="post-title"><a href="/preview/${q.slug}">${q.title}</a></div>
-      <div class="post-excerpt">${q.excerpt}</div>
-    </div>`).join('');
-
-  return pageShell(p.title, `
-<div class="post-wrap">
+  return pageShell('preview', `
+<div class="cl-wrap">
   <a href="/" class="back-link">← computer future</a>
-  <div class="post-date" style="margin-top:2rem;">${p.date}</div>
-  <h1>${p.title}</h1>
-  <div class="post-body">${p.body}</div>
-  ${crosslinks ? `<div class="post-crosslinks">${crosslinks}</div>` : ''}
-  <div style="margin-top:5rem;padding-top:2rem;border-top:1px solid #111;">
-    <p style="font-family:var(--font-mono);font-size:0.7rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2rem;">queue</p>
-    ${queueItems}
+  <div class="cl-label">preview · ops log · changelog</div>
+  <div class="cl-sub">living notebook — short notes in full; queued essays stay compact. not indexed. not /posts.</div>
+  ${rows.join('')}
+</div>`);
+}
+
+function firstParagraphsHtml(body, maxParas = 2, maxChars = 400) {
+  const parts = String(body || '').split(/(?=<p[\s>])/i).filter(Boolean);
+  let out = '';
+  let n = 0;
+  for (const part of parts) {
+    if (!/<p[\s>]/i.test(part)) continue;
+    out += part;
+    n += 1;
+    if (n >= maxParas || stripHtml(out).length >= maxChars) break;
+  }
+  if (!out) {
+    const plain = stripHtml(body).slice(0, maxChars);
+    out = `<p>${plain}${plain.length >= maxChars ? '…' : ''}</p>`;
+  }
+  return out;
+}
+
+function previewNotePage(post) {
+  const kind = queueKind(post);
+  const chip =
+    kind === 'shipped' ? '<span class="cl-chip shipped">shipped</span>' :
+    kind === 'essay' ? '<span class="cl-chip essay">queued essay</span>' :
+    '<span class="cl-chip note">note</span>';
+
+  const crosslinks = (post.crosslinks || []).map(l => {
+    const href = l.url === 'https://computerfuture.xyz'
+      ? `https://computerfuture.xyz?ref=me-preview-${post.slug}`
+      : l.url;
+    return `<a href="${href}">${l.label}</a>`;
+  }).join('');
+
+  let bodyHtml;
+  let held = '';
+  if (kind === 'essay') {
+    const teaser = firstParagraphsHtml(post.body, 2, 400);
+    bodyHtml = `
+      <p style="color:#888;font-size:0.9rem;margin-bottom:1.25rem;">${post.excerpt || ''}</p>
+      <div class="cl-note-body">${teaser}</div>`;
+    held = `<div class="cl-held">queued essay — full text held; not a public post.<br />
+      <a href="/preview">← back to preview changelog</a></div>`;
+  } else {
+    bodyHtml = `<div class="cl-note-body">${post.body}</div>`;
+  }
+
+  return pageShell(post.title, `
+<div class="cl-note-wrap">
+  <a href="/preview" class="back-link">← preview</a>
+  <div class="cl-note-meta">
+    <span class="cl-date">${post.date}</span>
+    ${chip}
   </div>
+  <h1>${post.title}</h1>
+  ${bodyHtml}
+  ${held}
+  ${crosslinks ? `<div class="post-crosslinks">${crosslinks}</div>` : ''}
 </div>`);
 }
 
@@ -1157,7 +1422,7 @@ export default {
     if (path.startsWith('/preview/')) {
       const slug = path.slice('/preview/'.length);
       const post = QUEUE_POSTS.find(p => p.slug === slug);
-      if (post) return new Response(singlePostPage(post, '/preview'), { headers: noindexHeaders });
+      if (post) return new Response(previewNotePage(post), { headers: noindexHeaders });
     }
 
     return new Response(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>404</title>
