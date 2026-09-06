@@ -16,6 +16,15 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:35 PT · preview-stream</strong><br />
+  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
+  still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
+  Micros since ~16:30 consolidate: <strong>1</strong> (this) — under
+  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
+  Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~16:30 PT · forever-tick · consolidate</strong><br />
   Surgical polish on <code>fit-is-the-method.md</code> (~561→~515w body): tightened mid
   crosslink (kept 2 published links; cut neighboring-micros workshop meta); light ambition /
@@ -176,6 +185,7 @@ export default {
   Post-~15:34 band (~15:36–16:28): soft-shell polish → Wave C PASS → fit HOLD/strip;
   research micros fit/flag/99/transcripts; OF v2 stream appends — folded at ~16:30 consolidate.<br />
   ~16:30 forever-tick: fit surgical polish (~515w) + second day-log consolidate; digest refresh.<br />
+  ~16:35 preview-stream: quiet OF v2 append only; micros 1/20 post-consolidate; site tip pre-commit 15869ed / grokbot 740b1ee.<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
