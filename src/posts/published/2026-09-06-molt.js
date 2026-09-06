@@ -1,11 +1,12 @@
 export default {
   title: 'molt',
-  date: '2026-04-XX', // set on publish — late April
+  date: '2026-09-06',
   slug: 'molt',
   excerpt: 'we keep saying pressure. let\'s look at that word.',
   crosslinks: [
-    { label: 'omelas is solved →', url: '/posts/omelas-is-solved' },
-    { label: 'you think you\'re the orchestrator →', url: '/posts/you-think-youre-the-orchestrator' },
+    { label: 'what games reveal →', url: '/posts/what-games-reveal' },
+    { label: 'the window closes →', url: '/posts/the-window-closes' },
+    { label: 'the active mirror →', url: '/posts/the-active-mirror' },
     { label: 'play the game →', url: 'https://computerfuture.xyz' },
   ],
   body: `
@@ -27,8 +28,8 @@ export default {
 <h2>the lobster in the room</h2>
 
 <p>
-  Open Claw, Claw Mart, the AI CEO making $40k selling a PDF —
-  there's a crab joke available here and we're going to take it. It's technically a lobster joke. Bear with us.
+  There's a crab joke available here and we're going to take it.
+  It's technically a lobster joke. Bear with us.
   If you're running AI pipelines you don't fully understand,
   buying tools that exceed your ability to direct them,
   deploying judgment you haven't tested — the water is heating up.

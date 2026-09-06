@@ -60,6 +60,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_molt_pub,
   post_small_enough_to_read,
   post_door_stays_open_pub,
   post_mirror_as_platform_pub,
@@ -125,7 +126,7 @@ import post_ghost_reads       from './posts/queue/2026-03-XX-ghost-reads-first.j
 import post_orchestrator      from './posts/queue/2026-03-XX-you-think-youre-the-orchestrator.js';
 import post_living_book       from './posts/queue/2026-04-01-the-living-book.js';
 import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js';
-import post_molt              from './posts/queue/2026-04-XX-molt.js';
+import post_molt_pub           from './posts/published/2026-09-06-molt.js';
 import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js';
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
@@ -231,7 +232,6 @@ const QUEUE_POSTS = [
   post_close_out,
 
   post_holding_in_check,
-  post_molt,
   post_omelas,
   post_living_book,
   post_orchestrator,
