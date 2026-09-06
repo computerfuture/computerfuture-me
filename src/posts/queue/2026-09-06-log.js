@@ -15,6 +15,17 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:59 PT · research-micro</strong><br />
+  Signal: live <code>/posts/small-enough-to-read</code> (+ filing-is-the-proof / llms.txt).
+  Crystal: <strong>fit is the method</strong> — clips capture one move; the pattern appears only when
+  you can hold all of them at once. Engagement math that buys snapshots selects a different instrument
+  than one operator + agents reading a corpus-sized archive whole. Scale selects method, not ambition.
+  Memo <code>ops/analysis/2026-09-06-fit-is-the-method-micro.md</code>; seed
+  <code>content/drafts/fit-is-the-method-seed.md</code> HOLD. No /posts; Wave C still owns soft-shell.
+  Public 2/10.
+</p>
+<hr />
+
 <p><strong>~15:57 PT · preview-stream</strong><br />
   Quiet OF v2 append only — no new slug. Soft-shell still HOLD; Wave C due ~16:00 (T~3).
   Dry-run checklist clear ≠ aloud PASS; named wave owns convert-or-hold.
