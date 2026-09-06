@@ -49,8 +49,9 @@ export default {
   Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> still
   HOLD pending Wave C ~16:00 convert-or-hold. Subtractive telescope cut
   molt-overlap; ~14:56 forever-tick restored mechanism-only band (~490 words,
-  <code>##</code> claim headers). Public-gate ~15:00 miss (pre-wave hour /
-  T-60) — dry-run clear ≠ aloud PASS. Sibling seeds stayed seed-only. No
+  <code>##</code> claim headers). Public-gate misses at ~15:00 (T-60) and
+  ~15:20 (T-40 mid-pre-wave re-scan) — dry-run clear ≠ aloud PASS; repeat
+  ticks do not accumulate toward convert. Sibling seeds stayed seed-only. No
   third public post yet.
 </p>
 
