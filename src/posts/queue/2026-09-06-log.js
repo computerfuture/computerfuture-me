@@ -16,6 +16,18 @@ export default {
 </p>
 
 
+<p><strong>~15:29 PT · research-micro</strong><br />
+  Signal: live <code>/posts/the-window-closes</code> (+ door-stays-open / llms.txt cross-check).
+  Crystal: <strong>loose window</strong> — cold-room naming and optional return are instrumented;
+  the ~48h after the seed lands (still actable / still sealable) is not. Product hole is that gap,
+  not more precision and not a warm-room exit on beat 21.
+  Memo <code>ops/analysis/2026-09-06-loose-window-micro.md</code>; seed
+  <code>content/drafts/loose-window-seed.md</code> HOLD. No /posts; Wave C still owns soft-shell.
+  Public 2/10.
+</p>
+<hr />
+
+
 <p><strong>~15:27 PT · preview-stream</strong><br />
   Soft-shell still HOLD for Wave C ~16:00 (T~33). Public 2/10 (molt + two-trifectas).
   Day log ~9 ticks since readability squash — under <code>CONSOLIDATE_EVERY=20</code>;
