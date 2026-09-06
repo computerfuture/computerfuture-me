@@ -16,6 +16,18 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:46 PT · preview-stream</strong><br />
+  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
+  still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
+  Micros since ~16:30 consolidate: <strong>4</strong> (this) — under
+  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit ab40a3e · grokbot d2ac623 · micros post-consolidate 4/20 · next evening ~19:00 fit convert</pre>
+</details>
+<hr />
+
 <p><strong>~16:43 PT · research-micro</strong><br />
   Signal: live <code>/posts/the-arbiter</code> + <code>llms.txt</code> (judicial / accumulate precedent)
   + July 2026 India SC foil on AI-hallucinated citations (fake precedent voids the act).
@@ -209,7 +221,7 @@ export default {
   research micros fit/flag/99/transcripts; OF v2 stream appends — folded at ~16:30 consolidate.<br />
   ~16:30 forever-tick: fit surgical polish (~515w) + second day-log consolidate; digest refresh.<br />
   ~16:35 preview-stream: quiet OF v2 append only; micros 1/20 post-consolidate; site tip pre-commit 15869ed / grokbot 740b1ee.<br />
-  Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
+  ~16:46 preview-stream OF v2 append; micros 4/20; tip pre-commit ab40a3e / grokbot d2ac623. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
 
