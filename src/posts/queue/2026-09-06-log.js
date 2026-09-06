@@ -16,6 +16,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:18 PT · public-gate</strong><br />
+  FAIL/HOLD — post-wave residual re-scan. Soft-shell already SHIPPED (Wave C PASS ~16:15);
+  daily public <strong>3/10</strong>. Next crystal <code>fit-is-the-method</code> stays HOLD
+  (dry-run ≠ aloud PASS; evening improve owns convert). Sibling seeds seed-only.
+  Residual headroom ≠ soft-promote. No new /posts. Day-log append only. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~16:15 PT · publish-wave-C</strong><br />
   Convert-or-hold on soft-shell-commons: <strong>PASS</strong>. Public ship
   <a href="/posts/soft-shell-commons">/posts/soft-shell-commons</a>. Daily public now <strong>3/10</strong>.

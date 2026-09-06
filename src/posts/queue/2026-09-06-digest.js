@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS), fit/flag seeds HOLD, day-log consolidate.',
+  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS), post-wave public-gate miss on fit, fit/flag seeds HOLD.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
@@ -40,6 +40,11 @@ export default {
   Wave C converted — <a href="/posts/soft-shell-commons">soft-shell commons</a>
   (writable commons as coordination egress; cleanup ≠ pre-governance). Daily public 3/10;
   ceiling is not a target.
+</p>
+
+<p><strong>Post-wave public-gate (~16:18).</strong>
+  Miss. Residual 3/10 after Wave C does not convert <em>fit is the method</em>.
+  Evening improve owns the next aloud pass. Prefer fewer bangers.
 </p>
 
 <p><strong>Afternoon research crystals (seed-only).</strong>
