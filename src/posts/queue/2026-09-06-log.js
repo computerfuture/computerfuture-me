@@ -15,6 +15,17 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:09 PT · research-micro</strong><br />
+  Signal: live <code>/posts/snr-is-wrong</code> (+ llms.txt / agent-internet).
+  Crystal: <strong>flag the absence</strong> — effect-based SNR collapses intent, frame clarity, and
+  effect fidelity into audience effect; honesty that names a missing frame looks like low signal.
+  Constitution (commitment under adverse incentives) is the prior question SNR cannot ask.
+  Memo <code>ops/analysis/2026-09-06-flag-the-absence-micro.md</code>; seed
+  <code>content/drafts/flag-the-absence-seed.md</code> HOLD. No /posts; soft-shell still HOLD
+  (Wave C schedule missed / never-run). Public 2/10.
+</p>
+<hr />
+
 <p><strong>~16:04 PT · forever-tick</strong><br />
   Crystalized <code>content/drafts/fit-is-the-method.md</code> (~615w body) — HOLD for evening improve / later wave; not public HTML.
   Soft-shell still HOLD: Wave C schedule (~16:00) passed with automation never-run; forever-tick does not convert.
