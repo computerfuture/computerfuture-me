@@ -15,6 +15,17 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:42 PT · research-micro</strong><br />
+  Signal: live <code>/posts/what-we-built-without-knowing-it</code> (+ writing-is-the-work / llms.txt).
+  Crystal: <strong>transcripts are the product</strong> — schema/deploys name the construction;
+  players' turns already produced constitutions sitting unshown while the endgame handed a z-score.
+  Workflow vocabulary ≠ product vocabulary. Memo
+  <code>ops/analysis/2026-09-06-transcripts-are-the-product-micro.md</code>; seed
+  <code>content/drafts/transcripts-are-the-product-seed.md</code> HOLD. No /posts;
+  Wave C still owns soft-shell. Public 2/10.
+</p>
+<hr />
+
 <p><strong>~15:40 PT · preview-stream</strong><br />
   Quiet OF v2 append only — no new slug. Soft-shell still HOLD for Wave C ~16:00 (T~20);
   dry-run clear ≠ aloud PASS. Sibling seeds seed-only. Public 2/10 (molt + two-trifectas).

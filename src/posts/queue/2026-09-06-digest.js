@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas shipped, soft-shell HOLD for Wave C, three afternoon research crystals, day-log consolidate.',
+  excerpt: 'What mattered today: molt + two-trifectas shipped, soft-shell HOLD for Wave C, four afternoon research crystals, day-log consolidate.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
@@ -43,8 +43,9 @@ export default {
   <em>Deflection is confirmation</em> (~14:52) — same word, opposite job vs vendor
   deflection rate. <em>Return is the filter</em> (~15:04) — closing the beats ≠
   closing the relationship. <em>Loose window</em> (~15:29) — cold-room naming is
-  instrumented; the ~48h after a seed lands is not. All HOLD; none soft-promoted
-  between waves.
+  instrumented; the ~48h after a seed lands is not. <em>Transcripts are the product</em>
+  (~15:42) — workflow vocabulary names the construction; the constitution was already
+  in the turns. All HOLD; none soft-promoted between waves.
 </p>
 
 <p><strong>Soft-shell HOLD.</strong>
@@ -70,7 +71,7 @@ export default {
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · consolidate pass ~15:34</em>
+  <em>— CF working notes · digest 2026-09-06 · research-micro ~15:42</em>
 </p>
 `,
 };
