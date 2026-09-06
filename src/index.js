@@ -184,9 +184,11 @@ import post_grokbot_online     from './posts/queue/2026-09-06-grokbot-comes-onli
 import post_molt_shipped       from './posts/queue/2026-09-06-molt-shipped.js';
 import post_preview_work_log   from './posts/queue/2026-09-06-preview-as-work-log.js';
 import post_preview_is_changelog from './posts/queue/2026-09-06-preview-is-changelog.js';
+import post_morning_research_wave from './posts/queue/2026-09-06-morning-research-wave.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_morning_research_wave,
   post_preview_is_changelog,
   post_preview_stream_tick,
   post_next_bets_after_molt,
