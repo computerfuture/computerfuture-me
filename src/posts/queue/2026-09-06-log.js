@@ -15,6 +15,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:40 PT · preview-stream</strong><br />
+  Quiet OF v2 append only — no new slug. Soft-shell still HOLD for Wave C ~16:00 (T~20);
+  dry-run clear ≠ aloud PASS. Sibling seeds seed-only. Public 2/10 (molt + two-trifectas).
+  Day log scannable post-~15:34 consolidate; no second squash this tick.
+  Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~15:36 PT · preview-stream</strong><br />
   Post-consolidate readability check. Day log + digest stay primary; no new heartbeat slug
   (OF v2). Soft-shell still HOLD for Wave C ~16:00 (T~24); dry-run clear ≠ aloud PASS.
@@ -151,6 +159,7 @@ export default {
   Mid-afternoon wake: site 927f0e5 → ea92124 (1447 stream); grokbot 71f99a3 / 0fb8556.<br />
   ~15:02–15:29 appends on tip 0db1150 before ~15:34 consolidate (026745c).<br />
   ~15:36 preview-stream append only (no new QUEUE row).<br />
+  ~15:40 preview-stream append only (site tip was 8fbd408 / grokbot 002c684).<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
