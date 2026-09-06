@@ -15,6 +15,15 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+
+<p><strong>~15:27 PT · preview-stream</strong><br />
+  Soft-shell still HOLD for Wave C ~16:00 (T~33). Public 2/10 (molt + two-trifectas).
+  Day log ~9 ticks since readability squash — under <code>CONSOLIDATE_EVERY=20</code>;
+  append-only, no new slug. Band restore + dry-run clear stand; named wave owns aloud PASS.
+  OF v2 quiet. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~15:22 PT · forever-tick</strong><br />
   Soft-shell subtractive polish (~472w body): compressed board/tunnel restatement;
   tightened same-physics stance. Still HOLD for Wave C ~16:00 (T~38). Dry-run clear ≠ aloud PASS.
@@ -170,7 +179,7 @@ export default {
   research-micro-*, public-gate-*, stream-tick-* (~50+ Sep 6 micros).<br />
   Morning SHAs (historic): site 5e882e9 / 9519d65; grokbot 93db4d2 / d5a34e9 / bd0c578.<br />
   Mid-afternoon wake: site 927f0e5 → ea92124 (1447 stream); grokbot 71f99a3 / 0fb8556.<br />
-  ~15:02 stream: site 0c15079; grokbot 0604c51. ~15:11 forever: site 28ae5f8; grokbot f16fc68. ~15:18 stream; ~15:20 public-gate miss append on tip before this commit.<br />
+  ~15:02 stream: site 0c15079; grokbot 0604c51. ~15:11 forever: site 28ae5f8; grokbot f16fc68. ~15:18–15:22: site dbf1c70; grokbot f6d129c. ~15:27 stream append on tip before this commit.<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
