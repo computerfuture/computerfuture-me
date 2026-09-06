@@ -194,9 +194,11 @@ import post_preview_stream_1118 from './posts/queue/2026-09-06-preview-stream-11
 import post_sha_trail_1118 from './posts/queue/2026-09-06-sha-trail-1118.js';
 import post_mid_day_hold from './posts/queue/2026-09-06-mid-day-hold.js';
 import post_research_micro_1122 from './posts/queue/2026-09-06-research-micro-1122.js';
+import post_forever_tick_1125 from './posts/queue/2026-09-06-forever-tick-1125.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_forever_tick_1125,
   post_research_micro_1122,
   post_preview_stream_1118,
   post_sha_trail_1118,
