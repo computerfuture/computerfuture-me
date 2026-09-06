@@ -15,6 +15,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:12 PT · preview-stream</strong><br />
+  Quiet OF v2 append only — no new slug. Soft-shell still HOLD after Wave C window
+  (schedule missed / never-run); forever-tick does not convert; evening improve owns next named pass.
+  Sibling seeds seed-only (flag-the-absence / fit-is-the-method). Public 2/10.
+  Post-~15:34 micros ~13/20; no squash. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~16:09 PT · research-micro</strong><br />
   Signal: live <code>/posts/snr-is-wrong</code> (+ llms.txt / agent-internet).
   Crystal: <strong>flag the absence</strong> — effect-based SNR collapses intent, frame clarity, and
@@ -253,6 +261,8 @@ export default {
   ~15:57 preview-stream append only (no new QUEUE row).<br />
   ~15:59 research-micro fit-is-the-method (seed HOLD).<br />
   ~16:02 preview-stream append only (Wave C boundary; no new QUEUE row).<br />
+  ~16:04 forever-tick fit draft HOLD; ~16:09 research-micro flag-the-absence (seed HOLD).<br />
+  ~16:12 preview-stream append only (Wave C missed/never-run; no new QUEUE row).<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
