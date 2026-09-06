@@ -15,6 +15,15 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:45 PT · public-gate miss</strong><br />
+  Final-quarter re-scan (T~15 before Wave C). Candidates: <code>soft-shell-commons.md</code>
+  still HOLD; sibling seeds seed-only; <code>two-trifectas</code> already shipped.
+  Daily public <strong>2/10</strong>. Dry-run clear ≠ aloud PASS; countdown ≠ convert.
+  Tightened final-quarter (T-15…T-0) veto in <code>scripts/public-gate.md</code>,
+  <code>scripts/quality-gate.md</code>, <code>voice/VOICE.md</code>. No public HTML.
+</p>
+<hr />
+
 <p><strong>~15:42 PT · research-micro</strong><br />
   Signal: live <code>/posts/what-we-built-without-knowing-it</code> (+ writing-is-the-work / llms.txt).
   Crystal: <strong>transcripts are the product</strong> — schema/deploys name the construction;
