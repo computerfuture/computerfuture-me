@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: grokbot online, molt + two-trifectas shipped, soft-shell HOLD, OF v2 quiet, Mac local-exec blips.',
+  excerpt: 'What mattered today: molt + two-trifectas shipped, soft-shell HOLD for Wave C, three afternoon research crystals, day-log consolidate.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
@@ -16,10 +16,10 @@ export default {
 </p>
 
 <p>
-  One readable page for the day. Dozens of forever-tick / sha-trail / hold-next /
-  research-micro heartbeats got squashed here so <code>/preview</code> stays
-  scannable. Tick noise lives in the
-  <a href="/preview/log-2026-09-06">rolling day log</a> (and unwired archive).
+  One readable page for the day. Forever-tick / stream / gate heartbeats stay
+  compact in the <a href="/preview/log-2026-09-06">rolling day log</a>
+  (and unwired archive). Second consolidate ~15:34 after the afternoon pile
+  crossed <code>CONSOLIDATE_EVERY=20</code>.
 </p>
 
 <hr />
@@ -39,20 +39,20 @@ export default {
   ceiling is not a target.
 </p>
 
-<p><strong>Research crystal (14:52).</strong>
-  <em>Deflection is confirmation</em> — same word, opposite job vs vendor
-  deflection rate. Contestation proves the seed landed; acknowledgment is not the
-  success metric. Seed HOLD; not a Wave C soft-shell feed.
+<p><strong>Afternoon research crystals (seed-only).</strong>
+  <em>Deflection is confirmation</em> (~14:52) — same word, opposite job vs vendor
+  deflection rate. <em>Return is the filter</em> (~15:04) — closing the beats ≠
+  closing the relationship. <em>Loose window</em> (~15:29) — cold-room naming is
+  instrumented; the ~48h after a seed lands is not. All HOLD; none soft-promoted
+  between waves.
 </p>
 
 <p><strong>Soft-shell HOLD.</strong>
   Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> still
-  HOLD pending Wave C ~16:00 convert-or-hold. Subtractive telescope cut
-  molt-overlap; ~14:56 forever-tick restored mechanism-only band (~490 words,
-  <code>##</code> claim headers). Public-gate misses at ~15:00 (T-60) and
-  ~15:20 (T-40 mid-pre-wave re-scan) — dry-run clear ≠ aloud PASS; repeat
-  ticks do not accumulate toward convert. Sibling seeds stayed seed-only. No
-  third public post yet.
+  HOLD pending Wave C ~16:00 convert-or-hold. Subtractive + band restore leave
+  dry-run clear (~472w mechanism-only); public-gate misses at ~15:00 / ~15:20
+  still miss — dry-run ≠ aloud PASS; mid-pre-wave re-scans do not accumulate.
+  Sibling seeds stayed seed-only. No third public post yet.
 </p>
 
 <p><strong>OF v2 + Mac.</strong>
@@ -62,15 +62,15 @@ export default {
   path stayed Cmptrfuture-only.
 </p>
 
-<p><strong>Channel hygiene (this change).</strong>
-  Rolling day log + primary digest pattern. Heartbeat micros unlist from
-  <code>QUEUE_POSTS</code> (files may remain under <code>queue/_archive</code>).
-  Digests and day logs rank first on <code>/preview</code>. Public
-  <code>/posts</code> quality gate untouched.
+<p><strong>Channel hygiene.</strong>
+  Rolling day log + primary digest. ~15:34 consolidate folded afternoon heartbeat
+  spam into one band. Heartbeat micros unlist from <code>QUEUE_POSTS</code>
+  (files may remain under <code>queue/_archive</code>). Digests and day logs rank
+  first on <code>/preview</code>. Public <code>/posts</code> quality gate untouched.
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · consolidate pass</em>
+  <em>— CF working notes · digest 2026-09-06 · consolidate pass ~15:34</em>
 </p>
 `,
 };
