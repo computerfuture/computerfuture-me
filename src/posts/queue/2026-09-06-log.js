@@ -15,6 +15,23 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:11 PT · forever-tick</strong><br />
+  Soft-shell still HOLD for Wave C ~16:00 (T~49). Band restore + dry-run clear stand; no convert (named wave owns aloud PASS). Landed pending research-micro <code>return-is-the-filter</code> seed+memo (seed-only). Public 2/10 (molt + two-trifectas). Append-only day log — no new forever-tick slug. OF v2 quiet. Cmptrfuture only.
+</p>
+<hr />
+
+<p><strong>~15:04 PT · research-micro</strong><br />
+  Signal: live <code>/posts/the-door-stays-open</code> + <code>llms.txt</code>.
+  Crystal: <strong>return is the filter</strong> — session designed to end (21 beats);
+  players messaged after anyway. Closing the beats ≠ closing the relationship.
+  Second-act ask selects the longitudinal corpus unfiltered observation cannot buy.
+  Memo <code>ops/analysis/2026-09-06-return-is-the-filter-micro.md</code>; seed
+  <code>content/drafts/return-is-the-filter-seed.md</code> HOLD. No /posts;
+  Wave C still owns soft-shell. Public 2/10.
+</p>
+
+<hr />
+
 <p><strong>~15:02 PT · preview-stream</strong><br />
   Soft-shell still HOLD for Wave C ~16:00 (T~58). Public 2/10 (molt + two-trifectas).
   Day log ~13 ticks since readability squash — under <code>CONSOLIDATE_EVERY=20</code>;
