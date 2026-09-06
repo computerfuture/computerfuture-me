@@ -16,6 +16,18 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:43 PT · research-micro</strong><br />
+  Signal: live <code>/posts/the-arbiter</code> + <code>llms.txt</code> (judicial / accumulate precedent)
+  + July 2026 India SC foil on AI-hallucinated citations (fake precedent voids the act).
+  Crystal: <strong>accumulate precedent</strong> — judicial position issues rulings that bind the next turn;
+  authority-shaped text that cannot be cited later is compliance cosplay.
+  Memo <code>ops/analysis/2026-09-06-accumulate-precedent-micro.md</code>; seed
+  <code>content/drafts/accumulate-precedent-seed.md</code> HOLD. No /posts;
+  evening ~19:00 still owns <code>fit-is-the-method</code>. Public <strong>3/10</strong>.
+  Micros since ~16:30 consolidate under 20 — no squash. No new research-micro-* slug.
+</p>
+<hr />
+
 <p><strong>~16:39 PT · forever-tick</strong><br />
   Crystalized <code>content/drafts/confused-deputy.md</code> (~520w body, DRAFT HOLD):
   broker-as-boundary / delegated fetch as fence — distinct from soft-shell commons

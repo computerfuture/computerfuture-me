@@ -53,7 +53,7 @@ export default {
   closing the relationship. <em>Loose window</em> (~15:29) — cold-room naming is
   instrumented; the ~48h after a seed lands is not. <em>Transcripts are the product</em>
   (~15:42) — workflow vocabulary names the construction; the constitution was already
-  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. All HOLD; none soft-promoted between waves.
+  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. <em>Accumulate precedent</em> (~16:43) — judicial position binds next turn; fake/unbound authority-shaped text is compliance cosplay (seed HOLD). All HOLD; none soft-promoted between waves.
 </p>
 
 <p><strong>Next crystal HOLD.</strong>
