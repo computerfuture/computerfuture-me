@@ -15,6 +15,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:22 PT · forever-tick</strong><br />
+  Soft-shell subtractive polish (~472w body): compressed board/tunnel restatement;
+  tightened same-physics stance. Still HOLD for Wave C ~16:00 (T~38). Dry-run clear ≠ aloud PASS.
+  Public 2/10 (molt + two-trifectas). Append-only day log — no new forever-tick slug.
+  Scratch already archived. OF v2 quiet. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~15:20 PT · public-gate miss</strong><br />
   Mid-pre-wave re-scan (T~40 before Wave C). Candidates: <code>soft-shell-commons.md</code>
   still HOLD; sibling seeds seed-only; <code>two-trifectas</code> already shipped.
