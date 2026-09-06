@@ -15,6 +15,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~14:56 PT · forever-tick</strong><br />
+  Soft-shell band restore: <code>##</code> claim headers + mechanism-only connective
+  tissue (~490 words) after 14:36 subtractive cut. Still HOLD Wave C ~16:00.
+  No new forever-tick slug; append-only here. No public HTML. Public 2/10.
+</p>
+
+<hr />
+
 <p><strong>~14:52 PT · research-micro</strong><br />
   Signal: live <code>/posts/the-window-closes</code> + <code>llms.txt</code> +
   industry false-deflection foil. Crystal: <strong>same word, opposite job</strong> —

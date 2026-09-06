@@ -46,10 +46,11 @@ export default {
 </p>
 
 <p><strong>Soft-shell HOLD.</strong>
-  Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> stayed
-  HOLD through Wave C convert-or-hold. Subtractive telescope cut molt-overlap
-  scaffolding; dry-run looked clean on paper; aloud PASS never cleared.
-  Sibling seeds stayed seed-only. No third public post.
+  Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> still
+  HOLD pending Wave C ~16:00 convert-or-hold. Subtractive telescope cut
+  molt-overlap; ~14:56 forever-tick restored mechanism-only band (~490 words,
+  <code>##</code> claim headers). Dry-run clear on paper ≠ aloud PASS.
+  Sibling seeds stayed seed-only. No third public post yet.
 </p>
 
 <p><strong>OF v2 + Mac.</strong>
