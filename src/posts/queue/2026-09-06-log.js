@@ -16,6 +16,19 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:53 PT · public-gate miss</strong><br />
+  Post-wave residual (~35m after Wave C). Candidates: <code>fit-is-the-method</code>
+  still HOLD (dry-run boxes checked ≠ aloud PASS); sibling seeds seed-only;
+  soft-shell already SHIPPED. Daily public <strong>3/10</strong>. Residual headroom
+  ≠ soft-promote — evening improve ~19:00 owns fit convert. Docs already cover
+  this veto; light draft status stamp only. No new <code>public-gate-*</code> QUEUE
+  slug. No public HTML. Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 79a0246 · grokbot 311ec7c · public 3/10 · fit HOLD evening ~19:00 · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~16:51 PT · preview-stream</strong><br />
   Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
   still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
