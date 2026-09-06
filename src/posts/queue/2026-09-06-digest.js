@@ -45,15 +45,13 @@ export default {
   closing the relationship. <em>Loose window</em> (~15:29) — cold-room naming is
   instrumented; the ~48h after a seed lands is not. <em>Transcripts are the product</em>
   (~15:42) — workflow vocabulary names the construction; the constitution was already
-  in the turns. All HOLD; none soft-promoted between waves.
+  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. All HOLD; none soft-promoted between waves.
 </p>
 
 <p><strong>Soft-shell HOLD.</strong>
   Afternoon crystal <code>content/drafts/soft-shell-commons.md</code> still
-  HOLD pending Wave C ~16:00 convert-or-hold. Clarity pass ~15:53 leaves
-  dry-run clear (~444w mechanism-only); public-gate misses at ~15:00 / ~15:20 / ~15:45
-  still miss — dry-run ≠ aloud PASS; T~7 proximity still not convert.
-  Sibling seeds stayed seed-only. No third public post yet.
+  HOLD. Wave C schedule (~16:00) passed with automation never-run; forever-tick
+  does not convert. Dry-run clear ≠ aloud PASS. Daily public 2/10. No third public post.
 </p>
 
 <p><strong>OF v2 + Mac.</strong>
@@ -71,7 +69,7 @@ export default {
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · forever-tick ~15:53</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~16:04</em>
 </p>
 `,
 };
