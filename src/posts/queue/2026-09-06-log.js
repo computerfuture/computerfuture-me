@@ -16,6 +16,14 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:28 PT · preview-stream</strong><br />
+  Quiet OF v2 append only — no new slug. Soft-shell already SHIPPED (Wave C PASS);
+  <code>fit-is-the-method</code> stays evening HOLD (dry-run ≠ aloud PASS). Sibling seeds seed-only
+  (flag-the-absence / 99-is-not-a-number). Public <strong>3/10</strong>.
+  Post-~15:34 micros ~18/20; no squash. Cmptrfuture only.
+</p>
+<hr />
+
 <p><strong>~16:26 PT · research-micro</strong><br />
   Signal: live <code>/posts/99-is-not-a-number</code> (+ what-games-reveal / llms.txt / CSET Beyond P(doom) color).
   Crystal: <strong>99% is not a number</strong> — a percent without base rates, update conditions, and
@@ -299,6 +307,8 @@ export default {
   ~16:02 preview-stream append only (Wave C boundary; no new QUEUE row).<br />
   ~16:04 forever-tick fit draft HOLD; ~16:09 research-micro flag-the-absence (seed HOLD).<br />
   ~16:12 preview-stream append only (Wave C missed/never-run; no new QUEUE row).<br />
+  ~16:15 Wave C PASS soft-shell; ~16:18 public-gate residual HOLD fit; ~16:22 forever-tick fit strip; ~16:26 research-micro 99-is-not-a-number.<br />
+  ~16:28 preview-stream append only (no new QUEUE row; micros ~18/20).<br />
   Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
