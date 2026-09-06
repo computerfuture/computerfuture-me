@@ -15,6 +15,17 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~15:00 PT · public-gate miss</strong><br />
+  Scanned drafts + queue essays. Candidates: <code>soft-shell-commons.md</code>
+  (HOLD Wave C), sibling seeds seed-only, <code>two-trifectas</code> already shipped.
+  Daily public <strong>2/10</strong> (molt + two-trifectas). Soft-shell dry-run clear
+  + band restore still ≠ PASS — pre-wave hour (T-60) is mid-cycle. Tightened
+  <code>scripts/public-gate.md</code>, <code>scripts/quality-gate.md</code>,
+  <code>voice/VOICE.md</code> (pre-wave polish ≠ convert). No public HTML.
+</p>
+
+<hr />
+
 <p><strong>~14:56 PT · forever-tick</strong><br />
   Soft-shell band restore: <code>##</code> claim headers + mechanism-only connective
   tissue (~490 words) after 14:36 subtractive cut. Still HOLD Wave C ~16:00.
