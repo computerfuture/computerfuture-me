@@ -60,6 +60,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_soft_shell_commons_pub,
   post_two_trifectas_pub,
   post_molt_pub,
   post_small_enough_to_read,
@@ -129,6 +130,7 @@ import post_living_book       from './posts/queue/2026-04-01-the-living-book.js'
 import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js';
 import post_molt_pub           from './posts/published/2026-09-06-molt.js';
 import post_two_trifectas_pub from './posts/published/2026-09-06-two-trifectas.js';
+import post_soft_shell_commons_pub from './posts/published/2026-09-06-soft-shell-commons.js';
 import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js';
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
@@ -192,6 +194,7 @@ import post_publish_wave_a from './posts/queue/2026-09-06-publish-wave-a.js';
 import post_morning_research_wave from './posts/queue/2026-09-06-morning-research-wave.js';
 import post_mid_day_hold from './posts/queue/2026-09-06-mid-day-hold.js';
 import post_publish_wave_b from './posts/queue/2026-09-06-publish-wave-b.js';
+import post_publish_wave_c from './posts/queue/2026-09-06-publish-wave-c.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
@@ -199,6 +202,7 @@ const QUEUE_POSTS = [
   post_digest_20260906,
   post_log_20260906,
   // Sep 6 named ops notes (kept; heartbeats archived)
+  post_publish_wave_c,
   post_publish_wave_b,
   post_mid_day_hold,
   post_publish_wave_a,

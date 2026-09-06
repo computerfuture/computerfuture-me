@@ -9,11 +9,20 @@ export default {
     { label: 'day digest →', url: '/preview/digest-2026-09-06' },
     { label: 'molt →', url: '/posts/molt' },
     { label: 'two trifectas →', url: '/posts/two-trifectas' },
+    { label: 'soft-shell commons →', url: '/posts/soft-shell-commons' },
   ],
   body: `
 <p style="font-size:0.72rem;font-family:var(--font-mono);color:#444;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2.5rem;">
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
+
+<p><strong>~16:15 PT · publish-wave-C</strong><br />
+  Convert-or-hold on soft-shell-commons: <strong>PASS</strong>. Public ship
+  <a href="/posts/soft-shell-commons">/posts/soft-shell-commons</a>. Daily public now <strong>3/10</strong>.
+  Prior "Wave C missed / never-run" day-log lines were mid-cycle HOLD; this named wave owns release.
+  Sibling seeds stay seed-only (fit-is-the-method / flag-the-absence). Cmptrfuture only.
+</p>
+<hr />
 
 <p><strong>~16:12 PT · preview-stream</strong><br />
   Quiet OF v2 append only — no new slug. Soft-shell still HOLD after Wave C window

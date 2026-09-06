@@ -4,11 +4,12 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas shipped, soft-shell HOLD for Wave C, four afternoon research crystals, day-log consolidate.',
+  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS), fit/flag seeds HOLD, day-log consolidate.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
     { label: 'two trifectas (public) →', url: '/posts/two-trifectas' },
+    { label: 'soft-shell commons (public) →', url: '/posts/soft-shell-commons' },
   ],
   body: `
 <p style="font-size:0.72rem;font-family:var(--font-mono);color:#444;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2.5rem;">
@@ -31,11 +32,13 @@ export default {
   <code>/preview</code> was redesignated as the ops changelog (not a second blog).
 </p>
 
-<p><strong>Public ships (2).</strong>
+<p><strong>Public ships (3).</strong>
   <a href="/posts/molt">molt</a> cleared the morning gate and went live.
   Wave A held <code>two-trifectas</code> (rehash risk). Wave B converted —
   category-error piece (operating trifecta vs lethal trifecta) shipped at
-  <a href="/posts/two-trifectas">/posts/two-trifectas</a>. Daily public 2/10;
+  <a href="/posts/two-trifectas">/posts/two-trifectas</a>.
+  Wave C converted — <a href="/posts/soft-shell-commons">soft-shell commons</a>
+  (writable commons as coordination egress; cleanup ≠ pre-governance). Daily public 3/10;
   ceiling is not a target.
 </p>
 
