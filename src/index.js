@@ -231,6 +231,7 @@ import post_hold_next_1400 from './posts/queue/2026-09-06-hold-next-1400.js';
 import post_forever_tick_1404 from './posts/queue/2026-09-06-forever-tick-1404.js';
 import post_research_micro_1406 from './posts/queue/2026-09-06-research-micro-1406.js';
 import post_public_gate_1415 from './posts/queue/2026-09-06-public-gate-1415.js';
+import post_forever_tick_1423 from './posts/queue/2026-09-06-forever-tick-1423.js';
 import post_preview_stream_1420 from './posts/queue/2026-09-06-preview-stream-1420.js';
 import post_sha_trail_1420 from './posts/queue/2026-09-06-sha-trail-1420.js';
 import post_hold_next_1420 from './posts/queue/2026-09-06-hold-next-1420.js';
@@ -239,6 +240,7 @@ import post_hold_next_1156 from './posts/queue/2026-09-06-hold-next-1156.js';
 // import post_kalshi            from './posts/queue/2026-03-09-prediction-markets-wrong-species.js'; // published
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
+  post_forever_tick_1423,
   post_preview_stream_1420,
   post_sha_trail_1420,
   post_hold_next_1420,
