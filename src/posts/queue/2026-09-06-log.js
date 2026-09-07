@@ -16,6 +16,19 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~17:22 PT · preview-stream</strong><br />
+  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
+  still HOLD for evening improve ~19:00; crystals HOLD
+  (<code>ratio-is-the-company</code>, <code>accumulate-precedent</code>,
+  <code>social-stable-isnt-epistemic</code>). Public <strong>3/10</strong>.
+  Micros since ~16:30 consolidate: <strong>16</strong> (this) — under
+  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug. Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 2e0fa46 · grokbot fa3144b · micros post-consolidate 16/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~17:18 PT · preview-stream</strong><br />
   Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
   still HOLD for evening improve ~19:00; latest crystal HOLD
