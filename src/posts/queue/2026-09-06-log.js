@@ -16,6 +16,26 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+
+<p><strong>~17:30 PT · research-micro</strong><br />
+  Signal: live <code>/posts/the-position-problem</code> + <code>/posts/demoting-laplaces-demon</code>
+  + <code>llms.txt</code> (judicial position / judgment call). Crystal:
+  <strong>stance is the missing variable</strong> — more data through the same
+  observational stance reproduces the same structured errors; the demon fails
+  from missing self-knowledge, not missing particles. Upgrade is a better model
+  of how position shapes what you see, not a thicker feed. Memo
+  <code>ops/analysis/2026-09-06-stance-is-the-missing-variable-micro.md</code>; seed
+  <code>content/drafts/stance-is-the-missing-variable-seed.md</code> HOLD.
+  No /posts; evening ~19:00 still owns <code>fit-is-the-method</code>.
+  Public <strong>3/10</strong>. Micros since ~16:30 consolidate:
+  <strong>18</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash.
+  No new research-micro-* slug.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">research-micro stance-is-the-missing-variable · fit HOLD evening · public 3/10 · micros post-consolidate 18/20 · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~17:25 PT · forever-tick</strong><br />
   Crystalized <code>content/drafts/ratio-is-the-company.md</code>
   (~470w body, DRAFT HOLD) from research-micro ~17:16 seed: the ratio
