@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; imposition-then-excavation crystal HOLD (~17:42); confused/social/accumulate/ratio/stance HOLD drafts; day-log consolidates through ~17:34.',
+  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; advertisement-is-lemons research HOLD (~18:31); imposition-then-excavation crystal HOLD (~17:42); confused/social/accumulate/ratio/stance HOLD drafts; day-log through ~18:31.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },

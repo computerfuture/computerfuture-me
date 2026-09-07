@@ -183,6 +183,7 @@ import post_finding_the_rule   from './posts/queue/2026-03-23-finding-the-rule.j
 import post_skill_md           from './posts/queue/2026-03-24-skill-md.js';
 import post_digest_20260906 from './posts/queue/2026-09-06-digest.js';
 import post_log_20260906 from './posts/queue/2026-09-06-log.js';
+import post_log_20260907 from './posts/queue/2026-09-07-log.js';
 import post_preview_stream_tick from './posts/queue/2026-09-06-preview-stream-tick.js';
 import post_next_bets_after_molt from './posts/queue/2026-09-06-next-bets-after-molt.js';
 import post_grokbot_online     from './posts/queue/2026-09-06-grokbot-comes-online.js';
@@ -199,6 +200,7 @@ import post_publish_wave_c from './posts/queue/2026-09-06-publish-wave-c.js';
 // import post_lines_intersecting — published
 const QUEUE_POSTS = [
   // Primary: day digests + rolling logs (scannable)
+  post_log_20260907,
   post_digest_20260906,
   post_log_20260906,
   // Sep 6 named ops notes (kept; heartbeats archived)
