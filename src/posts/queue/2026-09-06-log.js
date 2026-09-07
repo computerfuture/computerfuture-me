@@ -16,6 +16,25 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~17:16 PT · research-micro</strong><br />
+  Signal: live <code>/posts/the-ratio</code> + <code>/posts/root-level-deflation</code>
+  + <code>llms.txt</code> (record-as-thing / judgment call). Crystal:
+  <strong>ratio is the company</strong> — direction/authority/signal compresses
+  into infrastructure that compounds; feature-add without that compression is
+  root-level inflation (holding cost dressed as progress). Measure signal per
+  interrupt, not lines shipped. Memo
+  <code>ops/analysis/2026-09-06-ratio-is-the-company-micro.md</code>; seed
+  <code>content/drafts/ratio-is-the-company-seed.md</code> HOLD.
+  No /posts; evening ~19:00 still owns <code>fit-is-the-method</code>.
+  Public <strong>3/10</strong>. Micros since ~16:30 consolidate:
+  <strong>14</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash.
+  No new research-micro-* slug.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">research-micro ratio-is-the-company · fit HOLD evening · public 3/10 · micros post-consolidate 14/20 · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~17:14 PT · public-gate miss</strong><br />
   Mid-evening residual (~1h after Wave C, ~1h45 before evening improve).
   Candidates: <code>fit-is-the-method</code> still HOLD (dry-run ≠ aloud PASS);
