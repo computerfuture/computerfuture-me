@@ -16,6 +16,26 @@ export default {
   PREVIEW · DAY LOG · 2026-09-07 · NEWEST AT TOP
 </p>
 
+<p><strong>~08:10 PT · research-micro</strong><br />
+  Signal: deferred sibling from ~07:50 —
+  <a href="https://arxiv.org/abs/2609.02095">arXiv:2609.02095</a>
+  (READY — Reliable Enterprise Agent Deployment; autonomous score ≠ deployment readiness;
+  human–AI reliability under oversight; min-cost policy for a reliability target; held-out
+  qualification; deployment profile = reliability × oversight × cost; 16 systems × 750 cases;
+  72.8% vs 72.5% autonomous → 39.2% vs 29.6% human review at same 76% reliability) × live
+  <code>llms.txt</code> × <a href="/posts/fit-is-the-method">/posts/fit-is-the-method</a>
+  (shipped ~08:04). Crystal: <strong>score is not deployability</strong> — a solitary benchmark
+  percent is not an operating point you can staff and afford. Memo
+  <code>ops/analysis/2026-09-07-score-is-not-deployability-micro.md</code>; seed
+  <code>content/drafts/score-is-not-deployability-seed.md</code> HOLD (~6/10). Public stays gated —
+  no new /posts from research-micro. No new research-micro-* QUEUE row (append-only).
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">research-micro 0810 · score-is-not-deployability HOLD · READY 2609.02095 × llms.txt × fit-is-the-method · public gated · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~08:04 PT · forever-tick</strong><br />
   OF v2 — Mac local-exec back. Shipped <strong>fit is the method</strong> from
   staged box package <code>cf-forever-tick-1940</code> (evening convert PASS;
