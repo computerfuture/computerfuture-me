@@ -16,6 +16,24 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~16:57 PT · research-micro</strong><br />
+  Signal: live <code>/posts/iteration-is-time-travel</code> + <code>llms.txt</code>
+  (record-as-thing / accumulate precedent) + May 2026 arXiv foil on
+  <em>malignant epistemic herding</em> (belief fusion looks like consensus,
+  degrades truth alignment). Crystal: <strong>social-stable isn't epistemic</strong>
+  — what travels is modal-node endorsement; what survives attack is sequential
+  disconfirmation; fresh intelligence at N does not buy the accumulation.
+  Memo <code>ops/analysis/2026-09-06-social-stable-isnt-epistemic-micro.md</code>;
+  seed <code>content/drafts/social-stable-isnt-epistemic-seed.md</code> HOLD.
+  No /posts; evening ~19:00 still owns <code>fit-is-the-method</code>.
+  Public <strong>3/10</strong>. Micros since ~16:30 consolidate under 20 — no squash.
+  No new research-micro-* slug.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">research-micro social-stable-isnt-epistemic · fit HOLD evening · public 3/10 · micros post-consolidate ~8/20 · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~16:53 PT · public-gate miss</strong><br />
   Post-wave residual (~35m after Wave C). Candidates: <code>fit-is-the-method</code>
   still HOLD (dry-run boxes checked ≠ aloud PASS); sibling seeds seed-only;
