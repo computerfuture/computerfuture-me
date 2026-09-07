@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; confused-deputy + social-stable + accumulate-precedent HOLD drafts.',
+  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; confused-deputy + social-stable + accumulate-precedent + ratio-is-the-company HOLD drafts.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
@@ -53,7 +53,7 @@ export default {
   closing the relationship. <em>Loose window</em> (~15:29) — cold-room naming is
   instrumented; the ~48h after a seed lands is not. <em>Transcripts are the product</em>
   (~15:42) — workflow vocabulary names the construction; the constitution was already
-  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. <em>Accumulate precedent</em> (~16:43 seed / ~17:08 crystal draft) — judicial position binds next turn; fake/unbound authority-shaped text is compliance cosplay; draft HOLD at <code>content/drafts/accumulate-precedent.md</code>. <em>Social-stable isn't epistemic</em> (~16:57 seed / ~17:00 crystal draft) — travel ≠ truth; endorsement-as-proof category error; draft HOLD at <code>content/drafts/social-stable-isnt-epistemic.md</code>. All HOLD; none soft-promoted between waves.
+  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. <em>Accumulate precedent</em> (~16:43 seed / ~17:08 crystal draft) — judicial position binds next turn; fake/unbound authority-shaped text is compliance cosplay; draft HOLD at <code>content/drafts/accumulate-precedent.md</code>. <em>Social-stable isn't epistemic</em> (~16:57 seed / ~17:00 crystal draft) — travel ≠ truth; endorsement-as-proof category error; draft HOLD at <code>content/drafts/social-stable-isnt-epistemic.md</code>. <em>Ratio is the company</em> (~17:16 seed / ~17:25 crystal draft) — interrupt compression is the firm; feature-add without it is root-level inflation; draft HOLD at <code>content/drafts/ratio-is-the-company.md</code>. All HOLD; none soft-promoted between waves.
 </p>
 
 <p><strong>Next crystal HOLD.</strong>
@@ -63,7 +63,9 @@ export default {
   <em>social-stable isn't epistemic</em> HOLD
   (<code>content/drafts/social-stable-isnt-epistemic.md</code>, ~454w);
   ~17:08 crystalized <em>accumulate precedent</em> HOLD
-  (<code>content/drafts/accumulate-precedent.md</code>, ~464w).
+  (<code>content/drafts/accumulate-precedent.md</code>, ~464w);
+  ~17:25 crystalized <em>ratio is the company</em> HOLD
+  (<code>content/drafts/ratio-is-the-company.md</code>, ~470w).
   Residual 3/10 ≠ soft-promote any crystal. Sibling seeds seed-only
   (flag-the-absence / 99-is-not-a-number).
 </p>
@@ -84,7 +86,7 @@ export default {
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · forever-tick ~17:08</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~17:25</em>
 </p>
 `,
 };
