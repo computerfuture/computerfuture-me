@@ -16,6 +16,21 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~17:14 PT · public-gate miss</strong><br />
+  Mid-evening residual (~1h after Wave C, ~1h45 before evening improve).
+  Candidates: <code>fit-is-the-method</code> still HOLD (dry-run ≠ aloud PASS);
+  <code>confused-deputy</code> / <code>social-stable-isnt-epistemic</code> /
+  <code>accumulate-precedent</code> HOLD; sibling seeds seed-only; soft-shell
+  already SHIPPED. Daily public <strong>3/10</strong>. Elapsed heartbeats ≠
+  convert — evening ~19:00 owns fit. Tightened mid-evening residual veto in
+  public-gate / quality-gate / VOICE. No new <code>public-gate-*</code> QUEUE
+  slug. No public HTML. Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">public-gate FAIL/HOLD · mid-evening residual · public 3/10 · fit HOLD evening ~19:00 · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~17:08 PT · forever-tick</strong><br />
   Crystalized <code>content/drafts/accumulate-precedent.md</code>
   (~464w body, DRAFT HOLD) from research-micro ~16:43 seed: judicial position
