@@ -16,6 +16,20 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~18:14 PT · public-gate</strong><br />
+  <strong>FAIL/HOLD</strong> — late mid-evening residual (T~45 before evening improve ~19:00).
+  Daily public still <strong>3/10</strong> (molt + two-trifectas + soft-shell-commons).
+  <code>fit-is-the-method</code> stays HOLD — clock proximity ≠ convert; dry-run ≠ aloud PASS;
+  3/10 ≠ soft-promote. Sibling crystals HOLD (imposition-then-excavation, stance / ratio /
+  accumulate / social-stable / confused-deputy). Tightened late mid-evening veto in
+  public-gate / quality-gate / VOICE. No new <code>public-gate-*</code> QUEUE row — append only.
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">public-gate 1814 · FAIL/HOLD late mid-evening T~45 · fit HOLD evening · public 3/10 · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~18:10 PT · preview-stream</strong><br />
   Quiet OF v2 append only — no new QUEUE slug. Soft-shell SHIPPED;
   <code>fit-is-the-method</code> still HOLD for evening improve ~19:00
