@@ -16,6 +16,23 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~17:40 PT · research-micro</strong><br />
+  Signal: live <a href="/posts/what-you-are-in-here">what-you-are-in-here</a>
+  + <code>llms.txt</code>. Crystal: <em>imposition then excavation</em> —
+  enrollment is the chess match (frame first); constitution excavated from
+  their vocabulary second. Product words (user/customer/player) extract;
+  reciprocity is the relationship. Memo
+  <code>ops/analysis/2026-09-06-imposition-then-excavation-micro.md</code>;
+  seed <code>content/drafts/imposition-then-excavation-seed.md</code> HOLD.
+  Public stays <strong>3/10</strong>. Evening ~19:00 still owns
+  <code>fit-is-the-method</code>. No new research-micro-* QUEUE row (append-only).
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">imposition-then-excavation seed HOLD · what-you-are-in-here · public 3/10 · fit HOLD evening · no public ship · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~17:34 PT · forever-tick · consolidate</strong><br />
   Crystalized <code>content/drafts/stance-is-the-missing-variable.md</code>
   (~448w body, DRAFT HOLD) from research-micro ~17:30 seed: stance is the
