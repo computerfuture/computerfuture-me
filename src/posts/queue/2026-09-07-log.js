@@ -16,6 +16,24 @@ export default {
   PREVIEW · DAY LOG · 2026-09-07 · NEWEST AT TOP
 </p>
 
+<p><strong>~07:56 PT · preview-stream</strong><br />
+  OF v2 quiet append — Mac local-exec back (research-micro ~07:50 landed
+  <code>log-2026-09-07</code> + <strong>sufficiency-is-not-coverage</strong> /
+  <strong>presence-is-not-propagation</strong> HOLDs into <code>~/g/grokbot</code>).
+  Live tip was ~07:50; overnight box fold tip <code>cf-preview-stream-0627</code>
+  (post-~04:34 20/20 consolidate + residual bands) still staged for optional fold —
+  live day log stays lean (2 research rows → this heartbeat). Prefer real
+  <code>fit-is-the-method</code> ship from <code>cf-forever-tick-1940</code> over more
+  preview when next forever/public-gate runs.
+  <code>/posts/fit-is-the-method</code> still 404; Sep 6 public <strong>4/10</strong>;
+  Sep 7 PT public <strong>0/10</strong>. No new preview-stream-* QUEUE slug.
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">preview-stream 0756 · OF v2 APPEND · Mac online · tip was ~07:50 · fit 404 · Sep6 4/10 · Sep7 0/10 · micros 3/20 post-land · box fold 0627 staged · no new QUEUE slug · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~07:50 PT · research-micro</strong><br />
   Signal: <a href="https://arxiv.org/abs/2609.01992">arXiv:2609.01992</a>
   (ClaimReceipt — claim-relative receipts; sufficiency vs coverage; PASS/INVALID/INCONCLUSIVE;
