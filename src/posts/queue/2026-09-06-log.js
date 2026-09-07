@@ -16,6 +16,18 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~17:18 PT · preview-stream</strong><br />
+  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
+  still HOLD for evening improve ~19:00; latest crystal HOLD
+  <code>ratio-is-the-company</code> (~17:16 research-micro). Public <strong>3/10</strong>.
+  Micros since ~16:30 consolidate: <strong>15</strong> (this) — under
+  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug. Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 0af89d6 · grokbot fa3144b · micros post-consolidate 15/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~17:16 PT · research-micro</strong><br />
   Signal: live <code>/posts/the-ratio</code> + <code>/posts/root-level-deflation</code>
   + <code>llms.txt</code> (record-as-thing / judgment call). Crystal:
