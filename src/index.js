@@ -1178,6 +1178,8 @@ function queueKind(post) {
   const hasH2 = /<h2[\s>]/i.test(post.body || '');
   const slug = post.slug || '';
   const title = (post.title || '').toLowerCase();
+  // Primary /preview surface — full body at /preview and /preview/effort
+  if (slug === 'effort') return 'effort';
   if (/^(digest|log)-/.test(slug) || title.startsWith('digest') || title.startsWith('log ·')) return 'primary';
   if (/shipped|promoted/.test(slug) || /\bshipped\b/.test(title)) return 'shipped';
   // Long essays / wordy drafts stay compact in the ops surface
@@ -1220,6 +1222,7 @@ function queueGroupLabel(dateStr, primarySection) {
 }
 
 function chipFor(kind) {
+  if (kind === 'effort') return '<span class="cl-chip">effort</span>';
   if (kind === 'primary') return '<span class="cl-chip primary">digest / log</span>';
   if (kind === 'shipped') return '<span class="cl-chip shipped">shipped</span>';
   if (kind === 'essay') return '<span class="cl-chip essay">queued essay</span>';
@@ -1304,7 +1307,11 @@ function previewNotePage(post) {
 
   let bodyHtml;
   let held = '';
-  if (kind === 'essay') {
+  if (kind === 'effort') {
+    bodyHtml = `
+      <p style="color:#888;font-size:0.9rem;margin-bottom:1.25rem;">${post.excerpt || ''}</p>
+      <div class="cl-note-body">${post.body}</div>`;
+  } else if (kind === 'essay') {
     const teaser = firstParagraphsHtml(post.body, 2, 400);
     bodyHtml = `
       <p style="color:#888;font-size:0.9rem;margin-bottom:1.25rem;">${post.excerpt || ''}</p>
