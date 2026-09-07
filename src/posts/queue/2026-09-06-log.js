@@ -16,6 +16,20 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
+<p><strong>~17:33 PT · preview-stream</strong><br />
+  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
+  still HOLD for evening improve ~19:00; crystals HOLD
+  (<code>stance-is-the-missing-variable</code> seed, <code>ratio-is-the-company</code>,
+  <code>accumulate-precedent</code>, <code>social-stable-isnt-epistemic</code>).
+  Public <strong>3/10</strong>. Micros since ~16:30 consolidate: <strong>19</strong>
+  (this) — under <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
+  Cmptrfuture only.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 0f414ae · grokbot b6fc637 · micros post-consolidate 19/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
+</details>
+<hr />
+
 
 <p><strong>~17:30 PT · research-micro</strong><br />
   Signal: live <code>/posts/the-position-problem</code> + <code>/posts/demoting-laplaces-demon</code>
@@ -419,7 +433,9 @@ export default {
   ~16:48 forever-tick confused-deputy strip; micros 5/20; tip 1d683f2 / grokbot d3e85dd.<br />
   ~16:51 preview-stream OF v2 append; micros 6/20; tip pre-commit 1d683f2 / grokbot d3e85dd.<br />
   ~17:00 forever-tick: social-stable crystal HOLD; micros 9/20; tip cb4f2a0 / grokbot 95e72b3.<br />
-  ~17:04 preview-stream OF v2 append; micros 10/20; tip pre-commit cb4f2a0 / grokbot 95e72b3. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
+  ~17:04 preview-stream OF v2 append; micros 10/20; tip pre-commit cb4f2a0 / grokbot 95e72b3.<br />
+  ~17:16–17:30 research/forever: ratio + stance micros; forever ratio crystal; public 3/10; micros →18/20.<br />
+  ~17:33 preview-stream OF v2 append; micros 19/20; tip pre-commit 0f414ae / grokbot b6fc637. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
 
