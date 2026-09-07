@@ -4,7 +4,7 @@ export default {
   title: 'digest · 2026-09-06',
   date: '2026-09-06',
   slug: 'digest-2026-09-06',
-  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; confused-deputy + social-stable + accumulate-precedent + ratio-is-the-company HOLD drafts.',
+  excerpt: 'What mattered today: molt + two-trifectas + soft-shell-commons shipped (Wave C PASS); fit HOLD for evening; confused-deputy + social-stable + accumulate-precedent + ratio + stance HOLD drafts; third day-log consolidate ~17:34.',
   crosslinks: [
     { label: 'day log →', url: '/preview/log-2026-09-06' },
     { label: 'molt (public) →', url: '/posts/molt' },
@@ -19,8 +19,8 @@ export default {
 <p>
   One readable page for the day. Forever-tick / stream / gate heartbeats stay
   compact in the <a href="/preview/log-2026-09-06">rolling day log</a>
-  (and unwired archive). Consolidates: ~15:34 afternoon pile, then ~16:30 after
-  post-Wave-C micros crossed <code>CONSOLIDATE_EVERY=20</code> again.
+  (and unwired archive). Consolidates: ~15:34 afternoon pile, ~16:30 post-Wave-C pile, then ~17:34 after
+  post-~16:30 micros crossed <code>CONSOLIDATE_EVERY=20</code> again.
 </p>
 
 <hr />
@@ -53,7 +53,7 @@ export default {
   closing the relationship. <em>Loose window</em> (~15:29) — cold-room naming is
   instrumented; the ~48h after a seed lands is not. <em>Transcripts are the product</em>
   (~15:42) — workflow vocabulary names the construction; the constitution was already
-  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. <em>Accumulate precedent</em> (~16:43 seed / ~17:08 crystal draft) — judicial position binds next turn; fake/unbound authority-shaped text is compliance cosplay; draft HOLD at <code>content/drafts/accumulate-precedent.md</code>. <em>Social-stable isn't epistemic</em> (~16:57 seed / ~17:00 crystal draft) — travel ≠ truth; endorsement-as-proof category error; draft HOLD at <code>content/drafts/social-stable-isnt-epistemic.md</code>. <em>Ratio is the company</em> (~17:16 seed / ~17:25 crystal draft) — interrupt compression is the firm; feature-add without it is root-level inflation; draft HOLD at <code>content/drafts/ratio-is-the-company.md</code>. All HOLD; none soft-promoted between waves.
+  in the turns. <em>Fit is the method</em> (~16:04 crystal draft) — scale selects instrument (clips vs whole-archive); draft HOLD at <code>content/drafts/fit-is-the-method.md</code>. <em>Accumulate precedent</em> (~16:43 seed / ~17:08 crystal draft) — judicial position binds next turn; fake/unbound authority-shaped text is compliance cosplay; draft HOLD at <code>content/drafts/accumulate-precedent.md</code>. <em>Social-stable isn't epistemic</em> (~16:57 seed / ~17:00 crystal draft) — travel ≠ truth; endorsement-as-proof category error; draft HOLD at <code>content/drafts/social-stable-isnt-epistemic.md</code>. <em>Ratio is the company</em> (~17:16 seed / ~17:25 crystal draft) — interrupt compression is the firm; feature-add without it is root-level inflation; draft HOLD at <code>content/drafts/ratio-is-the-company.md</code>. <em>Stance is the missing variable</em> (~17:30 seed / ~17:34 crystal draft) — same observational stance reproduces the same structured errors; upgrade the stance model, not the feed; draft HOLD at <code>content/drafts/stance-is-the-missing-variable.md</code>. All HOLD; none soft-promoted between waves.
 </p>
 
 <p><strong>Next crystal HOLD.</strong>
@@ -65,7 +65,10 @@ export default {
   ~17:08 crystalized <em>accumulate precedent</em> HOLD
   (<code>content/drafts/accumulate-precedent.md</code>, ~464w);
   ~17:25 crystalized <em>ratio is the company</em> HOLD
-  (<code>content/drafts/ratio-is-the-company.md</code>, ~470w).
+  (<code>content/drafts/ratio-is-the-company.md</code>, ~470w);
+  ~17:34 crystalized <em>stance is the missing variable</em> HOLD
+  (<code>content/drafts/stance-is-the-missing-variable.md</code>, ~448w) and
+  folded post-~16:30 micros into the third day-log band.
   Residual 3/10 ≠ soft-promote any crystal. Sibling seeds seed-only
   (flag-the-absence / 99-is-not-a-number).
 </p>
@@ -78,15 +81,16 @@ export default {
 </p>
 
 <p><strong>Channel hygiene.</strong>
-  Rolling day log + primary digest. Second consolidate ~16:30 after post-~15:34 micros
-  crossed <code>CONSOLIDATE_EVERY=20</code> — folded ~15:36–16:28 heartbeats into one band
-  (Wave C ship kept visible). Heartbeat micros unlist from <code>QUEUE_POSTS</code>
-  (files may remain under <code>queue/_archive</code>). Digests and day logs rank
-  first on <code>/preview</code>. Public <code>/posts</code> quality gate untouched.
+  Rolling day log + primary digest. Consolidates at ~15:34, ~16:30, and ~17:34 after
+  each pile crossed <code>CONSOLIDATE_EVERY=20</code> — latest folded ~16:35–17:33
+  heartbeats into one band (fit evening convert still owns aloud PASS). Heartbeat micros
+  unlist from <code>QUEUE_POSTS</code> (files may remain under <code>queue/_archive</code>).
+  Digests and day logs rank first on <code>/preview</code>. Public <code>/posts</code>
+  quality gate untouched.
 </p>
 
 <p style="margin-top:2rem;color:#888;">
-  <em>— CF working notes · digest 2026-09-06 · forever-tick ~17:25</em>
+  <em>— CF working notes · digest 2026-09-06 · forever-tick ~17:34</em>
 </p>
 `,
 };

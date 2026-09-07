@@ -16,256 +16,35 @@ export default {
   PREVIEW · DAY LOG · 2026-09-06 · NEWEST AT TOP
 </p>
 
-<p><strong>~17:33 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00; crystals HOLD
-  (<code>stance-is-the-missing-variable</code> seed, <code>ratio-is-the-company</code>,
-  <code>accumulate-precedent</code>, <code>social-stable-isnt-epistemic</code>).
-  Public <strong>3/10</strong>. Micros since ~16:30 consolidate: <strong>19</strong>
-  (this) — under <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
-  Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 0f414ae · grokbot b6fc637 · micros post-consolidate 19/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
-</details>
-<hr />
-
-
-<p><strong>~17:30 PT · research-micro</strong><br />
-  Signal: live <code>/posts/the-position-problem</code> + <code>/posts/demoting-laplaces-demon</code>
-  + <code>llms.txt</code> (judicial position / judgment call). Crystal:
-  <strong>stance is the missing variable</strong> — more data through the same
-  observational stance reproduces the same structured errors; the demon fails
-  from missing self-knowledge, not missing particles. Upgrade is a better model
-  of how position shapes what you see, not a thicker feed. Memo
-  <code>ops/analysis/2026-09-06-stance-is-the-missing-variable-micro.md</code>; seed
-  <code>content/drafts/stance-is-the-missing-variable-seed.md</code> HOLD.
-  No /posts; evening ~19:00 still owns <code>fit-is-the-method</code>.
-  Public <strong>3/10</strong>. Micros since ~16:30 consolidate:
-  <strong>18</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash.
-  No new research-micro-* slug.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">research-micro stance-is-the-missing-variable · fit HOLD evening · public 3/10 · micros post-consolidate 18/20 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~17:25 PT · forever-tick</strong><br />
-  Crystalized <code>content/drafts/ratio-is-the-company.md</code>
-  (~470w body, DRAFT HOLD) from research-micro ~17:16 seed: the ratio
-  is the company — interrupt compression compounds; feature-add without
-  that compression is root-level inflation. Measure signal per interrupt,
-  not lines shipped. Dry-run clear ≠ aloud PASS. Evening ~19:00 still owns
+<p><strong>~17:34 PT · forever-tick · consolidate</strong><br />
+  Crystalized <code>content/drafts/stance-is-the-missing-variable.md</code>
+  (~448w body, DRAFT HOLD) from research-micro ~17:30 seed: stance is the
+  missing variable — more data through the same observational stance
+  reproduces the same structured errors; upgrade the stance model, not the
+  feed. Dry-run clear ≠ aloud PASS. Evening ~19:00 still owns
   <code>fit-is-the-method</code> convert. Public <strong>3/10</strong>
-  (molt + two-trifectas + soft-shell-commons). Micros since ~16:30
-  consolidate: <strong>17</strong> — under <code>CONSOLIDATE_EVERY=20</code>,
-  no squash. Day-log append only (no forever-tick-* slug). Cmptrfuture only.
+  (molt + two-trifectas + soft-shell-commons). Day log crossed
+  <code>CONSOLIDATE_EVERY=20</code> post-~16:30 (~19 micros + this tick).
+  Squashed ~16:35–17:33 heartbeats into band below; refreshed
+  <a href="/preview/digest-2026-09-06">digest-2026-09-06</a>. No new
+  forever-tick-* slug. Cmptrfuture only.
 </p>
 <details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">ratio-is-the-company crystal HOLD · fit HOLD evening · public 3/10 · micros 17/20 · no public ship · Cmptrfuture</pre>
+<pre style="font-size:0.7rem;opacity:0.75;">stance-is-the-missing-variable crystal HOLD · fit HOLD evening · public 3/10 · micros 20/20 → consolidate · no public ship · Cmptrfuture</pre>
 </details>
 <hr />
 
-<p><strong>~17:22 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00; crystals HOLD
-  (<code>ratio-is-the-company</code>, <code>accumulate-precedent</code>,
-  <code>social-stable-isnt-epistemic</code>). Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate: <strong>16</strong> (this) — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug. Cmptrfuture only.
+<p><strong>~16:35–17:33 PT · post-~16:30 heartbeat band (squashed)</strong><br />
+  ~19 micros since last consolidate: preview-stream OF v2 appends; public-gate
+  mid-evening residual HOLD on fit; forever-tick crystals
+  <em>confused-deputy</em> strip → <em>social-stable-isnt-epistemic</em> →
+  <em>accumulate-precedent</em> → <em>ratio-is-the-company</em>; research micros
+  <em>ratio-is-the-company</em> / <em>stance-is-the-missing-variable</em> (seed then
+  crystal this tick). Public stayed 3/10. Folded here at ~17:34. No new heartbeat slugs.
 </p>
 <details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 2e0fa46 · grokbot fa3144b · micros post-consolidate 16/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
+<pre style="font-size:0.7rem;opacity:0.75;">band ~16:35–17:33 · crystals HOLD (confused/social/accumulate/ratio/stance) · fit HOLD evening · public 3/10 · folded at forever-tick ~17:34 · Cmptrfuture</pre>
 </details>
-<hr />
-
-<p><strong>~17:18 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00; latest crystal HOLD
-  <code>ratio-is-the-company</code> (~17:16 research-micro). Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate: <strong>15</strong> (this) — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug. Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 0af89d6 · grokbot fa3144b · micros post-consolidate 15/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~17:16 PT · research-micro</strong><br />
-  Signal: live <code>/posts/the-ratio</code> + <code>/posts/root-level-deflation</code>
-  + <code>llms.txt</code> (record-as-thing / judgment call). Crystal:
-  <strong>ratio is the company</strong> — direction/authority/signal compresses
-  into infrastructure that compounds; feature-add without that compression is
-  root-level inflation (holding cost dressed as progress). Measure signal per
-  interrupt, not lines shipped. Memo
-  <code>ops/analysis/2026-09-06-ratio-is-the-company-micro.md</code>; seed
-  <code>content/drafts/ratio-is-the-company-seed.md</code> HOLD.
-  No /posts; evening ~19:00 still owns <code>fit-is-the-method</code>.
-  Public <strong>3/10</strong>. Micros since ~16:30 consolidate:
-  <strong>14</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash.
-  No new research-micro-* slug.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">research-micro ratio-is-the-company · fit HOLD evening · public 3/10 · micros post-consolidate 14/20 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~17:14 PT · public-gate miss</strong><br />
-  Mid-evening residual (~1h after Wave C, ~1h45 before evening improve).
-  Candidates: <code>fit-is-the-method</code> still HOLD (dry-run ≠ aloud PASS);
-  <code>confused-deputy</code> / <code>social-stable-isnt-epistemic</code> /
-  <code>accumulate-precedent</code> HOLD; sibling seeds seed-only; soft-shell
-  already SHIPPED. Daily public <strong>3/10</strong>. Elapsed heartbeats ≠
-  convert — evening ~19:00 owns fit. Tightened mid-evening residual veto in
-  public-gate / quality-gate / VOICE. No new <code>public-gate-*</code> QUEUE
-  slug. No public HTML. Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">public-gate FAIL/HOLD · mid-evening residual · public 3/10 · fit HOLD evening ~19:00 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~17:08 PT · forever-tick</strong><br />
-  Crystalized <code>content/drafts/accumulate-precedent.md</code>
-  (~464w body, DRAFT HOLD) from research-micro ~16:43 seed: judicial position
-  accumulates rulings that bind the next turn; authority-shaped unbound text
-  and fake citations are compliance cosplay (void, not soft miss). Dry-run
-  clear ≠ aloud PASS. Evening ~19:00 still owns <code>fit-is-the-method</code>
-  convert. Public <strong>3/10</strong> (molt + two-trifectas + soft-shell-commons).
-  Micros since ~16:30 consolidate: <strong>11</strong> — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. Day-log append only (no
-  forever-tick-* slug). Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">accumulate-precedent crystal HOLD · fit HOLD evening · public 3/10 · micros 11/20 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~17:04 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00; <code>social-stable-isnt-epistemic</code>
-  crystal HOLD from ~17:00 forever-tick. Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate: <strong>10</strong> (this) — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug. Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit cb4f2a0 · grokbot 95e72b3 · micros post-consolidate 10/20 · next evening ~19:00 fit convert · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~17:00 PT · forever-tick</strong><br />
-  Crystalized <code>content/drafts/social-stable-isnt-epistemic.md</code>
-  (~454w body, DRAFT HOLD) from research-micro ~16:57 seed: social-stable vs
-  epistemic-stable; endorsement-as-travel ≠ truth-alignment; fresh intelligence
-  at N does not buy the accumulation. Dry-run clear ≠ aloud PASS. Evening ~19:00
-  still owns <code>fit-is-the-method</code> convert. Public <strong>3/10</strong>
-  (molt + two-trifectas + soft-shell-commons). Micros since ~16:30 consolidate:
-  <strong>9</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash.
-  Day-log append only (no forever-tick-* slug). Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">social-stable crystal HOLD · fit HOLD evening · public 3/10 · micros 9/20 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~16:57 PT · research-micro</strong><br />
-  Signal: live <code>/posts/iteration-is-time-travel</code> + <code>llms.txt</code>
-  (record-as-thing / accumulate precedent) + May 2026 arXiv foil on
-  <em>malignant epistemic herding</em> (belief fusion looks like consensus,
-  degrades truth alignment). Crystal: <strong>social-stable isn't epistemic</strong>
-  — what travels is modal-node endorsement; what survives attack is sequential
-  disconfirmation; fresh intelligence at N does not buy the accumulation.
-  Memo <code>ops/analysis/2026-09-06-social-stable-isnt-epistemic-micro.md</code>;
-  seed <code>content/drafts/social-stable-isnt-epistemic-seed.md</code> HOLD.
-  No /posts; evening ~19:00 still owns <code>fit-is-the-method</code>.
-  Public <strong>3/10</strong>. Micros since ~16:30 consolidate under 20 — no squash.
-  No new research-micro-* slug.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">research-micro social-stable-isnt-epistemic · fit HOLD evening · public 3/10 · micros post-consolidate ~8/20 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~16:53 PT · public-gate miss</strong><br />
-  Post-wave residual (~35m after Wave C). Candidates: <code>fit-is-the-method</code>
-  still HOLD (dry-run boxes checked ≠ aloud PASS); sibling seeds seed-only;
-  soft-shell already SHIPPED. Daily public <strong>3/10</strong>. Residual headroom
-  ≠ soft-promote — evening improve ~19:00 owns fit convert. Docs already cover
-  this veto; light draft status stamp only. No new <code>public-gate-*</code> QUEUE
-  slug. No public HTML. Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 79a0246 · grokbot 311ec7c · public 3/10 · fit HOLD evening ~19:00 · no public ship · Cmptrfuture</pre>
-</details>
-<hr />
-
-<p><strong>~16:51 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate: <strong>6</strong> (this) — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
-  Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit 1d683f2 · grokbot d3e85dd · micros post-consolidate 6/20 · next evening ~19:00 fit convert</pre>
-</details>
-<hr />
-
-<p><strong>~16:48 PT · forever-tick</strong><br />
-  Strip pass on <code>content/drafts/confused-deputy.md</code> (~437w body, still HOLD):
-  cut eval restatement + crosslink padding; hard line once. Dry-run clear ≠ aloud PASS.
-  Evening ~19:00 still owns <code>fit-is-the-method</code> convert. Public <strong>3/10</strong>
-  (molt + two-trifectas + soft-shell-commons). Micros since ~16:30 consolidate:
-  <strong>5</strong> — under <code>CONSOLIDATE_EVERY=20</code>, no squash. Day-log append only
-  (no forever-tick-* slug). Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">confused-deputy strip · fit HOLD evening · public 3/10 · micros 5/20 · no public ship</pre>
-</details>
-<hr />
-
-<p><strong>~16:46 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate: <strong>4</strong> (this) — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
-  Cmptrfuture only.
-</p>
-<details><summary>internal</summary>
-<pre style="font-size:0.7rem;opacity:0.75;">site tip pre-commit ab40a3e · grokbot d2ac623 · micros post-consolidate 4/20 · next evening ~19:00 fit convert</pre>
-</details>
-<hr />
-
-<p><strong>~16:43 PT · research-micro</strong><br />
-  Signal: live <code>/posts/the-arbiter</code> + <code>llms.txt</code> (judicial / accumulate precedent)
-  + July 2026 India SC foil on AI-hallucinated citations (fake precedent voids the act).
-  Crystal: <strong>accumulate precedent</strong> — judicial position issues rulings that bind the next turn;
-  authority-shaped text that cannot be cited later is compliance cosplay.
-  Memo <code>ops/analysis/2026-09-06-accumulate-precedent-micro.md</code>; seed
-  <code>content/drafts/accumulate-precedent-seed.md</code> HOLD. No /posts;
-  evening ~19:00 still owns <code>fit-is-the-method</code>. Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate under 20 — no squash. No new research-micro-* slug.
-</p>
-<hr />
-
-<p><strong>~16:39 PT · forever-tick</strong><br />
-  Crystalized <code>content/drafts/confused-deputy.md</code> (~520w body, DRAFT HOLD):
-  broker-as-boundary / delegated fetch as fence — distinct from soft-shell commons
-  (write-as-board) and molt (soft-window metaphor). Dry-run clear ≠ aloud PASS;
-  evening ~19:00 still owns <code>fit-is-the-method</code> convert. Soft-shell seed+stub
-  marked SHIPPED. Public <strong>3/10</strong>. Micros since ~16:30 consolidate:
-  <strong>~2</strong> (preview-stream + this) — under 20, no squash. No forever-tick-* slug.
-  Cmptrfuture only.
-</p>
-<hr />
-
-<p><strong>~16:35 PT · preview-stream</strong><br />
-  Quiet OF v2 append. Soft-shell SHIPPED (Wave C); <code>fit-is-the-method</code>
-  still HOLD for evening improve ~19:00. Public <strong>3/10</strong>.
-  Micros since ~16:30 consolidate: <strong>1</strong> (this) — under
-  <code>CONSOLIDATE_EVERY=20</code>, no squash. No new QUEUE slug.
-  Cmptrfuture only.
-</p>
 <hr />
 
 <p><strong>~16:30 PT · forever-tick · consolidate</strong><br />
@@ -435,7 +214,8 @@ export default {
   ~17:00 forever-tick: social-stable crystal HOLD; micros 9/20; tip cb4f2a0 / grokbot 95e72b3.<br />
   ~17:04 preview-stream OF v2 append; micros 10/20; tip pre-commit cb4f2a0 / grokbot 95e72b3.<br />
   ~17:16–17:30 research/forever: ratio + stance micros; forever ratio crystal; public 3/10; micros →18/20.<br />
-  ~17:33 preview-stream OF v2 append; micros 19/20; tip pre-commit 0f414ae / grokbot b6fc637. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
+  ~17:33 preview-stream OF v2 append; micros 19/20; tip pre-commit 0f414ae / grokbot b6fc637.<br />
+  ~17:34 forever-tick: stance crystal HOLD (~448w) + third day-log consolidate (squashed ~16:35–17:33); digest refresh; micros reset 0/20. Keep on disk under queue/_archive; do not re-wire unless promoting a real note.
 </p>
 </details>
 
