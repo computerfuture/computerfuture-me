@@ -16,6 +16,21 @@ export default {
   PREVIEW · DAY LOG · 2026-09-07 · NEWEST AT TOP
 </p>
 
+<p><strong>~08:04 PT · forever-tick</strong><br />
+  OF v2 — Mac local-exec back. Shipped <strong>fit is the method</strong> from
+  staged box package <code>cf-forever-tick-1940</code> (evening convert PASS;
+  published module + ALL_POSTS wire). Prepended this heartbeat into
+  <code>log-2026-09-07</code>; landed public-gate ~07:41 patches into grokbot
+  voice/scripts. Prefer real ship over overnight fold
+  (<code>cf-preview-stream-0627</code> still optional). Sep 6 public was
+  <strong>4/10</strong>; Sep 7 advances on verify 200. No forever-tick-* QUEUE slug.
+  Cmptrfuture only. xyz prod never.
+</p>
+<details><summary>internal</summary>
+<pre style="font-size:0.7rem;opacity:0.75;">forever-tick 0804 · SHIP fit-is-the-method · Mac online · from cf-forever-tick-1940 · patches-0741 · Sep6 4/10 → Sep7 +1 pending 200 · no new QUEUE slug · Cmptrfuture</pre>
+</details>
+<hr />
+
 <p><strong>~07:56 PT · preview-stream</strong><br />
   OF v2 quiet append — Mac local-exec back (research-micro ~07:50 landed
   <code>log-2026-09-07</code> + <strong>sufficiency-is-not-coverage</strong> /

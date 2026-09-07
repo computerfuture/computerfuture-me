@@ -60,6 +60,7 @@ import post_laplace           from './posts/published/2026-01-11-demoting-laplac
 import post_ai_terminology    from './posts/published/2026-01-03-ai-is-inadequate-terminology.js';
 
 const ALL_POSTS = [
+  post_fit_is_the_method_pub,
   post_soft_shell_commons_pub,
   post_two_trifectas_pub,
   post_molt_pub,
@@ -131,6 +132,7 @@ import post_omelas            from './posts/queue/2026-04-XX-omelas-is-solved.js
 import post_molt_pub           from './posts/published/2026-09-06-molt.js';
 import post_two_trifectas_pub from './posts/published/2026-09-06-two-trifectas.js';
 import post_soft_shell_commons_pub from './posts/published/2026-09-06-soft-shell-commons.js';
+import post_fit_is_the_method_pub from './posts/published/2026-09-06-fit-is-the-method.js';
 import post_holding_in_check  from './posts/queue/2026-04-XX-holding-in-check.js';
 import post_i_you_we          from './posts/queue/2026-04-XX-i-you-we.js';
 import post_close_out         from './posts/queue/2026-03-07-close-out.js';
